@@ -83,7 +83,7 @@ jobs:
           context: ./backend
           image: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend
           tags: ${{ env.SHORT_SHA }}
-          containerfiles: Dockerfile
+          containerfiles: ./backend/Dockerfile
 
       - name: Push Backend Image to Harbor
         uses: redhat-actions/push-to-registry@v2
@@ -118,7 +118,7 @@ jobs:
           context: ./frontend
           image: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend
           tags: ${{ env.SHORT_SHA }}
-          containerfiles: Dockerfile
+          containerfiles: ./frontend/Dockerfile
 
       - name: Push Frontend Image to Harbor
         uses: redhat-actions/push-to-registry@v2
