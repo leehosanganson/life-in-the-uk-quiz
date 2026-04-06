@@ -22,10 +22,10 @@ jobs:
         id: filter
         with:
           filters: |
-            backend:
+            codeChanged:
               - 'backend/**'
               - 'frontend/**'
-              - '.github/workflows/build-main.yaml'
+              - '.github/workflows/**'
 
   test-frontend:
     name: Test Frontend
