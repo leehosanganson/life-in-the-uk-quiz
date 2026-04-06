@@ -22,9 +22,6 @@ WORKDIR /app
 
 COPY --from=builder /app/server ./server
 
-# Data directory (mounted or baked in at deploy time)
-ENV DATA_DIR=/data/questions
-
 EXPOSE 8080
 
 ENTRYPOINT ["./server"]

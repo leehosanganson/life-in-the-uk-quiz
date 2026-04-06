@@ -2,10 +2,24 @@ package questions
 
 import (
 	"encoding/json"
+	"fmt"
+	"io"
+	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
 )
+
+// KnownFiles is the ordered list of question-bank filenames used when loading
+// questions from a remote base URL.
+var KnownFiles = []string{
+	"culture.json",
+	"geography.json",
+	"government.json",
+	"history.json",
+	"multi.json",
+	"values.json",
+}
 
 // Question represents a single quiz question with its options and correct answer.
 type Question struct {
@@ -50,6 +64,46 @@ func LoadFromDir(dir string) ([]Question, error) {
 		if err != nil {
 			return nil, err
 		}
+		all = append(all, qs...)
+	}
+
+	if all == nil {
+		all = []Question{}
+	}
+	return all, nil
+}
+
+// LoadFromURL fetches every file listed in KnownFiles from baseURL and returns
+// the combined slice of Questions. The base URL may optionally include a
+// trailing slash — it is normalised before use.
+func LoadFromURL(baseURL string) ([]Question, error) {
+	// TODO: add timeout to http client
+	trimmedBase := strings.TrimRight(baseURL, "/")
+
+	var all []Question
+	for _, filename := range KnownFiles {
+		url := trimmedBase + "/" + filename
+
+		resp, err := http.Get(url) //nolint:noctx
+		if err != nil {
+			return nil, fmt.Errorf("fetching %s: %w", url, err)
+		}
+		defer resp.Body.Close() //nolint:errcheck
+
+		if resp.StatusCode < 200 || resp.StatusCode >= 300 {
+			return nil, fmt.Errorf("fetching %s: unexpected status %d", url, resp.StatusCode)
+		}
+
+		body, err := io.ReadAll(resp.Body)
+		if err != nil {
+			return nil, fmt.Errorf("reading %s: %w", url, err)
+		}
+
+		var qs []Question
+		if err := json.Unmarshal(body, &qs); err != nil {
+			return nil, fmt.Errorf("parsing %s: %w", url, err)
+		}
+
 		all = append(all, qs...)
 	}
 
