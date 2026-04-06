@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-branch:
-    if: contains(github.event.pull_request.labels.*.name, "build-image")
+    if: contains(github.event.pull_request.labels.*.name, 'build-image')
     name: Build Developer Branch
     runs-on: ubuntu-latest
     steps:
