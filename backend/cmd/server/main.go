@@ -17,17 +17,35 @@ import (
 func main() {
 	ctx := context.Background()
 
-	// Load questions from all JSON files in DATA_DIR
+	// Load questions — prefer remote URL when QUESTIONS_BASE_URL is set.
+	baseURL := os.Getenv("QUESTIONS_BASE_URL")
 	dataDir := os.Getenv("DATA_DIR")
 	if dataDir == "" {
 		dataDir = "../../data/questions"
 	}
-	qs, err := questions.LoadFromDir(dataDir)
-	if err != nil {
-		log.Printf("warning: could not load questions from %s: %v — starting with empty question set", dataDir, err)
-		qs = []questions.Question{}
+
+	var qs []questions.Question
+	if baseURL != "" {
+		if os.Getenv("DATA_DIR") != "" {
+			log.Printf("QUESTIONS_BASE_URL is set; ignoring DATA_DIR")
+		}
+		log.Printf("loading questions from remote URL: %s", baseURL)
+		var err error
+		qs, err = questions.LoadFromURL(baseURL)
+		if err != nil {
+			log.Printf("warning: could not load questions from %s: %v — starting with empty question set", baseURL, err)
+			qs = []questions.Question{}
+		}
+		log.Printf("loaded %d questions from %s", len(qs), baseURL)
+	} else {
+		var err error
+		qs, err = questions.LoadFromDir(dataDir)
+		if err != nil {
+			log.Printf("warning: could not load questions from %s: %v — starting with empty question set", dataDir, err)
+			qs = []questions.Question{}
+		}
+		log.Printf("loaded %d questions from %s", len(qs), dataDir)
 	}
-	log.Printf("loaded %d questions from %s", len(qs), dataDir)
 
 	// Setup statistics store
 	var store db.StatisticsStore = db.NoopStore{}

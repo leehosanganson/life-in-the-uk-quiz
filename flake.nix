@@ -29,10 +29,8 @@
             # dev tool
             git
             act
-            docker
             docker-compose
             pre-commit
-            docker-compose
             gopls
             golangci-lint
             vtsls

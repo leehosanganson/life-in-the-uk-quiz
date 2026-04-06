@@ -21,7 +21,7 @@ services:
       dockerfile: Dockerfile
     environment:
       PORT: "8080"
-      DATA_DIR: /data/questions
+      QUESTIONS_BASE_URL: "https://raw.githubusercontent.com/leehosanganson/life-in-the-uk-quiz/refs/heads/main/data/questions" # if set, overrides DATA_DIR and loads questions from this remote base URL
       DATABASE_URL: postgres://quiz:quiz@db:5432/quiz
       CORS_ORIGINS: http://localhost:3000,http://localhost:5173
     ports:
@@ -39,9 +39,10 @@ services:
     ports:
       - "3000:80"
     environment:
-      CONTACT_EMAIL: "leehosanganson@gmail.com"
-      OPERATOR_NAME: "Ho Sang Lee"
-      POLICY_UPDATE_DATE: "5 April 2026"
+      VITE_BACKEND_HOST: http://backend:8080
+      VITE_CONTACT_EMAIL: "leehosanganson@gmail.com"
+      VITE_OPERATOR_NAME: "Ho Sang Lee"
+      VITE_POLICY_UPDATE_DATE: "5 April 2026"
     depends_on:
       - backend
 
