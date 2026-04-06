@@ -19,6 +19,9 @@ jobs:
           CLEAN_BRANCH=$(echo "${{ github.head_ref }}" | tr '/' '-')
           echo "IMAGE_TAG=$CLEAN_BRANCH" >> $GITHUB_ENV
 
+      - name: Compute short SHA
+        run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
+
       - name: Login to Harbor
         uses: redhat-actions/podman-login@v1
         with:
@@ -39,7 +42,7 @@ jobs:
         uses: redhat-actions/push-to-registry@v2
         with:
           image: ${{ steps.build-backend.outputs.image }}
-          tags: ${{ steps.build-image.outputs.tags }}
+          tags: ${{ steps.build-backend.outputs.tags }}
           registry: ${{ vars.HARBOR_REGISTRY }}
 
       - name: Build & Push Frontend
@@ -55,7 +58,7 @@ jobs:
         uses: redhat-actions/push-to-registry@v2
         with:
           image: ${{ steps.build-frontend.outputs.image }}
-          tags: ${{ steps.build-image.outputs.tags }}
+          tags: ${{ steps.build-frontend.outputs.tags }}
           registry: ${{ vars.HARBOR_REGISTRY }}
 
       - name: Print Image URLs

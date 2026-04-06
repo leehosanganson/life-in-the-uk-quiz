@@ -89,7 +89,7 @@ jobs:
         uses: redhat-actions/push-to-registry@v2
         with:
           image: ${{ steps.build-backend.outputs.image }}
-          tags: ${{ steps.build-image.outputs.tags }}
+          tags: ${{ steps.build-backend.outputs.tags }}
           registry: ${{ vars.HARBOR_REGISTRY }}
 
   build-and-push-frontend:
@@ -124,5 +124,5 @@ jobs:
         uses: redhat-actions/push-to-registry@v2
         with:
           image: ${{ steps.build-frontend.outputs.image }}
-          tags: ${{ steps.build-image.outputs.tags }}
+          tags: ${{ steps.build-frontend.outputs.tags }}
           registry: ${{ vars.HARBOR_REGISTRY }}
