@@ -76,14 +76,20 @@ jobs:
           username: ${{ secrets.HARBOR_USERNAME }}
           password: ${{ secrets.HARBOR_PASSWORD }}
 
-      - name: Build & Push Backend
+      - name: Build Backend
         uses: redhat-actions/buildah-build@v2
         id: build-backend
         with:
           image: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend
           tags: ${{ env.SHORT_SHA }}
           containerfiles: ./backend/Dockerfile
-          push: true
+
+      - name: Push Backend Image to Harbor
+        uses: redhat-actions/push-to-registry@v2
+        with:
+          image: ${{ steps.build-backend.outputs.image }}
+          tags: ${{ steps.build-image.outputs.tags }}
+          registry: ${{ vars.HARBOR_REGISTRY }}
 
   build-and-push-frontend:
     name: Build and Push Frontend
@@ -111,4 +117,10 @@ jobs:
           image: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend
           tags: ${{ env.SHORT_SHA }}
           containerfiles: ./frontend/Dockerfile
-          push: true
+
+      - name: Push Frontend Image to Harbor
+        uses: redhat-actions/push-to-registry@v2
+        with:
+          image: ${{ steps.build-frontend.outputs.image }}
+          tags: ${{ steps.build-image.outputs.tags }}
+          registry: ${{ vars.HARBOR_REGISTRY }}
