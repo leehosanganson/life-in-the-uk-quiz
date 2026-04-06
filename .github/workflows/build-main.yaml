@@ -25,6 +25,7 @@ jobs:
             backend:
               - 'backend/**'
               - 'frontend/**'
+              - '.github/workflows/build-main.yaml'
 
   test-frontend:
     name: Test Frontend
