@@ -20,7 +20,7 @@ jobs:
           echo "IMAGE_TAG=$CLEAN_BRANCH" >> $GITHUB_ENV
 
       - name: Login to Harbor
-        uses: redhat-actions/podman-login@v2
+        uses: redhat-actions/podman-login@v1
         with:
           registry: ${{ vars.HARBOR_REGISTRY }}
           username: ${{ secrets.HARBOR_USERNAME }}
