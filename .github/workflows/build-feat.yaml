@@ -18,10 +18,8 @@ jobs:
         id: changes
         with:
           filters: |
-            backend:
+            codeChanged:
               - 'backend/**'
-              - 'data/questions/**'
-            frontend:
               - 'frontend/**'
 
       - name: Sanitize Branch Name for Docker Tag
@@ -41,7 +39,7 @@ jobs:
           password: ${{ secrets.HARBOR_PASSWORD }}
 
       - name: Build Backend Image
-        if: steps.changes.outputs.backend == 'true'
+        if: steps.changes.outputs.codeChanged == 'true'
         uses: redhat-actions/buildah-build@v2
         id: build-backend
         with:
@@ -51,7 +49,7 @@ jobs:
           containerfiles: ./backend/Dockerfile
 
       - name: Push Backend Image to Harbor
-        if: steps.changes.outputs.backend == 'true'
+        if: steps.changes.outputs.codeChanged == 'true'
         uses: redhat-actions/push-to-registry@v2
         with:
           image: ${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend
@@ -59,7 +57,7 @@ jobs:
           registry: ${{ vars.HARBOR_REGISTRY }}
 
       - name: Build & Push Frontend
-        if: steps.changes.outputs.frontend == 'true'
+        if: steps.changes.outputs.codeChanged == 'true'
         uses: redhat-actions/buildah-build@v2
         id: build-frontend
         with:
@@ -69,7 +67,7 @@ jobs:
           containerfiles: ./frontend/Dockerfile
 
       - name: Push Frontend Image to Harbor
-        if: steps.changes.outputs.frontend == 'true'
+        if: steps.changes.outputs.codeChanged == 'true'
         uses: redhat-actions/push-to-registry@v2
         with:
           image: ${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend
