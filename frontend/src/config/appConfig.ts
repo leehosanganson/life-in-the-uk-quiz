@@ -24,8 +24,8 @@ export const appConfig: AppConfig = {
   policyUpdateDate:
     env.POLICY_UPDATE_DATE ?? import.meta.env.VITE_POLICY_UPDATE_DATE ?? '5 April 2026',
   githubUrl:
-    env.GITHUB_URL ??
-    import.meta.env.VITE_GITHUB_URL ??
+    env.GITHUB_URL ||
+    import.meta.env.VITE_GITHUB_URL ||
     'https://github.com/leehosanganson/life-in-the-uk-quiz',
 }
 
