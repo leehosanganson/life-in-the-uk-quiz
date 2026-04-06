@@ -4,7 +4,7 @@ set -e
 CONTACT_EMAIL="${CONTACT_EMAIL:-contact@example.com}"
 OPERATOR_NAME="${OPERATOR_NAME:-Ho Sang Lee}"
 POLICY_UPDATE_DATE="${POLICY_UPDATE_DATE:-5 April 2026}"
-GITHUB_URL="${GITHUB_URL:-https://github.com/ansonleehl/life-in-the-uk-quiz}"
+GITHUB_URL="${GITHUB_URL:-}"
 
 # Escape double-quotes to prevent broken JS output
 CONTACT_EMAIL=$(printf '%s' "$CONTACT_EMAIL" | sed 's/"/\\"/g')
