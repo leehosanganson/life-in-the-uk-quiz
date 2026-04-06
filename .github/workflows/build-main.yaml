@@ -80,9 +80,10 @@ jobs:
         uses: redhat-actions/buildah-build@v2
         id: build-backend
         with:
+          context: ./backend
           image: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend
           tags: ${{ env.SHORT_SHA }}
-          containerfiles: ./backend/Dockerfile
+          containerfiles: Dockerfile
 
       - name: Push Backend Image to Harbor
         uses: redhat-actions/push-to-registry@v2
@@ -114,9 +115,10 @@ jobs:
         uses: redhat-actions/buildah-build@v2
         id: build-frontend
         with:
+          context: ./frontend
           image: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend
           tags: ${{ env.SHORT_SHA }}
-          containerfiles: ./frontend/Dockerfile
+          containerfiles: Dockerfile
 
       - name: Push Frontend Image to Harbor
         uses: redhat-actions/push-to-registry@v2
