@@ -72,7 +72,7 @@ jobs:
       - name: Login to Harbor
         uses: docker/login-action@v3
         with:
-          registry: ${{ secrets.HARBOR_REGISTRY }}
+          registry: ${{ vars.HARBOR_REGISTRY }}
           username: ${{ secrets.HARBOR_USERNAME }}
           password: ${{ secrets.HARBOR_PASSWORD }}
 
@@ -85,7 +85,7 @@ jobs:
           context: ./backend
           file: ./backend/Dockerfile
           push: true
-          tags: ${{ secrets.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend:${{ env.SHORT_SHA }}
+          tags: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend:${{ env.SHORT_SHA }}
           cache-from: type=gha,scope=backend
           cache-to: type=gha,scope=backend,mode=max
 
@@ -104,7 +104,7 @@ jobs:
       - name: Login to Harbor
         uses: docker/login-action@v3
         with:
-          registry: ${{ secrets.HARBOR_REGISTRY }}
+          registry: ${{ vars.HARBOR_REGISTRY }}
           username: ${{ secrets.HARBOR_USERNAME }}
           password: ${{ secrets.HARBOR_PASSWORD }}
 
@@ -117,6 +117,6 @@ jobs:
           context: ./frontend
           file: ./frontend/Dockerfile
           push: true
-          tags: ${{ secrets.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend:${{ env.SHORT_SHA }}
+          tags: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend:${{ env.SHORT_SHA }}
           cache-from: type=gha,scope=frontend
           cache-to: type=gha,scope=frontend,mode=max

@@ -28,12 +28,12 @@ jobs:
       - name: Login to Harbor
         uses: docker/login-action@v3
         with:
-          registry: ${{ secrets.HARBOR_REGISTRY }}
+          registry: ${{ vars.HARBOR_REGISTRY }}
           username: ${{ secrets.HARBOR_USERNAME }}
           password: ${{ secrets.HARBOR_PASSWORD }}
 
       - name: Retag in Registry
         run: |
           docker buildx imagetools create \
-            ${{ secrets.HARBOR_REGISTRY }}/${{ inputs.project }}/life-in-the-uk-quiz-${{ inputs.service }}:${{ inputs.source_tag }} \
-            --tag ${{ secrets.HARBOR_REGISTRY }}/${{ inputs.project }}/life-in-the-uk-quiz-${{ inputs.service }}:${{ inputs.target_tag }}
+            ${{ vars.HARBOR_REGISTRY }}/${{ inputs.project }}/life-in-the-uk-quiz-${{ inputs.service }}:${{ inputs.source_tag }} \
+            --tag ${{ vars.HARBOR_REGISTRY }}/${{ inputs.project }}/life-in-the-uk-quiz-${{ inputs.service }}:${{ inputs.target_tag }}
