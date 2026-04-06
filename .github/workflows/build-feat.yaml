@@ -30,15 +30,13 @@ jobs:
           password: ${{ secrets.HARBOR_PASSWORD }}
 
       - name: Build Backend
-        uses: docker/build-push-action@v6
-        with:
-          context: ./backend
-          push: true
-          tags: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend:${{ env.IMAGE_TAG }}
+        run: |
+          cd ./backend
+          docker build ./ -t ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend:${{ env.SHORT_SHA }}
+          docker push ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend:${{ env.SHORT_SHA }}
 
       - name: Build Frontend
-        uses: docker/build-push-action@v6
-        with:
-          context: ./frontend
-          push: true
-          tags: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend:${{ env.IMAGE_TAG }}
+        run: |
+          cd ./frontend
+          docker build ./ -t ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend:${{ env.SHORT_SHA }}
+          docker push ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend:${{ env.SHORT_SHA }}
