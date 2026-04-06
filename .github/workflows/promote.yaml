@@ -1,0 +1,48 @@
+name: Promote Image
+
+on:
+  workflow_dispatch:
+    inputs:
+      sha:
+        description: "Short commit SHA of the image to promote"
+        required: true
+        type: string
+      target_tag:
+        description: "Target tag to promote to"
+        required: true
+        type: choice
+        options:
+          - staging
+          - latest
+      service:
+        description: "Service to promote"
+        required: true
+        type: choice
+        default: both
+        options:
+          - backend
+          - frontend
+          - both
+
+jobs:
+  promote-backend:
+    name: Promote Backend
+    if: inputs.service == 'backend' || inputs.service == 'both'
+    uses: ./.github/workflows/_retag-image.yaml
+    with:
+      service: backend
+      project: ${{ vars.HARBOR_PROJECT }}
+      source_tag: ${{ inputs.sha }}
+      target_tag: ${{ inputs.target_tag }}
+    secrets: inherit
+
+  promote-frontend:
+    name: Promote Frontend
+    if: inputs.service == 'frontend' || inputs.service == 'both'
+    uses: ./.github/workflows/_retag-image.yaml
+    with:
+      service: frontend
+      project: ${{ vars.HARBOR_PROJECT }}
+      source_tag: ${{ inputs.sha }}
+      target_tag: ${{ inputs.target_tag }}
+    secrets: inherit

@@ -1,0 +1,698 @@
+[
+  {
+    "id": "cul001",
+    "text": "What is the name of the patron saint of England?",
+    "options": ["St Andrew", "St David", "St Patrick", "St George"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "St George is the patron saint of England; his feast day is 23 April."
+  },
+  {
+    "id": "cul002",
+    "text": "Which flower is the national emblem of England?",
+    "options": ["Daffodil", "Thistle", "Shamrock", "Tudor rose"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "The Tudor rose is the national floral emblem of England, combining the red rose of Lancaster and the white rose of York."
+  },
+  {
+    "id": "cul003",
+    "text": "What is the UK's national anthem?",
+    "options": ["Land of Hope and Glory", "Jerusalem", "Rule Britannia", "God Save the King"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "God Save the King (or Queen) is the national anthem of the United Kingdom."
+  },
+  {
+    "id": "cul004",
+    "text": "Who wrote the plays 'Romeo and Juliet' and 'Hamlet'?",
+    "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Geoffrey Chaucer"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "William Shakespeare (1564–1616) is widely regarded as the greatest writer in the English language."
+  },
+  {
+    "id": "cul005",
+    "text": "Which flower is the national emblem of Scotland?",
+    "options": ["Rose", "Shamrock", "Daffodil", "Thistle"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "The thistle has been a symbol of Scotland since the reign of Alexander III in the 13th century."
+  },
+  {
+    "id": "cul006",
+    "text": "The BBC (British Broadcasting Corporation) was founded in which year?",
+    "options": ["1912", "1922", "1932", "1945"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "The BBC was founded in 1922 as the British Broadcasting Company, becoming a public corporation in 1927."
+  },
+  {
+    "id": "cul007",
+    "text": "What is the patron saint's day of Wales, celebrated on 1 March?",
+    "options": ["St George's Day", "St Andrew's Day", "St David's Day", "St Patrick's Day"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "St David (Dewi Sant) is the patron saint of Wales; his feast day is celebrated on 1 March."
+  },
+  {
+    "id": "cul008",
+    "text": "On which date is St Patrick's Day celebrated?",
+    "options": ["1 March", "17 March", "23 April", "30 November"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "St Patrick's Day is celebrated on 17 March. St Patrick is the patron saint of Ireland, including Northern Ireland."
+  },
+  {
+    "id": "cul009",
+    "text": "On which date is St Andrew's Day celebrated?",
+    "options": ["17 March", "1 March", "23 April", "30 November"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "St Andrew's Day is celebrated on 30 November. St Andrew is the patron saint of Scotland."
+  },
+  {
+    "id": "cul010",
+    "text": "Who is celebrated on Burns Night (25 January)?",
+    "options": ["Robert Burns, Scottish poet", "William Wallace, Scottish warrior", "John Knox, Scottish reformer", "James Watt, Scottish inventor"],
+    "answerIndex": 0,
+    "category": "Culture",
+    "explanation": "Burns Night on 25 January celebrates the life and poetry of Robert Burns (1759–1796), Scotland's national poet."
+  },
+  {
+    "id": "cul011",
+    "text": "What event does Bonfire Night (5 November) commemorate?",
+    "options": ["The Great Fire of London 1666", "The Gunpowder Plot of 1605", "The Battle of Hastings 1066", "The execution of Charles I 1649"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Bonfire Night (Guy Fawkes Night) commemorates the failure of the Gunpowder Plot of 5 November 1605, when Guy Fawkes and conspirators attempted to blow up the Houses of Parliament."
+  },
+  {
+    "id": "cul012",
+    "text": "The Eisteddfod is a festival of literature, music and performance held in which country?",
+    "options": ["Scotland", "Ireland", "Wales", "England"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "The Eisteddfod is a Welsh festival celebrating literature, music, and performance. The National Eisteddfod of Wales is one of Europe's largest cultural festivals."
+  },
+  {
+    "id": "cul013",
+    "text": "The BBC Proms is an annual classical music festival held at which London venue?",
+    "options": ["The Royal Opera House", "The O2 Arena", "The Royal Albert Hall", "Wembley Stadium"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "The BBC Proms (Promenade Concerts) is held every summer at the Royal Albert Hall in London and is the world's largest classical music festival."
+  },
+  {
+    "id": "cul014",
+    "text": "What is the Notting Hill Carnival?",
+    "options": ["A Victorian market held each December", "A Scottish Highland games competition", "Europe's largest street festival, celebrating Caribbean culture", "An annual flower parade in west London"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "The Notting Hill Carnival, held in London each August Bank Holiday, is Europe's largest street festival and celebrates the Caribbean communities of the UK."
+  },
+  {
+    "id": "cul015",
+    "text": "Which of these novels was written by Charles Dickens?",
+    "options": ["Pride and Prejudice", "Oliver Twist", "Jane Eyre", "Wuthering Heights"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Oliver Twist (1837–1839) was written by Charles Dickens. Pride and Prejudice was by Jane Austen; Jane Eyre and Wuthering Heights were by Charlotte and Emily Brontë respectively."
+  },
+  {
+    "id": "cul016",
+    "text": "Wimbledon is associated with which sport?",
+    "options": ["Cricket", "Tennis", "Golf", "Rowing"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Wimbledon, held at the All England Lawn Tennis Club in London, is the world's oldest tennis tournament and one of the four Grand Slam events."
+  },
+  {
+    "id": "cul017",
+    "text": "The FA Cup is the world's oldest football cup competition. In which country did it originate?",
+    "options": ["Scotland", "Wales", "England", "Northern Ireland"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "The FA Cup (Football Association Challenge Cup) was established in England in 1871 and is the oldest association football competition in the world."
+  },
+  {
+    "id": "cul018",
+    "text": "Henry Purcell was an important English composer. Which role did he hold at Westminster Abbey?",
+    "options": ["Choirmaster", "Organist", "Dean of Music", "Composer-in-Residence"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Henry Purcell (1659–1695) was organist at Westminster Abbey and is considered one of the greatest English composers. He wrote a great deal of church music as well as operas, including Dido and Aeneas."
+  },
+  {
+    "id": "cul019",
+    "text": "The composer George Frideric Handel was born in Germany but became a famous figure in English musical life. Which great choral work did he compose?",
+    "options": ["The Creation", "The Four Seasons", "Messiah", "St Matthew Passion"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "George Frideric Handel became a British subject and composed many famous works in England. His oratorio Messiah (1741) is one of the best-known choral works in the Western repertoire."
+  },
+  {
+    "id": "cul020",
+    "text": "Which composer wrote the 'Pomp and Circumstance Marches', often played at the Last Night of the Proms?",
+    "options": ["Benjamin Britten", "Ralph Vaughan Williams", "Sir Edward Elgar", "William Walton"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Sir Edward Elgar composed the Pomp and Circumstance Marches. The first march includes the tune known as 'Land of Hope and Glory' and is played every year at the Last Night of the Proms."
+  },
+  {
+    "id": "cul021",
+    "text": "The song 'Auld Lang Syne', traditionally sung on New Year's Eve, was written by which Scottish poet?",
+    "options": ["Walter Scott", "Robert Burns", "Hugh MacDiarmid", "Edwin Muir"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Robert Burns (1759–1796), Scotland's national poet, wrote 'Auld Lang Syne'. It is sung at New Year all over the world. Burns Night is celebrated on 25 January each year."
+  },
+  {
+    "id": "cul022",
+    "text": "John Constable and J.M.W. Turner were two of Britain's most celebrated painters. What type of subjects did both artists favour?",
+    "options": ["Royal portraits", "Landscapes", "Biblical scenes", "Urban street life"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Both John Constable and J.M.W. Turner are renowned landscape painters. Constable is best known for his paintings of the English countryside, while Turner was famous for his dramatic seascapes and atmospheric scenes."
+  },
+  {
+    "id": "cul023",
+    "text": "What is Henry Moore best known for?",
+    "options": ["Impressionist oil paintings of the English coast", "Large abstract bronze sculptures", "Detailed miniature watercolour portraits", "Architectural designs for public buildings"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Henry Moore (1898–1986) was one of Britain's most important sculptors, known for his large semi-abstract bronze and stone sculptures, many of which can be found in public spaces around the world."
+  },
+  {
+    "id": "cul024",
+    "text": "David Hockney is associated with which major art movement of the 1960s?",
+    "options": ["Surrealism", "Impressionism", "Abstract Expressionism", "Pop Art"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "David Hockney is one of the most influential British artists of the 20th century and was an important contributor to the Pop Art movement in the 1960s."
+  },
+  {
+    "id": "cul025",
+    "text": "Who designed St Paul's Cathedral in London after the Great Fire of 1666?",
+    "options": ["Inigo Jones", "John Nash", "Sir Christopher Wren", "Robert Adam"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Sir Christopher Wren designed the new St Paul's Cathedral after the Great Fire of London in 1666 destroyed the previous building. It was completed in 1711 and remains one of London's most iconic landmarks."
+  },
+  {
+    "id": "cul026",
+    "text": "Isambard Kingdom Brunel was a celebrated 19th-century engineer. Which railway did he design?",
+    "options": ["The East Coast Main Line", "The Great Western Railway", "The London Underground", "The Midland Railway"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Isambard Kingdom Brunel designed the Great Western Railway as well as famous bridges and the first large ocean-going steamships. He is widely regarded as one of the most gifted engineers of the 19th century."
+  },
+  {
+    "id": "cul027",
+    "text": "Alexander Fleming is famous for discovering which life-saving substance?",
+    "options": ["Aspirin", "Insulin", "Penicillin", "Morphine"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Alexander Fleming discovered penicillin in 1928 after noticing that mould was killing bacteria in one of his Petri dishes. He was awarded the Nobel Prize in Physiology or Medicine in 1945, shared with Howard Florey and Ernst Boris Chain."
+  },
+  {
+    "id": "cul028",
+    "text": "Sir Alan Turing made a foundational contribution to computing. What is he credited with developing?",
+    "options": ["The World Wide Web", "The first personal computer", "The Turing Machine, a theoretical model for computing", "The first programming language"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Sir Alan Turing developed the concept of the Turing Machine in the 1930s, which laid the theoretical foundations for modern computing. He also played a crucial role in breaking German codes during the Second World War."
+  },
+  {
+    "id": "cul029",
+    "text": "Sir Tim Berners-Lee is credited with inventing which technology, which he did in 1990?",
+    "options": ["The internet", "Email", "The World Wide Web", "Social media"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Sir Tim Berners-Lee invented the World Wide Web in 1990. The Web is distinct from the internet itself and allowed information to be shared easily through linked documents and web browsers."
+  },
+  {
+    "id": "cul030",
+    "text": "John Logie Baird was a Scottish inventor who developed which technology?",
+    "options": ["Radio broadcasting", "The telephone", "Television", "Radar"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "John Logie Baird developed the world's first working television system in the 1920s. In 1932 he made the first television broadcast between London and Glasgow."
+  },
+  {
+    "id": "cul031",
+    "text": "Sir Frank Whittle developed which important technology in the 1930s?",
+    "options": ["The hovercraft", "The jet engine", "The radar system", "The nuclear reactor"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Sir Frank Whittle, a British Royal Air Force officer, developed the jet engine in the 1930s. His invention revolutionised air travel and military aviation."
+  },
+  {
+    "id": "cul032",
+    "text": "Sir Christopher Cockerell invented which form of transport in the 1950s?",
+    "options": ["The maglev train", "The hovercraft", "The hydrofoil ferry", "The monorail"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Sir Christopher Cockerell invented the hovercraft in the 1950s. The world's first practical hovercraft, the SR.N1, crossed the English Channel in 1959."
+  },
+  {
+    "id": "cul033",
+    "text": "Florence Nightingale became famous as a nurse during which war?",
+    "options": ["The Boer War", "The Crimean War", "The First World War", "The American Civil War"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Florence Nightingale served as a nurse during the Crimean War (1853–1856) and transformed nursing standards through her emphasis on hygiene and care. She later founded the first professional nursing school in London."
+  },
+  {
+    "id": "cul034",
+    "text": "Agatha Christie is celebrated for writing which genre of fiction?",
+    "options": ["Science fiction novels", "Historical romance", "Detective stories", "Gothic horror"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Agatha Christie is one of the best-selling fiction writers of all time, famous for her detective novels. Her characters, including Hercule Poirot and Miss Marple, remain icons of crime fiction."
+  },
+  {
+    "id": "cul035",
+    "text": "J.R.R. Tolkien wrote 'The Lord of the Rings'. What distinction did this novel receive in 2003?",
+    "options": ["It won the Booker Prize for fiction", "It was voted the country's best-loved novel in a public poll", "It became the first novel translated into over 50 languages", "It was named the most-borrowed book from UK libraries"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "J.R.R. Tolkien's The Lord of the Rings was voted the UK's best-loved novel in the BBC's Big Read public poll in 2003. Tolkien was a professor at Oxford University."
+  },
+  {
+    "id": "cul036",
+    "text": "Sir Arthur Conan Doyle was a Scottish doctor and writer. Which famous fictional detective did he create?",
+    "options": ["Hercule Poirot", "Inspector Morse", "Sherlock Holmes", "Philip Marlowe"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Sir Arthur Conan Doyle created Sherlock Holmes, one of the most famous fictional detectives in the world. Doyle was born in Edinburgh, Scotland."
+  },
+  {
+    "id": "cul037",
+    "text": "In which years has the United Kingdom hosted the Olympic Games?",
+    "options": ["1900, 1936 and 1980", "1908, 1948 and 2012", "1920, 1952 and 1996", "1904, 1944 and 2000"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "The United Kingdom has hosted the Olympic Games three times: in London in 1908, London again in 1948, and London once more in 2012."
+  },
+  {
+    "id": "cul038",
+    "text": "Sir Roger Bannister became famous in 1954 for which sporting achievement?",
+    "options": ["Winning the Tour de France as the first British cyclist", "Swimming the English Channel in record time", "Being the first person to run a mile in under four minutes", "Winning five consecutive Olympic gold medals in athletics"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "On 6 May 1954, Roger Bannister became the first person in history to run a mile in under four minutes, completing the distance in 3 minutes 59.4 seconds at Oxford."
+  },
+  {
+    "id": "cul039",
+    "text": "In how many consecutive Olympic Games did Sir Steve Redgrave win a gold medal in rowing?",
+    "options": ["Three", "Four", "Five", "Six"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Sir Steve Redgrave won gold medals in rowing at five consecutive Olympic Games from 1984 to 2000, making him one of Britain's greatest Olympians."
+  },
+  {
+    "id": "cul040",
+    "text": "Scottish cyclist Sir Chris Hoy won how many Olympic gold medals during his career?",
+    "options": ["Three", "Four", "Five", "Six"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "Sir Chris Hoy won six Olympic gold medals in track cycling between 2004 and 2012, making him one of Scotland's greatest sporting heroes."
+  },
+  {
+    "id": "cul041",
+    "text": "Bobby Moore was a celebrated English footballer. What was his most famous achievement?",
+    "options": ["He was the first English player to score 100 international goals", "He won the Ballon d'Or as the world's best player in 1970", "He captained England when they won the Football World Cup in 1966", "He scored the winning goal in the 1966 FA Cup Final"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Bobby Moore captained the England national team to victory at the 1966 FIFA World Cup, held in England. England defeated West Germany 4–2 in the final at Wembley Stadium."
+  },
+  {
+    "id": "cul042",
+    "text": "The Ashes is a famous cricket competition played between England and which other country?",
+    "options": ["South Africa", "New Zealand", "Australia", "West Indies"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "The Ashes is a Test cricket series played between England and Australia. The competition began in 1882 and the 'Ashes' refers to a tiny urn said to contain the ashes of burned cricket bails."
+  },
+  {
+    "id": "cul043",
+    "text": "The Six Nations Championship is a major rugby union competition. Which six countries take part?",
+    "options": ["England, Scotland, Wales, Ireland, France and Germany", "England, Scotland, Wales, Ireland, France and Italy", "England, Scotland, Wales, Northern Ireland, France and Spain", "England, Scotland, Wales, Ireland, France and South Africa"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "The Six Nations Championship involves England, Scotland, Wales, Ireland (a combined team), France and Italy. Italy joined the competition in 2000, replacing the previous Five Nations format."
+  },
+  {
+    "id": "cul044",
+    "text": "The Grand National is one of the world's most famous horse races. At which racecourse is it held?",
+    "options": ["Cheltenham", "Royal Ascot (Berkshire)", "Epsom Downs", "Aintree (near Liverpool)"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "The Grand National is held annually at Aintree Racecourse near Liverpool. It is a steeplechase over about four miles with 30 fences and attracts enormous public interest each April."
+  },
+  {
+    "id": "cul045",
+    "text": "St Andrews in Scotland is recognised as the home of which sport?",
+    "options": ["Curling", "Golf", "Tennis", "Shinty"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "St Andrews in Fife, Scotland is known as the home of golf. The Royal and Ancient Golf Club of St Andrews, founded in 1754, helped to codify the rules of golf and remains one of the governing bodies of the sport worldwide."
+  },
+  {
+    "id": "cul046",
+    "text": "Andy Murray became the first British man to win a Grand Slam singles title since 1936 when he won which tournament in 2012?",
+    "options": ["Wimbledon", "Australian Open", "French Open", "US Open"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "Andy Murray, a Scottish tennis player, won the US Open in 2012, becoming the first British man to win a Grand Slam singles title since Fred Perry in 1936. He went on to win Wimbledon in 2013 and 2016 and two Olympic gold medals."
+  },
+  {
+    "id": "cul047",
+    "text": "Sir Bradley Wiggins became the first British person to win which prestigious cycling race in 2012?",
+    "options": ["Giro d'Italia", "Tour de France", "Vuelta a España", "Paris–Roubaix"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Sir Bradley Wiggins won the Tour de France in 2012, becoming the first British person to win the world's most famous cycling race. He also won gold medals in Olympic track cycling at the 2004, 2008 and 2012 Games."
+  },
+  {
+    "id": "cul048",
+    "text": "At the 2012 London Olympics, Mo Farah won gold medals in which two athletics events?",
+    "options": ["1,500m and 5,000m", "5,000m and 10,000m", "10,000m and marathon", "3,000m steeplechase and 5,000m"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Mo Farah, born in Somalia and raised in London, won gold medals in both the 5,000m and 10,000m at the 2012 London Olympics. He is the first British man to win an Olympic gold medal in the 10,000 metres."
+  },
+  {
+    "id": "cul049",
+    "text": "Dame Kelly Holmes won two gold medals at the 2004 Athens Olympics. In which events?",
+    "options": ["400m and 800m", "800m and 1,500m", "1,500m and 5,000m", "100m hurdles and heptathlon"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Dame Kelly Holmes won gold medals in the 800m and 1,500m at the 2004 Athens Olympics, achieving a remarkable middle-distance double. She has held British and European records and was made a Dame for her services to athletics."
+  },
+  {
+    "id": "cul050",
+    "text": "Baroness Tanni Grey-Thompson is a celebrated British Paralympian. How many Paralympic medals did she win in wheelchair racing during her career?",
+    "options": ["6 medals", "11 medals", "16 medals", "21 medals"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Baroness Tanni Grey-Thompson won 16 Paralympic medals in total, including 11 gold medals, across five Paralympic Games. She also won the London Marathon six times and set 30 world records."
+  },
+  {
+    "id": "cul051",
+    "text": "At which Winter Olympics did ice dancers Jayne Torvill and Christopher Dean win their famous Olympic gold medal with their 'Bolero' routine?",
+    "options": ["1980 Lake Placid", "1984 Sarajevo", "1988 Calgary", "1992 Albertville"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Torvill and Dean won their Olympic gold medal at the 1984 Sarajevo Winter Games with their iconic 'Bolero' routine. They received perfect scores of 6.0 from all nine judges for artistic impression — an unprecedented achievement at the time."
+  },
+  {
+    "id": "cul052",
+    "text": "Which beloved animated characters, created by Nick Park, have won him four Academy Awards?",
+    "options": ["Bob the Builder and Wendy", "Postman Pat and Jess", "Wallace and Gromit", "Paddington Bear"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Nick Park created Wallace (an absent-minded inventor) and his intelligent dog Gromit at Aardman Animations in Bristol. He has won four Oscar awards, three for films featuring Wallace and Gromit, making him one of Britain's most acclaimed animators."
+  },
+  {
+    "id": "cul053",
+    "text": "Agatha Christie's play 'The Mousetrap' holds which theatrical record?",
+    "options": ["Most-adapted play in film history", "First play to be broadcast on television in the UK", "Longest continuously running theatre show in history", "Highest-grossing single production in the West End"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "The Mousetrap, a murder mystery by Agatha Christie, first opened in London's West End in 1952 and has had the longest initial run of any show in history. It continues to this day, making it the world's longest continuously running theatre production."
+  },
+  {
+    "id": "cul054",
+    "text": "The Edinburgh Festival Fringe is the world's largest arts festival. In which month does it take place each year?",
+    "options": ["June", "July", "August", "September"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "The Edinburgh Festival Fringe takes place every August in Edinburgh, Scotland. It is a showcase of mainly theatre, comedy and performance arts, often featuring experimental and new work alongside established performers. It began in 1947."
+  },
+  {
+    "id": "cul055",
+    "text": "Benjamin Britten was an important 20th-century British composer. Which opera is he most famous for?",
+    "options": ["The Marriage of Figaro", "La Traviata", "Peter Grimes", "The Merry Widow"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Benjamin Britten (1913–1976) composed Peter Grimes (1945), which is considered a landmark in British opera. He also founded the Aldeburgh Festival in Suffolk, which continues as an important international music event."
+  },
+  {
+    "id": "cul056",
+    "text": "Gustav Holst is best known for composing which orchestral suite?",
+    "options": ["The Four Seasons", "The Planets", "The Water Music", "A Young Person's Guide to the Orchestra"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Gustav Holst (1874–1934) composed The Planets suite between 1914 and 1917. Each of the seven movements is named after a planet. The Jupiter movement was adapted as the popular hymn 'I vow to thee my country'."
+  },
+  {
+    "id": "cul057",
+    "text": "The Turner Prize is awarded annually for outstanding British visual art. At which London gallery is the prize typically awarded?",
+    "options": ["The National Gallery", "The Victoria and Albert Museum", "Tate Modern", "Tate Britain"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "The Turner Prize, established in 1984 and named after landscape painter J.M.W. Turner, is awarded each year at Tate Britain in London. It is one of the most prestigious and often controversial art prizes in Europe. Past winners include Damien Hirst and Richard Wright."
+  },
+  {
+    "id": "cul058",
+    "text": "Gilbert and Sullivan were a famous Victorian duo who wrote comic operas. Which of these is one of their works?",
+    "options": ["Don Giovanni", "The Magic Flute", "The Pirates of Penzance", "The Barber of Seville"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "W.S. Gilbert (librettist) and Arthur Sullivan (composer) wrote a series of hugely popular comic operas in the late 19th century, including HMS Pinafore (1878), The Pirates of Penzance (1879) and The Mikado (1885). Their work is still performed by professional and amateur companies today."
+  },
+  {
+    "id": "cul059",
+    "text": "Dame Ellen MacArthur set a world record in 2004 by doing what?",
+    "options": ["Being the first woman to swim the English Channel unaided", "Sailing solo around the world in the fastest recorded time", "Rowing solo across the Atlantic Ocean", "Climbing the highest peak on all seven continents"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Dame Ellen MacArthur (born 1976) completed a solo non-stop circumnavigation of the world in 2004 in a record 71 days, 14 hours, setting a new world record. She was awarded a DBE for her achievement."
+  },
+  {
+    "id": "cul060",
+    "text": "Thomas Hardy (1840–1928) was a British author and poet. Which of the following is one of his best-known novels?",
+    "options": ["Far from the Madding Crowd", "Bleak House", "Wuthering Heights", "The Return of the Native Prince"],
+    "answerIndex": 0,
+    "category": "Culture",
+    "explanation": "Thomas Hardy (1840–1928) was an author and poet whose best-known novels focus on rural society. These include Far from the Madding Crowd and Jude the Obscure. Hardy's work vividly portrays the traditions and hardships of rural life in the south-west of England."
+  },
+  {
+    "id": "cul061",
+    "text": "Robert Louis Stevenson (1850–94) was a Scottish author. Which of the following is one of his best-known works?",
+    "options": ["Robinson Crusoe", "Gulliver's Travels", "Treasure Island", "The Coral Island"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Robert Louis Stevenson (1850–94) wrote books still read by adults and children today. His most famous books include Treasure Island, Kidnapped and Dr Jekyll and Mr Hyde."
+  },
+  {
+    "id": "cul062",
+    "text": "J.K. Rowling (1965–) is best known for writing which series of books?",
+    "options": ["The Chronicles of Narnia", "Harry Potter", "His Dark Materials", "Discworld"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "J.K. Rowling (1965–) wrote the Harry Potter series of children's books, which have enjoyed huge international success. She now writes fiction for adults as well."
+  },
+  {
+    "id": "cul063",
+    "text": "The Man Booker Prize for Fiction has been awarded annually since 1968. Which authors are eligible?",
+    "options": ["British and American authors only", "Authors who write in English regardless of nationality", "Only British-born authors", "Authors from the Commonwealth, Ireland or Zimbabwe"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "The Man Booker Prize for Fiction is awarded annually for the best fiction novel written by an author from the Commonwealth, Ireland or Zimbabwe. It has been awarded since 1968. Past winners include Ian McEwan, Hilary Mantel and Julian Barnes."
+  },
+  {
+    "id": "cul064",
+    "text": "The poem beginning 'Tyger! Tyger! Burning bright / In the forests of the night' was written by which poet?",
+    "options": ["William Blake", "John Keats", "Percy Shelley", "Lord Byron"],
+    "answerIndex": 0,
+    "category": "Culture",
+    "explanation": "These famous lines are from 'The Tyger' by William Blake (1757–1827), one of the great Romantic poets. Blake was both a poet and an artist. His works are among the most quoted in English literature."
+  },
+  {
+    "id": "cul065",
+    "text": "The poem beginning 'She walks in beauty, like the night / Of cloudless climes and starry skies' was written by which poet?",
+    "options": ["John Keats", "William Wordsworth", "Lord Byron", "Percy Shelley"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "These lines are from 'She Walks in Beauty' by Lord Byron (1788–1824), one of the leading Romantic poets of the 19th century. Poetry was very popular in 19th-century Britain, with many celebrated poets including Blake, Keats, Byron, Shelley and Tennyson."
+  },
+  {
+    "id": "cul066",
+    "text": "The First World War poem 'Anthem for Doomed Youth', which opens 'What passing-bells for these who die as cattle?', was written by which poet?",
+    "options": ["Siegfried Sassoon", "Wilfred Owen", "Rupert Brooke", "Isaac Rosenberg"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "'Anthem for Doomed Youth' was written by Wilfred Owen (1893–1918), who drew on his own harrowing experiences fighting in the First World War. Many poets of this era, including Owen and Siegfried Sassoon, were inspired to write about their experiences in the war."
+  },
+  {
+    "id": "cul067",
+    "text": "Andrew Lloyd Webber has written the music for many successful musicals. Which of these shows did he create in collaboration with Tim Rice?",
+    "options": ["Cats", "The Phantom of the Opera", "Sunset Boulevard", "Jesus Christ Superstar"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "Andrew Lloyd Webber has written the music for shows popular throughout the world, including, in collaboration with Tim Rice, Jesus Christ Superstar and Evita. He also wrote Cats and The Phantom of the Opera."
+  },
+  {
+    "id": "cul068",
+    "text": "The Laurence Olivier Awards are given annually in London for excellence in which performing art?",
+    "options": ["Theatre", "Film", "Television", "Classical music only"],
+    "answerIndex": 0,
+    "category": "Culture",
+    "explanation": "The Laurence Olivier Awards take place annually at different venues in London. There are categories including best director, best actor and best actress. The awards are named after the British actor Sir Laurence Olivier, later Lord Olivier, who was best known for his roles in Shakespeare plays."
+  },
+  {
+    "id": "cul069",
+    "text": "Charlie Chaplin became internationally famous in films for which character?",
+    "options": ["A Victorian gentleman", "An Edwardian soldier", "A tramp", "A bank clerk"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Sir Charles (Charlie) Chaplin became famous in silent movies for his tramp character and was one of many British actors to make a career in Hollywood. Films were first shown publicly in the UK in 1896 and film-making very quickly became popular."
+  },
+  {
+    "id": "cul070",
+    "text": "What is BAFTA and what is its most well-known annual event?",
+    "options": ["The British Arts and Film Trade Association; it presents awards for television only", "The British Academy of Film and Television Arts; it hosts the British Academy Film Awards — the British equivalent of the Oscars", "The Board of Arts, Film and Theatre Accreditation; it certifies productions made in the UK", "The British Award for Film and Theatre Achievement; it gives prizes for both film and stage"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "The annual British Academy Film Awards are hosted by the British Academy of Film and Television Arts (BAFTA). These awards are considered the British equivalent of the Oscars."
+  },
+  {
+    "id": "cul071",
+    "text": "Ellie Simmonds (1994–) is a Paralympian swimmer. What notable distinction did she achieve at the 2008 Paralympic Games?",
+    "options": ["She became the first British swimmer to win three gold medals at a single Games", "She broke the world record in the 100m freestyle", "She won gold medals in four different events", "She was the youngest member of the British Paralympic team"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "Ellie Simmonds won gold medals for swimming at both the 2008 and 2012 Paralympic Games and holds a number of world records. She was the youngest member of the British team at the 2008 Games."
+  },
+  {
+    "id": "cul072",
+    "text": "David Weir (1979–) is a wheelchair Paralympian. How many gold medals has he won over two Paralympic Games, and how many times has he won the London Marathon?",
+    "options": ["Six gold medals and six London Marathon wins", "Four gold medals and four London Marathon wins", "Three gold medals and six London Marathon wins", "Six gold medals and four London Marathon wins"],
+    "answerIndex": 0,
+    "category": "Culture",
+    "explanation": "David Weir (1979–) is a Paralympian who uses a wheelchair and has won six gold medals over two Paralympic Games. He has also won the London Marathon six times."
+  },
+  {
+    "id": "cul073",
+    "text": "Sir Jackie Stewart (1939–) is a Scottish sporting legend. In which sport did he win the world championship three times?",
+    "options": ["Golf", "Cycling", "Formula 1 motor racing", "Speedway"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Sir Jackie Stewart (1939–) is a Scottish former racing driver who won the Formula 1 world championship three times. There is a long history of motor sport in the UK, and a number of British drivers have won the Formula 1 World Championship."
+  },
+  {
+    "id": "cul074",
+    "text": "Ralph Vaughan Williams (1872–1958) was a British composer. What was the major influence on his musical style?",
+    "options": ["Classical German opera", "Traditional English folk music", "French impressionist music", "Scottish Gaelic song"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Ralph Vaughan Williams (1872–1958) wrote music for orchestras and choirs. He was strongly influenced by traditional English folk music. He is one of a number of important British composers from the late 19th and early 20th centuries."
+  },
+  {
+    "id": "cul075",
+    "text": "Ian Botham is regarded as one of England's greatest cricketers. For which role in cricket is he particularly celebrated?",
+    "options": ["Opening batsman", "Wicket-keeper", "Fast bowler", "All-rounder"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "Ian Botham is widely regarded as one of the greatest cricketers England has ever produced. He was an outstanding all-rounder who could both bat and bowl at the highest level, playing 102 Test matches for England. He is perhaps best remembered for his extraordinary performances in the 1981 Ashes series against Australia."
+  },
+  {
+    "id": "cul076",
+    "text": "Sir Francis Chichester completed a solo circumnavigation of the globe in 1966–67 in his yacht. What was its name?",
+    "options": ["Golden Hind", "Gipsy Moth IV", "Spirit of Adventure", "Endeavour II"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Sir Francis Chichester (1901–1972) was the first person to sail solo around the world, completing the voyage in 1966–67 in his yacht Gipsy Moth IV. He was knighted by Queen Elizabeth II after his return. The boat can still be seen at Greenwich, London."
+  },
+  {
+    "id": "cul077",
+    "text": "Pantomime is a popular form of British theatrical entertainment. At which time of year is it traditionally staged?",
+    "options": ["Easter", "Summer holidays", "Halloween", "Christmas"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "Pantomime is a popular Christmas entertainment for families, with shows staged at local theatres throughout the UK. Pantos are based on fairy tales and traditional features include a 'Dame' played by a male actor, a young male hero played by a woman, and audience participation such as shouting 'He's behind you!'"
+  },
+  {
+    "id": "cul078",
+    "text": "The Pre-Raphaelites were a group of artists who formed a Brotherhood in 1848. Which of the following was a founding member?",
+    "options": ["J.M.W. Turner", "John Constable", "Dante Gabriel Rossetti", "Thomas Gainsborough"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "The Pre-Raphaelite Brotherhood was founded in 1848 by a group of artists including Holman Hunt, Dante Gabriel Rossetti and John Everett Millais. They reacted against what they saw as the mechanical approach taught in art schools and painted vivid, detailed images of religious and medieval subjects."
+  },
+  {
+    "id": "cul079",
+    "text": "Thomas Gainsborough (1727–1788) was a leading British artist. For which two areas of painting was he particularly celebrated?",
+    "options": ["History painting and religious works", "Animal studies and marine scenes", "Portrait painting and landscape painting", "Miniatures and botanical illustrations"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Thomas Gainsborough was a leading portrait and landscape painter of 18th-century Britain. Among his most celebrated works are 'Mr and Mrs Andrews' and 'The Blue Boy'. He was a founder member of the Royal Academy of Arts."
+  },
+  {
+    "id": "cul080",
+    "text": "The architect Inigo Jones introduced which architectural style to Britain in the early 17th century?",
+    "options": ["Gothic Revival", "Baroque", "Classical architecture inspired by ancient Greece and Rome", "Arts and Crafts"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Inigo Jones (1573–1652) was the first significant British architect to be influenced by classical Italian architecture. He brought this new style to England, designing the Queen's House at Greenwich and the Banqueting House in Whitehall, both of which still stand today."
+  },
+  {
+    "id": "cul081",
+    "text": "Lancelot 'Capability' Brown (1716–1783) is regarded as the greatest figure in which field?",
+    "options": ["Urban town planning", "English landscape garden design", "Watercolour painting", "Gothic church architecture"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Lancelot 'Capability' Brown is often called the greatest English landscape garden designer. He worked on over 170 gardens and parks, creating naturalistic landscapes. His nickname came from his habit of telling clients their grounds had 'great capabilities'."
+  },
+  {
+    "id": "cul082",
+    "text": "The Chelsea Flower Show is one of the most famous flower shows in the world. Who organises it and in which month does it take place?",
+    "options": ["The National Trust; June", "English Heritage; April", "The Royal Horticultural Society; May", "The Kew Foundation; March"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "The Chelsea Flower Show is organised by the Royal Horticultural Society (RHS) and is held every May in the grounds of the Royal Hospital Chelsea in London. It attracts visitors from all over the world and showcases the best of British and international horticulture."
+  },
+  {
+    "id": "cul083",
+    "text": "The Brit Awards are the UK's most prestigious annual music awards. What do they recognise?",
+    "options": ["Classical music performance and composition", "Popular music achievements in the UK and internationally", "Jazz and blues music exclusively", "Music composed for film and television"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "The Brit Awards are the UK music industry's most prestigious annual awards, recognising achievements in popular music. They are presented at a major ceremony each year. The Mercury Music Prize is another major UK award, given to the best album of the year by a British or Irish artist."
+  },
+  {
+    "id": "cul084",
+    "text": "Sir Walter Scott (1771–1832) was a major Scottish literary figure. For which two literary forms is he best known?",
+    "options": ["Plays and essays", "Poetry and historical novels", "Biographies and travel writing", "Short stories and satire"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Sir Walter Scott was a Scottish poet and historical novelist. He wrote long narrative poems including 'The Lady of the Lake', set on Loch Katrine, and later famous historical novels including 'Waverley' and 'Ivanhoe'. He is considered the inventor of the historical novel as a literary form."
+  },
+  {
+    "id": "cul085",
+    "text": "John Keats (1795–1821) was a major Romantic poet. Which of the following is one of his most celebrated poems?",
+    "options": ["The Rime of the Ancient Mariner", "Ode to a Nightingale", "The Charge of the Light Brigade", "Ozymandias"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "John Keats is one of the most celebrated Romantic poets. 'Ode to a Nightingale' is among his finest works, along with 'Ode on a Grecian Urn'. Keats died of tuberculosis at only 25 years old. 'The Rime of the Ancient Mariner' was by Coleridge; 'Ozymandias' by Shelley; 'The Charge of the Light Brigade' by Tennyson."
+  },
+  {
+    "id": "cul086",
+    "text": "Monty Python's Flying Circus was a highly influential British television comedy show. In which decade did it first broadcast?",
+    "options": ["1950s", "1960s", "1970s", "1980s"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Monty Python's Flying Circus first aired on the BBC on 5 October 1969 (the 1960s), running through the early 1970s. It featured John Cleese, Michael Palin, Terry Gilliam and others. The team also produced classic comedy films including 'Monty Python and the Holy Grail' (1975) and 'Life of Brian' (1979)."
+  },
+  {
+    "id": "cul087",
+    "text": "Robert Browning (1812–1889) was a major Victorian poet. He is especially associated with which poetic form?",
+    "options": ["The Petrarchan sonnet", "The epic poem", "The dramatic monologue", "The elegy"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Robert Browning was one of the foremost Victorian poets, particularly celebrated for his dramatic monologues — poems spoken by a character other than the poet. Famous examples include 'My Last Duchess' and 'The Pied Piper of Hamelin'. His wife Elizabeth Barrett Browning was also a distinguished poet, best known for 'Sonnets from the Portuguese'."
+  }
+]

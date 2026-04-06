@@ -1,0 +1,39 @@
+name: Retag Image
+
+on:
+  workflow_call:
+    inputs:
+      service:
+        description: "Service name — backend or frontend"
+        required: true
+        type: string
+      project:
+        description: "Harbor project name"
+        required: true
+        type: string
+      source_tag:
+        description: "Existing tag to pull"
+        required: true
+        type: string
+      target_tag:
+        description: "New tag to apply"
+        required: true
+        type: string
+
+jobs:
+  retag:
+    name: Retag Image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Login to Harbor
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ secrets.HARBOR_REGISTRY }}
+          username: ${{ secrets.HARBOR_USERNAME }}
+          password: ${{ secrets.HARBOR_PASSWORD }}
+
+      - name: Retag in Registry
+        run: |
+          docker buildx imagetools create \
+            ${{ secrets.HARBOR_REGISTRY }}/${{ inputs.project }}/life-in-the-uk-quiz-${{ inputs.service }}:${{ inputs.source_tag }} \
+            --tag ${{ secrets.HARBOR_REGISTRY }}/${{ inputs.project }}/life-in-the-uk-quiz-${{ inputs.service }}:${{ inputs.target_tag }}

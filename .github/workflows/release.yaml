@@ -1,0 +1,39 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+*"
+
+jobs:
+  prepare:
+    name: Prepare
+    runs-on: ubuntu-latest
+    outputs:
+      short_sha: ${{ steps.sha.outputs.short_sha }}
+    steps:
+      - name: Compute short SHA
+        id: sha
+        run: echo "short_sha=${GITHUB_SHA::7}" >> $GITHUB_OUTPUT
+
+  release-backend:
+    name: Release Backend
+    needs: prepare
+    uses: ./.github/workflows/_retag-image.yaml
+    with:
+      service: backend
+      project: ${{ vars.HARBOR_PROJECT }}
+      source_tag: ${{ needs.prepare.outputs.short_sha }}
+      target_tag: ${{ github.ref_name }}
+    secrets: inherit
+
+  release-frontend:
+    name: Release Frontend
+    needs: prepare
+    uses: ./.github/workflows/_retag-image.yaml
+    with:
+      service: frontend
+      project: ${{ vars.HARBOR_PROJECT }}
+      source_tag: ${{ needs.prepare.outputs.short_sha }}
+      target_tag: ${{ github.ref_name }}
+    secrets: inherit

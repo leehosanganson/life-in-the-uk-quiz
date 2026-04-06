@@ -1,0 +1,506 @@
+[
+  {
+    "id": "val001",
+    "text": "Which of the following is a fundamental British value?",
+    "options": ["Monarchy over democracy", "Rule of law", "Parliamentary supremacy over rights", "Tradition over change"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "The rule of law is a fundamental British value meaning no one is above the law, including the government."
+  },
+  {
+    "id": "val002",
+    "text": "What does 'democracy' mean in the context of British values?",
+    "options": ["Only the elected decide", "Government by the people or their representatives", "Rule by the military", "Majority can override all laws"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "Democracy means government by the people — in the UK, citizens elect representatives to Parliament."
+  },
+  {
+    "id": "val003",
+    "text": "What right does every person in the UK have if arrested?",
+    "options": ["To be released after 24 hours", "To remain silent and access legal advice", "To choose their judge", "To refuse a search"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "Upon arrest in the UK, individuals have the right to remain silent and the right to consult a solicitor."
+  },
+  {
+    "id": "val004",
+    "text": "Which document sets out the rights protected under UK law via European Convention?",
+    "options": ["The Magna Carta", "The Bill of Rights 1689", "The Human Rights Act 1998", "The Equality Act 2010"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "The Human Rights Act 1998 incorporates the European Convention on Human Rights into UK domestic law."
+  },
+  {
+    "id": "val005",
+    "text": "What is the principle that everyone, including the government, must obey the law?",
+    "options": ["Parliamentary sovereignty", "Judicial review", "The rule of law", "Civil liberty"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "The rule of law is the principle that everyone, including the government and its officials, is subject to and accountable to the law."
+  },
+  {
+    "id": "val006",
+    "text": "Which Act makes it illegal to discriminate on grounds of race, sex, or religion in the workplace?",
+    "options": ["Human Rights Act 1998", "Freedom of Information Act 2000", "Equality Act 2010", "Employment Rights Act 1996"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "The Equality Act 2010 protects people from discrimination in the workplace and wider society."
+  },
+  {
+    "id": "val007",
+    "text": "In the UK, who is responsible for deciding whether someone is guilty of a serious crime?",
+    "options": ["The police", "A judge alone", "A jury", "The Home Secretary"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "In serious criminal cases in England, Wales, and Northern Ireland, a jury of 12 members of the public decides the verdict."
+  },
+  {
+    "id": "val008",
+    "text": "Which of the following best describes the British value of tolerance?",
+    "options": ["Enforcing the same customs on everyone", "Tolerating only those of a similar background", "Respecting the rights of others to hold different beliefs and live differently", "Avoiding all religious and political discussion"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Tolerance in the UK means respecting others' right to hold different beliefs and lead different lifestyles, as long as they are within the law."
+  },
+  {
+    "id": "val009",
+    "text": "Is freedom of speech an absolute right in the UK?",
+    "options": ["Yes, you can say anything without legal consequence", "No, it has legal limits such as laws against incitement to hatred", "Yes, but only in Parliament", "No, the government can restrict all political speech"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "Freedom of speech is an important right in the UK but it is not absolute. Laws exist against incitement to racial or religious hatred, harassment, and other harmful speech."
+  },
+  {
+    "id": "val010",
+    "text": "Which statement best describes religious freedom in the UK?",
+    "options": ["Only Christian religions are legally protected", "The Church of England is the only recognised religion", "People are free to practise any religion or no religion", "Religion must be kept entirely private"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "The UK upholds freedom of religion; people are free to practise any religion or to have no religion at all."
+  },
+  {
+    "id": "val011",
+    "text": "What does the right to a fair trial mean in the UK?",
+    "options": ["Only British citizens can use the courts", "Everyone has the right to be heard in a court and be presumed innocent until proven guilty", "Trials must always be held in public", "The accused must prove their own innocence"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "The right to a fair trial means everyone is entitled to a fair and public hearing and is presumed innocent until proven guilty."
+  },
+  {
+    "id": "val012",
+    "text": "Which statement best describes the founding principle of the NHS?",
+    "options": ["It is free only for those earning below average wage", "It is a subscription-based service for permanent residents", "It is free at the point of use for everyone, funded by taxation", "It is funded entirely by National Insurance contributions"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "The NHS was founded on the principle that good healthcare should be available to all, free at the point of use, and funded through taxation."
+  },
+  {
+    "id": "val013",
+    "text": "Approximately how many people in the UK regularly do volunteer work?",
+    "options": ["Around 10,000", "Over 2 million", "Around 500,000", "Fewer than 100,000"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "Millions of people in the UK give their time voluntarily to support their communities. Volunteering is seen as an important part of British civic life."
+  },
+  {
+    "id": "val014",
+    "text": "Which of the following is a direct tax that UK employees must pay?",
+    "options": ["Council tax", "Value Added Tax", "Income tax", "Stamp duty"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Income tax is a direct tax paid on earnings. Employees have it deducted from their wages through the PAYE (Pay As You Earn) system."
+  },
+  {
+    "id": "val015",
+    "text": "Which of the following groups is entitled to vote in UK general elections?",
+    "options": ["All residents aged 18 and over", "British citizens aged 16 and over", "British citizens aged 18 and over", "All taxpayers regardless of age"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "To vote in a UK general election, a person must be a British citizen (or qualifying Commonwealth/Irish citizen), aged 18 or over, and registered to vote."
+  },
+  {
+    "id": "val016",
+    "text": "How often is a national census conducted in the UK?",
+    "options": ["Every 5 years", "Every 10 years", "Every 15 years", "Every 20 years"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "A national census is conducted every 10 years in the UK to count the population and gather data about people's lives. The most recent census was in 2021."
+  },
+  {
+    "id": "val017",
+    "text": "Which of the following is an expectation of people settling in the UK?",
+    "options": ["Abandoning all cultural traditions from their home country", "Applying for political asylum within 5 years", "Learning English and participating in the community", "Donating a set percentage of income to charity"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "People settling in the UK are expected to respect its laws and values, learn English, and participate actively in the community."
+  },
+  {
+    "id": "val018",
+    "text": "Which is the largest religious group in the United Kingdom?",
+    "options": ["Muslim", "Hindu", "Christian", "No religion"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Christians form the largest religious group in the UK, making up approximately 59% of the population according to the 2011 census. However, the 2021 census showed a significant rise in those reporting no religion."
+  },
+  {
+    "id": "val019",
+    "text": "Which is the second largest religious group in the United Kingdom, making up approximately 4.8% of the population?",
+    "options": ["Hindu", "Sikh", "Jewish", "Muslim"],
+    "answerIndex": 3,
+    "category": "Values",
+    "explanation": "Muslims are the second largest religious group in the UK, representing approximately 4.8% of the population. The Muslim community in the UK has grown significantly in recent decades."
+  },
+  {
+    "id": "val020",
+    "text": "Diwali, the festival of lights, is celebrated by which religious communities?",
+    "options": ["Muslims and Jews", "Christians and Buddhists", "Hindus and Sikhs", "Sikhs and Muslims"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Diwali is celebrated by both Hindus and Sikhs, as well as some Jains. It is a festival of lights symbolising the victory of light over darkness and knowledge over ignorance."
+  },
+  {
+    "id": "val021",
+    "text": "What does the Islamic festival of Eid al-Fitr celebrate?",
+    "options": ["The birth of the Prophet Muhammad", "The end of the fasting month of Ramadan", "The willingness of Ibrahim to sacrifice his son", "The journey of Muhammad from Mecca to Medina"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "Eid al-Fitr marks the end of Ramadan, the Islamic month of fasting. It is a joyful celebration with prayers, feasting, and the giving of gifts and charity."
+  },
+  {
+    "id": "val022",
+    "text": "What does the Islamic festival of Eid ul Adha commemorate?",
+    "options": ["The end of the fasting month of Ramadan", "The birth of the Prophet Muhammad", "Ibrahim's willingness to sacrifice his son in obedience to God", "The night journey of Muhammad"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Eid ul Adha commemorates the willingness of Ibrahim (Abraham) to sacrifice his son in obedience to God. An animal is sacrificed and the meat is shared with family, neighbours, and those in need."
+  },
+  {
+    "id": "val023",
+    "text": "Hanukkah is a Jewish festival. How long does it last and when is it typically celebrated?",
+    "options": ["3 days in September or October", "7 days in January or February", "8 days in November or December", "10 days in March or April"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Hanukkah (the Festival of Lights) is a Jewish celebration lasting 8 days, usually falling in November or December. Each night, candles are lit in a special candleholder called a menorah or hanukkiah."
+  },
+  {
+    "id": "val024",
+    "text": "Vaisakhi is an important Sikh festival. On what date is it celebrated?",
+    "options": ["1 January", "14 April", "24 June", "25 October"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "Vaisakhi is celebrated on 14 April each year. For Sikhs, it marks the founding of the Khalsa (the Sikh community of initiated members) in 1699 by Guru Gobind Singh. It is also a harvest festival."
+  },
+  {
+    "id": "val025",
+    "text": "Which of the following are Protestant Christian groups found in the United Kingdom?",
+    "options": ["Catholics, Lutherans and Calvinists", "Anglicans, Methodists and Presbyterians", "Baptists, Methodists, Presbyterians (in Scotland) and Quakers", "Jehovah's Witnesses, Mormons and Adventists"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Protestant groups in the UK include Baptists, Methodists, Presbyterians (particularly in Scotland) and Quakers, as well as the Church of England (Anglican) and others."
+  },
+  {
+    "id": "val026",
+    "text": "The Church of England is known by a different name in Scotland and in the USA. What is it called?",
+    "options": ["The Reformed Church", "The Lutheran Church", "The Episcopal Church", "The Presbyterian Church"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "The Church of England is called the Episcopal Church in Scotland and the United States. Episcopal means 'governed by bishops' and reflects the church's governance structure."
+  },
+  {
+    "id": "val027",
+    "text": "In which year did women in the UK gain the right to vote at the same age as men (then 21)?",
+    "options": ["1918", "1922", "1928", "1935"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "The Representation of the People Act 1918 gave women over 30 who met certain property qualifications the right to vote. It was not until the Equal Franchise Act 1928 that women won the right to vote on equal terms with men, at age 21."
+  },
+  {
+    "id": "val028",
+    "text": "People are selected for jury service from the electoral register. What is the eligible age range for jury service?",
+    "options": ["16 to 65", "18 to 65", "18 to 70", "21 to 75"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "In England and Wales, people aged between 18 and 70 who are registered to vote are eligible for jury service. Jurors are selected at random from the electoral register."
+  },
+  {
+    "id": "val029",
+    "text": "Welsh is an official language taught in schools throughout Wales. Approximately what percentage of the Welsh population speak Welsh?",
+    "options": ["Around 3%", "Around 20%", "Around 45%", "Around 65%"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "Approximately 20% of the Welsh population speak Welsh. It is an official language of Wales and all public signage is in both Welsh and English. Welsh is taught as a compulsory subject in Welsh schools."
+  },
+  {
+    "id": "val030",
+    "text": "Scottish Gaelic is spoken in which part of Scotland?",
+    "options": ["The Central Belt (Glasgow and Edinburgh)", "The Scottish Borders", "The Highlands and Islands", "Orkney and Shetland (where Norse influence remains)"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Scottish Gaelic is spoken mainly in the Highlands and Islands, particularly in the Outer Hebrides (Western Isles). It is distinct from Irish Gaelic. BBC Alba broadcasts television programmes in Scottish Gaelic."
+  },
+  {
+    "id": "val031",
+    "text": "Approximately what percentage of the UK's total population lives in England?",
+    "options": ["Around 60%", "Around 70%", "Around 78%", "Around 84%"],
+    "answerIndex": 3,
+    "category": "Values",
+    "explanation": "England makes up approximately 84% of the UK's total population. Scotland accounts for about 8%, Wales around 5%, and Northern Ireland less than 3%. England is by far the most densely populated of the four nations."
+  },
+  {
+    "id": "val032",
+    "text": "What is the official currency of the United Kingdom, and how is it divided?",
+    "options": ["The Euro, divided into 100 cents", "The pound sterling (£), divided into 100 pence", "The pound sterling (£), divided into 10 shillings", "The crown, divided into 20 pennies"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "The UK's currency is the pound sterling (£). There are 100 pence in a pound. Coins in circulation are 1p, 2p, 5p, 10p, 20p, 50p, £1 and £2; notes are £5, £10, £20 and £50. The UK is not a member of the Eurozone and uses the pound, not the Euro."
+  },
+  {
+    "id": "val033",
+    "text": "The National Trust is a UK charity that preserves places of historic interest and natural beauty. In which year was it founded?",
+    "options": ["1872", "1895", "1910", "1926"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "The National Trust was founded in 1895 by three volunteers — Octavia Hill, Sir Robert Hunter, and Canon Hardwicke Rawnsley. It now cares for over 500 houses, castles, parks, gardens and nature reserves. The National Trust for Scotland is a separate organisation."
+  },
+  {
+    "id": "val034",
+    "text": "What is Shrove Tuesday also commonly known as in the UK?",
+    "options": ["Bonfire Night", "Pancake Day", "Harvest Festival", "Ash Wednesday"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "Shrove Tuesday is the day before Ash Wednesday (the start of Lent) and is popularly known as Pancake Day. Traditionally, people used up rich foods like eggs, butter and milk — which would be avoided during Lenten fasting — by making pancakes. Pancake races are held in some towns."
+  },
+  {
+    "id": "val035",
+    "text": "On which Sunday does Mothering Sunday (Mother's Day in the UK) fall?",
+    "options": ["The second Sunday in May", "The first Sunday after Easter", "The fourth Sunday of Lent", "The last Sunday in March"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Mothering Sunday is celebrated on the fourth Sunday of Lent. Unlike American Mother's Day (held on the second Sunday in May), the UK tradition has religious origins as a day to visit the 'mother church'. Children give cards and gifts to their mothers."
+  },
+  {
+    "id": "val036",
+    "text": "On which day is Father's Day celebrated in the UK?",
+    "options": ["The first Sunday in June", "The second Sunday in June", "The third Sunday in June", "The last Sunday in June"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Father's Day is celebrated on the third Sunday in June in the UK, as it is in many countries including the United States and Canada. Children give cards and gifts to their fathers."
+  },
+  {
+    "id": "val037",
+    "text": "On which date is Valentine's Day celebrated in the UK?",
+    "options": ["14 January", "1 February", "14 February", "14 March"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Valentine's Day is celebrated on 14 February. It is a day when people exchange cards, flowers, chocolates and other gifts with their romantic partners. St Valentine is the patron saint of lovers."
+  },
+  {
+    "id": "val038",
+    "text": "On which date is April Fool's Day observed?",
+    "options": ["31 March", "1 April", "1 May", "31 October"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "April Fool's Day is observed on 1 April. It is a day for playing jokes and pranks on other people, traditionally only until midday. Newspapers and TV programmes often run spoof stories."
+  },
+  {
+    "id": "val039",
+    "text": "The children's author Roald Dahl, who wrote 'Charlie and the Chocolate Factory', was born in which UK nation?",
+    "options": ["England", "Scotland", "Wales", "Northern Ireland"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Roald Dahl (1916–1990) was born in Llandaff, Cardiff, Wales, to Norwegian parents. He served in the RAF during WWII and began writing in the 1940s. He is one of the world's best-selling children's authors; several of his books have been made into films."
+  },
+  {
+    "id": "val040",
+    "text": "The poet and writer Dylan Thomas, best known for 'Do Not Go Gentle into That Good Night', was from which UK nation?",
+    "options": ["Scotland", "Northern Ireland", "England", "Wales"],
+    "answerIndex": 3,
+    "category": "Values",
+    "explanation": "Dylan Thomas (1914–1953) was born in Swansea, Wales. He often performed his work publicly and for the BBC. As well as his famous poem 'Do Not Go Gentle into That Good Night', he wrote the radio play 'Under Milk Wood', first broadcast after his death in 1954."
+  },
+  {
+    "id": "val041",
+    "text": "Evelyn Waugh is an important British novelist. Which of the following novels did he write?",
+    "options": ["Lucky Jim", "Brideshead Revisited", "The Remains of the Day", "Room with a View"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "Evelyn Waugh (1903–1966) wrote satirical novels including Decline and Fall, Scoop and Brideshead Revisited (1945). Lucky Jim was written by Kingsley Amis; The Remains of the Day by Kazuo Ishiguro; A Room with a View by E.M. Forster."
+  },
+  {
+    "id": "val042",
+    "text": "Which of the following famous poets wrote the line 'I wander'd lonely as a cloud'?",
+    "options": ["John Keats", "Lord Byron", "William Wordsworth", "William Blake"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "The opening line 'I wander'd lonely as a cloud' is from William Wordsworth's famous poem 'The Daffodils' (1807). Wordsworth (1770–1850) was inspired by the natural landscape and became Poet Laureate in 1843."
+  },
+  {
+    "id": "val043",
+    "text": "Which famous novel by Jane Austen begins with the line 'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife'?",
+    "options": ["Sense and Sensibility", "Emma", "Persuasion", "Pride and Prejudice"],
+    "answerIndex": 3,
+    "category": "Values",
+    "explanation": "The opening line is from Pride and Prejudice (1813) by Jane Austen (1775–1817). Austen is one of Britain's most celebrated novelists; her works explore marriage, society and family life and continue to be widely read and adapted for film and television."
+  },
+  {
+    "id": "val044",
+    "text": "How many questions does the Life in the UK test consist of, and in which languages can it be taken?",
+    "options": ["20 questions; English only", "25 questions; English, Welsh and Irish", "24 questions; English, Welsh or Scottish Gaelic", "30 questions; English and Welsh"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "The Life in the UK test consists of 24 questions about important aspects of life in the UK. It is usually taken in English, although special arrangements can be made to take it in Welsh or Scottish Gaelic."
+  },
+  {
+    "id": "val045",
+    "text": "Halloween, celebrated on 31 October, has roots in which ancient tradition?",
+    "options": ["A pagan festival marking the beginning of winter", "A Christian feast commemorating all the saints", "A Viking harvest celebration", "A Roman festival honouring ancestors"],
+    "answerIndex": 0,
+    "category": "Values",
+    "explanation": "Halloween on 31 October is an ancient festival with roots in the pagan festival to mark the beginning of winter. Young people often dress up in frightening costumes to play 'trick or treat'. People also carve lanterns out of pumpkins."
+  },
+  {
+    "id": "val046",
+    "text": "On Remembrance Day (11 November), where are wreaths laid as part of the national commemoration at 11am?",
+    "options": ["The Tower of London", "St Paul's Cathedral", "The Houses of Parliament", "The Cenotaph in Whitehall"],
+    "answerIndex": 3,
+    "category": "Values",
+    "explanation": "Remembrance Day on 11 November commemorates those who died fighting for the UK and its allies. People wear red poppies. At 11:00 am there is a two-minute silence and wreaths are laid at the Cenotaph in Whitehall, London."
+  },
+  {
+    "id": "val047",
+    "text": "Boxing Day is a UK public holiday. On which date does it fall?",
+    "options": ["24 December", "26 December", "27 December", "1 January"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "Boxing Day is the day after Christmas Day (26 December) and is a public holiday in the UK."
+  },
+  {
+    "id": "val048",
+    "text": "What is 'Hogmanay', and what is distinctive about it in Scotland?",
+    "options": ["The Scottish name for Christmas Day; it is bigger than Christmas for many Scots", "The Scottish word for Bonfire Night; celebrated with fireworks on 5 November", "The Scottish name for New Year's Eve (31 December); 2 January is also a public holiday in Scotland", "The Scottish name for Burns Night; celebrated on 25 January"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "In Scotland, 31 December is called Hogmanay and 2 January is also a public holiday. For some Scottish people, Hogmanay is a bigger holiday than Christmas."
+  },
+  {
+    "id": "val049",
+    "text": "Which of the following is the correct wording of the citizenship pledge made at UK citizenship ceremonies?",
+    "options": ["'I will give my loyalty to the United Kingdom and respect its rights and freedoms. I will uphold its democratic values. I will observe its laws faithfully and fulfil my duties and obligations as a British citizen.'", "'I pledge my allegiance to the United Kingdom, to its monarch, and to the democratic values on which it is founded.'", "'I commit to living by the laws and customs of the United Kingdom and to contributing to the welfare of its people.'", "'I declare my intention to be a loyal, law-abiding citizen of the United Kingdom and to respect its institutions and traditions.'"],
+    "answerIndex": 0,
+    "category": "Values",
+    "explanation": "As part of the citizenship ceremony, new citizens pledge: 'I will give my loyalty to the United Kingdom and respect its rights and freedoms. I will uphold its democratic values. I will observe its laws faithfully and fulfil my duties and obligations as a British citizen.'"
+  },
+  {
+    "id": "val050",
+    "text": "During the reign of which monarch was the Royal Society formed, and what was its purpose?",
+    "options": ["Elizabeth I, to fund voyages of exploration", "Oliver Cromwell, to promote the study of mathematics", "Henry VIII, to advise the Crown on scientific matters", "Charles II, to promote natural knowledge"],
+    "answerIndex": 3,
+    "category": "Values",
+    "explanation": "During Charles II's reign, the Royal Society was formed to promote 'natural knowledge'. This is the oldest surviving scientific society in the world. Among its early members were Sir Edmund Halley, who predicted the return of Halley's Comet, and Sir Isaac Newton."
+  },
+  {
+    "id": "val051",
+    "text": "Geoffrey Chaucer's Canterbury Tales holds a special place in the history of printing in England. Why?",
+    "options": ["It was the first book ever written in the English language", "It was one of the first books to be printed in England by William Caxton", "It was the first book to be translated from Latin into English", "It was the first book to be banned by the English government"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "In the years leading up to 1400, Geoffrey Chaucer wrote the Canterbury Tales. It was one of the first books to be printed by William Caxton, the first person in England to print books using a printing press."
+  },
+  {
+    "id": "val052",
+    "text": "What is the subject of the Anglo-Saxon poem Beowulf, and why is it notable today?",
+    "options": ["It describes the Roman invasion of Britain and is the oldest surviving Latin text from Britain", "It recounts the Norman Conquest and is still studied in schools across the UK", "It tells of a hero's battles against monsters and is still translated into modern English today", "It records Viking raids on the English coast and is the longest surviving Old English poem"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "The Anglo-Saxon poem Beowulf tells of its hero's battles against monsters and is still translated into modern English today. British poetry has one of the richest traditions in the world, with Beowulf among its earliest works."
+  },
+  {
+    "id": "val053",
+    "text": "The Representation of the People Act 1918 extended voting rights to women for the first time in the UK. Which women were given the vote under this Act?",
+    "options": ["Women aged 30 and over", "All women aged 21 and over", "Women aged 25 and over who owned property", "All adult women regardless of age"],
+    "answerIndex": 0,
+    "category": "Values",
+    "explanation": "In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War. In 1928, women were given the right to vote at the age of 21, the same as men."
+  },
+  {
+    "id": "val054",
+    "text": "What is the national flower of Wales?",
+    "options": ["Shamrock", "Thistle", "Daffodil", "Tudor rose"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "The national flower of Wales is the daffodil (and the leek is also a national emblem). Welsh people traditionally wear a daffodil or leek on St David's Day, 1 March. The thistle is Scotland's emblem, the shamrock represents Northern Ireland (and Ireland), and the Tudor rose is England's national flower."
+  },
+  {
+    "id": "val055",
+    "text": "Which flower or plant is associated as an emblem of Northern Ireland?",
+    "options": ["Rose", "Daffodil", "Bluebell", "Shamrock or flax"],
+    "answerIndex": 3,
+    "category": "Values",
+    "explanation": "Northern Ireland is associated with the shamrock (also used for all of Ireland) and the flax plant, which was historically important to Ulster's linen industry. St Patrick's emblem is the shamrock, worn on St Patrick's Day, 17 March. The daffodil is for Wales and the rose for England."
+  },
+  {
+    "id": "val056",
+    "text": "According to the 2011 census, which population milestone had the UK passed?",
+    "options": ["50 million", "55 million", "60 million", "65 million"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "The 2011 census found that the population of the UK had passed 60 million people. The UK's population has been growing in recent decades, driven by natural growth and migration. England has the biggest share of the population, with around 84% of the UK total."
+  },
+  {
+    "id": "val057",
+    "text": "Mothering Sunday, when mothers are traditionally given cards and gifts, falls on which Sunday?",
+    "options": ["The first Sunday of Lent", "The third Sunday of Lent", "The Sunday before Easter (Palm Sunday)", "The Sunday before Christmas (Advent Sunday)"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "Mothering Sunday (Mother's Day) in the UK falls on the third Sunday of Lent, the fourth Sunday before Easter. It is a day when children give cards, flowers and gifts to their mothers. Historically it was a day when people would return to their 'mother church'."
+  },
+  {
+    "id": "val058",
+    "text": "Guy Fawkes Night is celebrated on 5 November each year. What historical event does it commemorate?",
+    "options": ["The execution of King Charles I in 1649", "The English Civil War victory of 1651", "The Gunpowder Plot of 1605, when Catholic conspirators tried to blow up the Houses of Parliament", "The defeat of the Spanish Armada in 1588"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Guy Fawkes Night commemorates the failure of the Gunpowder Plot of 1605, when a group of Catholics (including Guy Fawkes) tried to blow up the Houses of Parliament and kill King James I. The plot was discovered and the conspirators were executed. It is celebrated with bonfires and fireworks."
+  },
+  {
+    "id": "val059",
+    "text": "Diwali is a festival celebrated in the UK by which religious communities?",
+    "options": ["Muslims and Sikhs", "Hindus and Sikhs", "Buddhists and Jains", "Christians and Hindus"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "Diwali, the festival of lights, is celebrated by Hindus and Sikhs in the UK. It usually falls in October or November and is celebrated with lights, fireworks and sweets. The UK has a large and diverse Hindu and Sikh community, and Diwali is widely celebrated across Britain."
+  },
+  {
+    "id": "val060",
+    "text": "On which patron saint's day do Welsh people traditionally wear a daffodil or leek?",
+    "options": ["St George's Day, 23 April", "St Andrew's Day, 30 November", "St David's Day, 1 March", "St Patrick's Day, 17 March"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "St David is the patron saint of Wales, and his feast day is 1 March. Welsh people traditionally wear a daffodil or a leek on St David's Day. St David died around AD 589 and there are many churches dedicated to him in Wales."
+  },
+  {
+    "id": "val061",
+    "text": "Which of the following is a traditional Easter custom in the UK?",
+    "options": ["Lighting bonfires on hilltops on Easter Sunday morning", "Sending Easter cards depicting robins and snow scenes", "Giving chocolate Easter eggs and eating hot cross buns on Good Friday", "Planting trees in public parks throughout the country"],
+    "answerIndex": 2,
+    "category": "Values",
+    "explanation": "Easter, celebrated in March or April, is a Christian festival marking the death and resurrection of Jesus Christ. In the UK it is traditional to give chocolate Easter eggs, to eat hot cross buns on Good Friday, and to eat roast lamb on Easter Sunday. Good Friday and Easter Monday are public holidays."
+  },
+  {
+    "id": "val062",
+    "text": "Which of the following statements about the UK's population is correct according to recent census data?",
+    "options": ["The UK's population has been declining since the 1980s", "The UK's population is now larger than it has ever been", "Northern Ireland has the largest share of the UK population at around 40%", "Scotland has a larger population than England"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "The UK's population has been growing steadily in recent decades. The 2011 census showed that the population had passed 60 million. England has around 84% of the total UK population. The increase has been driven by both natural growth and migration."
+  },
+  {
+    "id": "val063",
+    "text": "Which of the following best describes the concept of 'fair play' as a British value expressed through sport?",
+    "options": ["Winning at all costs and placing national pride above sportsmanship", "Treating opponents, officials and spectators with respect and playing within the rules honestly", "Ensuring that British teams always win international competitions", "Supporting only amateur sport and opposing professionalism"],
+    "answerIndex": 1,
+    "category": "Values",
+    "explanation": "The concept of 'fair play' — treating opponents with respect, playing within the rules, and accepting the outcome graciously — is considered an important British value rooted in sporting tradition. The UK is said to have invented many of the world's most popular sports, including football, cricket, tennis and golf."
+  }
+]

@@ -1,0 +1,586 @@
+[
+  {
+    "id": "gov001",
+    "text": "How many members are there in the UK House of Commons?",
+    "options": ["450", "550", "650", "750"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The House of Commons has 650 elected Members of Parliament (MPs)."
+  },
+  {
+    "id": "gov002",
+    "text": "What voting system is used for UK general elections?",
+    "options": ["Proportional Representation", "Alternative Vote", "First Past the Post", "Single Transferable Vote"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The UK uses the First Past the Post system, where the candidate with the most votes in each constituency wins."
+  },
+  {
+    "id": "gov003",
+    "text": "What is the minimum voting age for UK general elections?",
+    "options": ["16", "17", "18", "21"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "British citizens aged 18 and over can vote in UK general elections."
+  },
+  {
+    "id": "gov004",
+    "text": "Who is the head of state of the United Kingdom?",
+    "options": ["The Prime Minister", "The Speaker of the House", "The Monarch", "The Lord Chancellor"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Monarch (currently King Charles III) is the head of state of the United Kingdom."
+  },
+  {
+    "id": "gov005",
+    "text": "What is the name of the upper chamber of the UK Parliament?",
+    "options": ["Senate", "House of Lords", "Cabinet", "Privy Council"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "The House of Lords is the upper chamber of Parliament; its members are not elected."
+  },
+  {
+    "id": "gov006",
+    "text": "How often must a UK general election be held at most?",
+    "options": ["Every 3 years", "Every 4 years", "Every 5 years", "Every 6 years"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "Under the Dissolution and Calling of Parliament Act 2022, a general election must be held at least every five years."
+  },
+  {
+    "id": "gov007",
+    "text": "Where does the UK Parliament sit?",
+    "options": ["Buckingham Palace", "10 Downing Street", "The Palace of Westminster", "The Tower of London"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The UK Parliament meets in the Palace of Westminster, also known as the Houses of Parliament."
+  },
+  {
+    "id": "gov008",
+    "text": "What is the official residence of the Prime Minister?",
+    "options": ["Chequers", "Buckingham Palace", "10 Downing Street", "Clarence House"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "10 Downing Street in London is the official residence and office of the Prime Minister."
+  },
+  {
+    "id": "gov009",
+    "text": "The devolved parliament of Scotland is located in which city?",
+    "options": ["Glasgow", "Stirling", "Inverness", "Edinburgh"],
+    "answerIndex": 3,
+    "category": "Government",
+    "explanation": "The Scottish Parliament sits at Holyrood in Edinburgh."
+  },
+  {
+    "id": "gov010",
+    "text": "Which court is the highest court of appeal in the United Kingdom?",
+    "options": ["Court of Appeal", "High Court", "The Supreme Court", "The Old Bailey"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The UK Supreme Court, established in 2009, is the final court of appeal for civil cases across the UK and criminal cases in England, Wales, and Northern Ireland."
+  },
+  {
+    "id": "gov011",
+    "text": "What do the letters 'MP' stand for?",
+    "options": ["Member of the Palace", "Minister of Parliament", "Member of Parliament", "Ministry of Police"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "MP stands for Member of Parliament — a person elected to represent a constituency in the House of Commons."
+  },
+  {
+    "id": "gov012",
+    "text": "Which body is responsible for maintaining law and order in England and Wales?",
+    "options": ["The Home Office", "The Crown Prosecution Service", "The Police", "The Judiciary"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The police are responsible for upholding the law and maintaining order in England and Wales."
+  },
+  {
+    "id": "gov013",
+    "text": "Who appoints the Prime Minister?",
+    "options": ["The House of Commons", "The Monarch", "The Cabinet", "The civil service"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "The Prime Minister is appointed by the Monarch. By convention, the Monarch appoints the leader of the party that commands a majority in the House of Commons."
+  },
+  {
+    "id": "gov014",
+    "text": "What is the Cabinet?",
+    "options": ["The ceremonial advisers to the Monarch", "The members of the House of Lords", "The senior ministers who run government departments and make key decisions", "The committee that oversees elections"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Cabinet is made up of senior ministers chosen by the Prime Minister; it is the chief decision-making body of the government."
+  },
+  {
+    "id": "gov015",
+    "text": "What are 'Lords Spiritual' in the House of Lords?",
+    "options": ["Life peers appointed by the Prime Minister", "Hereditary peers who inherited their titles", "Senior Church of England bishops", "Law Lords who sit as judges"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Lords Spiritual are 26 senior bishops of the Church of England who sit in the House of Lords."
+  },
+  {
+    "id": "gov016",
+    "text": "What is the name of the devolved parliament of Wales?",
+    "options": ["Welsh Assembly", "Dáil Éireann", "Senedd Cymru", "Stormont"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Senedd Cymru (Welsh Parliament), formerly known as the National Assembly for Wales, is the devolved parliament of Wales."
+  },
+  {
+    "id": "gov017",
+    "text": "Where does the Northern Ireland Assembly meet?",
+    "options": ["City Hall Belfast", "Stormont", "Titanic Quarter", "Armagh"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "The Northern Ireland Assembly meets at Stormont, in Parliament Buildings on the outskirts of Belfast."
+  },
+  {
+    "id": "gov018",
+    "text": "What tax do local councils use to fund local services?",
+    "options": ["Income tax", "Council tax", "Value Added Tax", "Stamp duty"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "Council tax is charged by local councils to help fund local services. The amount depends on the value of the property and the area."
+  },
+  {
+    "id": "gov019",
+    "text": "Which test must applicants pass to become a British citizen?",
+    "options": ["The English Language GCSE", "The Life in the UK test", "A written constitution exam", "The Civil Service entrance exam"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "The Life in the UK test is a requirement for those applying for naturalisation as a British citizen or indefinite leave to remain."
+  },
+  {
+    "id": "gov020",
+    "text": "Is serving on a jury when called a legal obligation for eligible citizens?",
+    "options": ["No, it is voluntary", "Yes, it is a legal duty", "Only for those over 30", "Only in criminal cases"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "Jury service is a legal duty; eligible citizens who are called must serve unless they have a valid reason to be excused."
+  },
+  {
+    "id": "gov021",
+    "text": "What do new citizens pledge at a citizenship ceremony?",
+    "options": ["A financial bond", "A language proficiency certificate", "An oath or affirmation of allegiance", "A declaration of renouncing all other nationalities"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "At a citizenship ceremony, new citizens make an oath or affirmation of allegiance to the King and a pledge to uphold the rights and freedoms of the UK."
+  },
+  {
+    "id": "gov022",
+    "text": "What must a person do before they can vote in a UK election?",
+    "options": ["Apply to the Home Office", "Register on the electoral register", "Pay the electoral fee", "Obtain a National Insurance number"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "To vote in a UK election, a person must first register on the electoral register. Registration can be done online, by post, or in person."
+  },
+  {
+    "id": "gov023",
+    "text": "Who is considered to be the first Prime Minister of Great Britain?",
+    "options": ["William Pitt the Younger", "Robert Walpole", "Lord North", "William Gladstone"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "Robert Walpole is generally regarded as the first Prime Minister of Great Britain. He served from 1721 to 1742 under King George I, and his long tenure established many conventions of the modern office."
+  },
+  {
+    "id": "gov024",
+    "text": "What is the role of the Speaker of the House of Commons?",
+    "options": ["To represent the government's position in debates", "To chair debates impartially; the Speaker is politically neutral and elected by MPs by secret ballot", "To read out new legislation on behalf of the Monarch", "To lead the opposition in holding the government to account"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "The Speaker of the House of Commons chairs debates and maintains order. The Speaker must be politically neutral and is elected by MPs by secret ballot."
+  },
+  {
+    "id": "gov025",
+    "text": "In which month and year were Police and Crime Commissioners (PCCs) first elected in England and Wales?",
+    "options": ["March 2010", "May 2011", "November 2012", "June 2014"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "Police and Crime Commissioners (PCCs) were first elected in November 2012 in England and Wales. They are responsible for the totality of policing in their area and hold their local Chief Constable to account."
+  },
+  {
+    "id": "gov026",
+    "text": "What did the Habeas Corpus Act of 1679 establish?",
+    "options": ["The right of the public to vote in parliamentary elections", "The right not to be held unlawfully — every prisoner must be brought before a court", "Freedom of religion for all Protestant denominations", "The right to petition the Monarch without arrest"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "The Habeas Corpus Act 1679 established that no one could be held unlawfully. Every prisoner has the right to be brought before a court so that their detention can be legally assessed."
+  },
+  {
+    "id": "gov027",
+    "text": "How many Members of the Scottish Parliament (MSPs) are there?",
+    "options": ["109", "119", "129", "139"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Scottish Parliament has 129 Members of the Scottish Parliament (MSPs), elected by a form of proportional representation."
+  },
+  {
+    "id": "gov028",
+    "text": "How many members does the Welsh Senedd (Welsh Parliament) have?",
+    "options": ["40", "50", "60", "80"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Senedd Cymru (Welsh Parliament) has 60 Members of the Senedd (MSs), elected by a form of proportional representation."
+  },
+  {
+    "id": "gov029",
+    "text": "How many Members of the Legislative Assembly (MLAs) sit in the Northern Ireland Assembly?",
+    "options": ["60", "72", "90", "108"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Northern Ireland Assembly has 90 Members of the Legislative Assembly (MLAs), elected by proportional representation using the Single Transferable Vote method."
+  },
+  {
+    "id": "gov030",
+    "text": "What is the small claims limit in the County Courts of England and Wales?",
+    "options": ["£5,000", "£7,500", "£10,000", "£15,000"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "In England and Wales, the small claims track in the County Court handles disputes worth up to £10,000. Small claims provide a simpler, cheaper procedure for resolving straightforward disputes."
+  },
+  {
+    "id": "gov031",
+    "text": "What is the small claims limit in the courts of Scotland and Northern Ireland?",
+    "options": ["£3,000", "£5,000", "£7,500", "£10,000"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "In Scotland and Northern Ireland, the small claims limit is £5,000, lower than the £10,000 limit in England and Wales."
+  },
+  {
+    "id": "gov032",
+    "text": "How many member states does the Commonwealth of Nations currently have?",
+    "options": ["36", "45", "54", "63"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Commonwealth of Nations has 54 member states, mostly former territories of the British Empire. The British Monarch is the ceremonial head of the Commonwealth."
+  },
+  {
+    "id": "gov033",
+    "text": "Since which year have hereditary peers lost their automatic right to sit and vote in the House of Lords?",
+    "options": ["1985", "1990", "1999", "2005"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The House of Lords Act 1999 removed the automatic right of hereditary peers to sit and vote in the House of Lords. Only 92 hereditary peers were allowed to remain as an interim measure pending further reform."
+  },
+  {
+    "id": "gov034",
+    "text": "What did the Bill of Rights 1689 establish?",
+    "options": ["It created Britain's first written constitution", "It gave all men the right to vote in parliamentary elections", "It confirmed Parliamentary rights and required that the monarch must be Protestant", "It abolished the power of the monarch to appoint ministers"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Bill of Rights 1689 was passed following the Glorious Revolution. It confirmed the rights of Parliament, established free elections, protected freedom of speech within Parliament, and required that the monarch must be Protestant. It also required Parliament to be called regularly."
+  },
+  {
+    "id": "gov035",
+    "text": "In which year was the voting age in the UK reduced from 21 to 18?",
+    "options": ["1945", "1958", "1969", "1975"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Representation of the People Act 1969 lowered the voting age from 21 to 18. Women over 30 had gained the vote in 1918, and since 1928 both men and women voted at 21. In 2014, Scotland lowered the voting age to 16 for the independence referendum."
+  },
+  {
+    "id": "gov036",
+    "text": "Which elections in the UK are conducted using a form of proportional representation?",
+    "options": ["UK general elections for the House of Commons", "Elections to local councils in England", "Elections to the devolved parliaments and assemblies", "Elections for the post of Prime Minister"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Scottish Parliament, Welsh Senedd, and Northern Ireland Assembly all use forms of proportional representation. UK general elections continue to use the First Past the Post system. European Parliament elections (while the UK was a member) also used proportional representation."
+  },
+  {
+    "id": "gov037",
+    "text": "What is a by-election?",
+    "options": ["A second vote held when a General Election result is disputed", "An election called when the government loses a vote of no confidence", "An election held in a single constituency when an MP dies or resigns between General Elections", "A special election only held in Scotland or Wales"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "A by-election is held in a single constituency when the sitting MP leaves Parliament — for example, through death, resignation, or being elevated to the House of Lords. By-elections are watched closely as indicators of public opinion between General Elections."
+  },
+  {
+    "id": "gov038",
+    "text": "What does paying National Insurance Contributions (NICs) help to fund?",
+    "options": ["Only the state retirement pension", "Only the National Health Service (NHS)", "The NHS, state retirement pension, and benefits such as Jobseeker's Allowance", "Local council services and road maintenance"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "National Insurance Contributions (NICs) help fund the NHS, the state retirement pension, and contributory benefits like Jobseeker's Allowance. Almost everyone in paid work must pay NICs; a National Insurance number is required to work in the UK."
+  },
+  {
+    "id": "gov039",
+    "text": "Which of the following best describes a Crown Dependency?",
+    "options": ["A country that is part of the UK but has its own devolved parliament", "A British Overseas Territory with a permanent military garrison", "A self-governing territory where the British Monarch is head of state, but which is not part of the UK", "A former colony that has chosen to remain under direct UK rule"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "Crown Dependencies are self-governing territories — the Isle of Man, Jersey and Guernsey — where the British Monarch is head of state but which are not part of the UK. They have their own governments and laws, but the UK is responsible for their defence and international relations."
+  },
+  {
+    "id": "gov040",
+    "text": "In the UK, is forcing someone to marry against their will a criminal offence?",
+    "options": ["No — it is treated as a civil family matter only", "Yes — it is a criminal offence", "Only if the victim is under the age of 18", "Only if the marriage takes place outside the UK"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "Forcing another person to marry is a criminal offence in the UK. Forced Marriage Protection Orders can be obtained from the courts. A Forced Marriage Unit (FMU), run jointly by the Home Office and the Foreign Office, provides support to victims. Arranged marriages — where both parties freely consent — remain entirely lawful."
+  },
+  {
+    "id": "gov041",
+    "text": "Female genital mutilation (FGM) is illegal in the UK. Which of the following is also true?",
+    "options": ["FGM is only illegal if performed on girls under 10", "It is a criminal offence to take a UK national abroad to undergo FGM", "FGM is only illegal if carried out without medical anaesthetic", "FGM is illegal but cannot be prosecuted if performed under religious custom"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "FGM is a serious criminal offence in the UK. It is also a criminal offence to take or arrange for a UK national or permanent resident to be taken abroad to undergo FGM. The maximum sentence is 14 years in prison. There are no religious or cultural exceptions to the law."
+  },
+  {
+    "id": "gov042",
+    "text": "In England and Wales, where are most criminal cases involving young people aged 10 to 17 normally heard?",
+    "options": ["Crown Court", "Magistrates' Court", "Youth Court", "High Court"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "In England and Wales, most criminal cases involving young people aged 10 to 17 are heard in a Youth Court, which is a type of Magistrates' Court with specially trained magistrates or a District Judge. Proceedings are less formal and the young person's identity is usually protected."
+  },
+  {
+    "id": "gov043",
+    "text": "In Scotland, which system is used to deal with children and young people who have committed an offence or are in need of care?",
+    "options": ["Youth Courts", "Family Court", "The Children's Hearings System", "The Sheriff's Court for Minors"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "Scotland uses the Children's Hearings System, which focuses on the welfare of the child rather than punishment. A panel of trained volunteers hears cases and decides on the measures needed to support the child or young person."
+  },
+  {
+    "id": "gov044",
+    "text": "What is the role of Police Community Support Officers (PCSOs)?",
+    "options": ["They are fully trained police officers who specialise in community liaison", "They support police officers by patrolling and engaging with communities, but have fewer legal powers than sworn officers", "They are volunteers with no formal powers or training", "They investigate minor crimes independently of police officers"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "PCSOs support the police by patrolling the streets, working with the public, and assisting at crime scenes and major events. They have some powers, such as the ability to issue fixed penalty notices, but fewer powers than sworn police officers. They were introduced by the Police Reform Act 2002."
+  },
+  {
+    "id": "gov045",
+    "text": "What independent body handles complaints about the police in England and Wales?",
+    "options": ["The Home Office Police Standards Unit", "The Crown Prosecution Service", "The Independent Office for Police Conduct (IOPC)", "The Judicial Appointments Commission"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Independent Office for Police Conduct (IOPC), formerly called the Independent Police Complaints Commission (IPCC), oversees the police complaints system in England and Wales. In Scotland, complaints are handled by the Police Investigations and Review Commissioner; in Northern Ireland, by the Police Ombudsman."
+  },
+  {
+    "id": "gov046",
+    "text": "Which of the following is an example of a civil law matter rather than a criminal offence?",
+    "options": ["Assault causing actual bodily harm", "Possessing illegal drugs", "A dispute between a landlord and a tenant about their tenancy deposit", "Carrying a knife in a public place"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "Civil law deals with disputes between individuals or organisations, such as disagreements about contracts, property, employment rights or family matters. A landlord-tenant deposit dispute is a civil matter. Assault, drug possession, and carrying a weapon are all criminal offences."
+  },
+  {
+    "id": "gov047",
+    "text": "The People's Charter of 1838 contained six demands. Which of the following was NOT one of the six Chartist demands?",
+    "options": ["A vote for every man regardless of property", "Payment for Members of Parliament", "Secret ballot", "Women's right to vote in parliamentary elections"],
+    "answerIndex": 3,
+    "category": "Government",
+    "explanation": "The six Chartist demands were: votes for all men, annual parliaments, equal constituencies, secret ballots, no property qualification for MPs, and payment for MPs. Women's suffrage was not part of the People's Charter. Most of the other demands were eventually adopted, though not until decades later."
+  },
+  {
+    "id": "gov048",
+    "text": "The European Convention on Human Rights was drawn up after World War II. In which year did the UK sign it?",
+    "options": ["1945", "1948", "1950", "1956"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The European Convention on Human Rights was drawn up by the Council of Europe in 1950, and the UK was one of the first countries to sign it. British lawyers and diplomats played an important role in drafting the Convention. It was incorporated into UK domestic law by the Human Rights Act 1998."
+  },
+  {
+    "id": "gov049",
+    "text": "After the 2010 general election, which two parties formed the Coalition government?",
+    "options": ["Labour and the Liberal Democrats", "Conservative and the Ulster Unionist Party", "Conservative and the Liberal Democrats", "Conservative and the Scottish National Party"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The 2010 general election produced no overall majority — a 'hung parliament' for the first time since 1974. The Conservative Party, led by David Cameron, and the Liberal Democrats, led by Nick Clegg, formed a coalition government. It was the UK's first peacetime coalition government since the 1930s."
+  },
+  {
+    "id": "gov050",
+    "text": "Life peers are appointed to the House of Lords. Who nominates them?",
+    "options": ["They are elected by existing members of the House of Lords", "The Speaker of the House of Commons nominates them after cross-party consultation", "The monarch appoints them on the advice of the Prime Minister", "They are appointed by an independent body with no political involvement"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "Life peers are appointed by the monarch on the advice of the Prime Minister. They may include people nominated by the leaders of other main political parties or by an independent Appointments Commission for non-party peers. Life peers are appointed for their lifetime only, unlike hereditary peers."
+  },
+  {
+    "id": "gov051",
+    "text": "What is the name of the Prime Minister's official country residence outside London?",
+    "options": ["Chequers", "Sandringham", "Balmoral", "Chevening"],
+    "answerIndex": 0,
+    "category": "Government",
+    "explanation": "The official home of the Prime Minister in London is 10 Downing Street. He or she also has a country house outside London called Chequers."
+  },
+  {
+    "id": "gov052",
+    "text": "Which Cabinet minister is responsible for the economy?",
+    "options": ["The Home Secretary", "The Foreign Secretary", "The Chancellor of the Exchequer", "The Lord Chancellor"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Chancellor of the Exchequer is responsible for the economy and is one of the most senior Cabinet ministers appointed by the Prime Minister."
+  },
+  {
+    "id": "gov053",
+    "text": "Which Cabinet minister is responsible for crime, policing and immigration?",
+    "options": ["The Foreign Secretary", "The Home Secretary", "The Chancellor of the Exchequer", "The Attorney General"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "The Home Secretary is responsible for crime, policing and immigration, and is one of the most senior Cabinet ministers."
+  },
+  {
+    "id": "gov054",
+    "text": "Which Cabinet minister is responsible for managing the UK's relationships with foreign countries?",
+    "options": ["The Home Secretary", "The Chancellor of the Exchequer", "The Defence Secretary", "The Foreign Secretary"],
+    "answerIndex": 3,
+    "category": "Government",
+    "explanation": "The Foreign Secretary is responsible for managing the UK's relationships with foreign countries and represents British interests abroad."
+  },
+  {
+    "id": "gov055",
+    "text": "What is the 'shadow cabinet' in the UK's political system?",
+    "options": ["Senior opposition MPs who challenge the government and propose alternative policies", "A secret advisory group of former Prime Ministers", "Civil servants who shadow Cabinet ministers to ensure policy continuity", "A committee of senior judges that reviews proposed legislation"],
+    "answerIndex": 0,
+    "category": "Government",
+    "explanation": "The leader of the opposition appoints senior opposition MPs to be 'shadow ministers'. They form the shadow cabinet and challenge the government, putting forward alternative policies. The leader of the opposition usually becomes Prime Minister if his or her party wins the next General Election."
+  },
+  {
+    "id": "gov056",
+    "text": "Which of the following correctly lists the core values of the UK civil service?",
+    "options": ["Loyalty, efficiency, discretion and neutrality", "Accountability, transparency, fairness and impartiality", "Integrity, honesty, objectivity and impartiality", "Competence, professionalism, confidentiality and integrity"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "Civil servants are expected to carry out their role with dedication and a commitment to the civil service and its core values. These are: integrity, honesty, objectivity and impartiality (including being politically neutral). Civil servants are chosen on merit and are not political appointees."
+  },
+  {
+    "id": "gov057",
+    "text": "Which of the following is correct about the Council of Europe?",
+    "options": ["It is the same body as the EU Council of Ministers and sets EU policy", "It is separate from the EU, has 47 member countries including the UK, and cannot make laws", "It has 27 member states and can make legally binding EU directives", "It was established specifically to manage trade between European nations"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "The Council of Europe is separate from the EU. It has 47 member countries, including the UK, and is responsible for the protection and promotion of human rights. It has no power to make laws but draws up conventions, the most well-known of which is the European Convention on Human Rights."
+  },
+  {
+    "id": "gov058",
+    "text": "What is the UK's status within the United Nations Security Council?",
+    "options": ["It is a rotating non-permanent member", "It holds observer status only", "It is co-chair alongside France", "It is one of five permanent members"],
+    "answerIndex": 3,
+    "category": "Government",
+    "explanation": "The UN Security Council has 15 members and recommends action when there are international crises and threats to peace. The UK is one of five permanent members of the Security Council, alongside the USA, Russia, China and France."
+  },
+  {
+    "id": "gov059",
+    "text": "What is NATO?",
+    "options": ["A group of European and North American countries that have agreed to help each other if they come under attack", "A European trade organisation that coordinates economic policy between member states", "A United Nations sub-committee responsible for peacekeeping operations", "A military alliance formed only to defend Western Europe, now disbanded"],
+    "answerIndex": 0,
+    "category": "Government",
+    "explanation": "NATO (the North Atlantic Treaty Organization) is a group of European and North American countries that have agreed to help each other if they come under attack. It also aims to maintain peace between all of its members. The UK is a member of NATO."
+  },
+  {
+    "id": "gov060",
+    "text": "The European Economic Community (EEC) was set up in 1957 by six founding countries. Which six countries signed the Treaty of Rome?",
+    "options": ["France, Germany, Italy, Spain, Portugal and Belgium", "UK, France, Germany, Italy, Netherlands and Luxembourg", "Belgium, France, Germany, Italy, Luxembourg and the Netherlands", "France, Germany, Austria, Italy, Switzerland and Belgium"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The EEC, originally called the European Economic Community, was set up by six western European countries — Belgium, France, Germany, Italy, Luxembourg and the Netherlands — who signed the Treaty of Rome on 25 March 1957. The UK originally chose not to join but became a member in 1973."
+  },
+  {
+    "id": "gov061",
+    "text": "When did the UK officially leave the European Union (Brexit)?",
+    "options": ["At midnight on 1 January 2021", "At 23:00 GMT on 31 January 2020", "At 23:00 GMT on 31 December 2020", "At midnight on 29 March 2019"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "The UK originally joined the EEC in 1973. Following the Brexit referendum vote, the UK left the EU at 23:00 GMT on 31 January 2020."
+  },
+  {
+    "id": "gov062",
+    "text": "What are the opening hours of polling stations on UK election day?",
+    "options": ["8am to 8pm", "9am to 9pm", "6am to 10pm", "7am to 10pm"],
+    "answerIndex": 3,
+    "category": "Government",
+    "explanation": "On election day, the polling station or polling place will be open from 7:00 am until 10:00 pm. People vote by filling in a ballot paper privately in a polling booth and placing it in the ballot box."
+  },
+  {
+    "id": "gov063",
+    "text": "Which of the following groups cannot stand for election to public office in the UK?",
+    "options": ["Members of the armed forces, civil servants and people found guilty of certain criminal offences", "People born outside the UK, non-Commonwealth citizens and people under 21", "Practising members of the clergy, judges and university professors", "Hereditary peers, life peers and people who have declared bankruptcy"],
+    "answerIndex": 0,
+    "category": "Government",
+    "explanation": "Most citizens of the UK, the Irish Republic or the Commonwealth aged 18 or over can stand for public office. Exceptions include members of the armed forces, civil servants and people found guilty of certain criminal offences. Members of the House of Lords may not stand for election to the House of Commons."
+  },
+  {
+    "id": "gov064",
+    "text": "After the execution of King Charles I in 1649, who became Lord Protector of England in 1653?",
+    "options": ["Oliver Cromwell", "Thomas Fairfax", "Richard Cromwell", "John Lambert"],
+    "answerIndex": 0,
+    "category": "Government",
+    "explanation": "After Charles I was executed in 1649, England was declared a republic called the Commonwealth. In 1653 Oliver Cromwell became Lord Protector, effectively a military dictator. Following his death in 1658 his son Richard briefly took over, but the monarchy was restored in 1660 under Charles II."
+  },
+  {
+    "id": "gov065",
+    "text": "Which part of the UK requires voters to register individually rather than as a household?",
+    "options": ["Scotland", "Wales", "Northern Ireland", "Greater London"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "Northern Ireland operates a system of individual electoral registration, meaning each person must register themselves separately. In the rest of the UK, one person in a household can register everyone living there. Northern Ireland also uses proportional representation for its Assembly elections."
+  },
+  {
+    "id": "gov066",
+    "text": "Members of the public can watch debates in both Houses of Parliament. Where do they sit to observe proceedings?",
+    "options": ["On the floor of the chamber beside the MPs", "In the public gallery above the chamber", "In a special viewing room accessible via the Strangers' Bar", "They may not attend; debates are only available online"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "Members of the public can watch debates in the House of Commons and the House of Lords from the public galleries above the chambers. Tickets are required for some events. Select committee hearings are also generally open to the public."
+  },
+  {
+    "id": "gov067",
+    "text": "Which of the following correctly describes the rules about political balance in the UK media?",
+    "options": ["Both newspapers and broadcasters must give equal coverage to all political parties", "Newspapers must be balanced but broadcasters may support political parties", "Broadcasters must be balanced in their coverage, but newspapers are free to support particular parties", "The Electoral Commission enforces strict balance rules on all media during elections"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "In the UK, television and radio broadcasters are legally required to be politically balanced. However, newspapers are not required to be politically balanced and can support whichever political party they choose. Many UK newspapers have traditionally aligned themselves with particular parties."
+  },
+  {
+    "id": "gov068",
+    "text": "What is Hansard?",
+    "options": ["The book of parliamentary procedures and standing orders", "The official daily report of all proceedings in Parliament", "The register of all MPs and their declared interests", "The official guide to the UK constitution published by the Cabinet Office"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "Hansard is the official record of all proceedings and debates in Parliament. It is published daily and is available to the public, providing a full transcript of everything said in both the House of Commons and the House of Lords, allowing citizens to hold their representatives to account."
+  },
+  {
+    "id": "gov069",
+    "text": "In which month are local authority elections normally held in the UK?",
+    "options": ["March", "September", "November", "May"],
+    "answerIndex": 3,
+    "category": "Government",
+    "explanation": "Local authority elections are normally held in May each year. People vote for councillors who represent their local area. Not all councils hold elections every year; some areas vote for all councillors every four years, while others elect a third of their councillors each year for three out of every four years."
+  },
+  {
+    "id": "gov070",
+    "text": "The Greater London Authority (GLA), which includes a directly elected Mayor of London, was established in which year?",
+    "options": ["1997", "1999", "2000", "2003"],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The Greater London Authority was established in 2000, with the first direct election of a Mayor of London. The Mayor and the London Assembly exercise powers over transport, policing, housing and economic development in London. Ken Livingstone was the first elected Mayor."
+  },
+  {
+    "id": "gov071",
+    "text": "Which of the following correctly describes life peers in the House of Lords?",
+    "options": ["They inherit their title from their parents and can pass it to their children", "They are appointed by the monarch on the advice of the Prime Minister and hold their title for life only", "They are elected by the hereditary peers to serve a fixed five-year term", "They are senior judges who sit in the Lords until they retire at 70"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "Life peers are members of the House of Lords appointed by the monarch on the advice of the Prime Minister. Their peerage is for their lifetime only and cannot be passed to their children, unlike hereditary peerages. Life peerages are typically awarded to senior politicians, public figures, businesspeople and experts."
+  },
+  {
+    "id": "gov072",
+    "text": "Before sitting on a jury in a Crown Court trial, what must jurors do?",
+    "options": ["Take an oath or affirmation that they will return a true verdict based only on the evidence", "Sign a confidentiality agreement with the court clerk", "Confirm in writing that they have no knowledge of the case", "Agree to keep the jury's deliberations secret after the verdict for at least ten years"],
+    "answerIndex": 0,
+    "category": "Government",
+    "explanation": "When sitting on a jury, jurors must take an oath or affirmation that they will return a true verdict based only on the evidence presented in court. Jury service is an important civic duty; all eligible adults on the electoral register can be called for jury service and must attend unless they have a valid reason to be excused."
+  },
+  {
+    "id": "gov073",
+    "text": "How can a member of the public contact their local Member of Parliament (MP)?",
+    "options": ["Only by writing formally to the Speaker of the House of Commons", "By writing to them at the House of Commons, by email, or by attending their local constituency surgery", "By telephoning the Prime Minister's office", "Only by submitting a petition through the official Parliament.uk website"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "Members of the public can contact their MP by writing to them at the House of Commons, by email, or by attending their local surgery — regular meetings held in the constituency where people can raise issues in person. MPs represent all their constituents regardless of which party those constituents voted for."
+  }
+]

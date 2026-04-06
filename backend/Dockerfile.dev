@@ -1,0 +1,14 @@
+# syntax=docker/dockerfile:1
+# Dev-only Dockerfile — source is bind-mounted at runtime.
+# Do NOT use for production.
+
+FROM golang:1.26-alpine
+
+WORKDIR /app
+
+# Pre-download dependencies (cached layer; source is mounted at runtime)
+COPY go.mod go.sum ./
+RUN go mod download
+RUN go install github.com/air-verse/air@latest
+
+CMD ["air", "-c", ".air.toml"]

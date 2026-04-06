@@ -1,0 +1,31 @@
+repos:
+  - repo: local
+    hooks:
+      - id: prettier
+        name: prettier (frontend)
+        language: system
+        entry: ./frontend/node_modules/.bin/prettier --write
+        files: ^frontend/.*\.(ts|tsx|js|jsx|json|css|md)$
+
+      - id: eslint-frontend
+        name: eslint (frontend)
+        language: system
+        entry: bash -c 'cd frontend && ./node_modules/.bin/eslint --fix $(printf "%s\n" "$@" | sed "s|^frontend/||")' --
+        files: ^frontend/.*\.(ts|tsx|js|jsx)$
+        types: [file]
+        pass_filenames: true
+
+      - id: gofmt
+        name: gofmt (backend)
+        language: system
+        entry: gofmt -l -w
+        files: ^backend/.*\.go$
+        types_or: [go]
+
+      - id: golangci-lint
+        name: golangci-lint (backend)
+        language: system
+        entry: bash -c 'cd backend && golangci-lint run --new-from-rev HEAD'
+        files: ^backend/.*\.go$
+        pass_filenames: false
+        types_or: [go]

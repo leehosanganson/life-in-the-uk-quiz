@@ -1,0 +1,28 @@
+# Go
+vendor/
+*.exe
+*.exe~
+*.test
+*.out
+backend/bin/
+backend/tmp/
+
+# Node
+node_modules/
+dist/
+.pnpm-store/
+frontend/.vite/
+
+# Docker / environment
+.env
+.direnv
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

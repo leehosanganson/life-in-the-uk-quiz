@@ -1,0 +1,578 @@
+[
+  {
+    "id": "geo001",
+    "text": "What is the capital city of the United Kingdom?",
+    "options": ["Edinburgh", "Cardiff", "London", "Belfast"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "London is the capital and largest city of the United Kingdom, situated in south-east England."
+  },
+  {
+    "id": "geo002",
+    "text": "Which country is NOT part of the United Kingdom?",
+    "options": ["Scotland", "Wales", "Ireland", "England"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The Republic of Ireland is an independent country; Northern Ireland is the part of the island of Ireland within the UK."
+  },
+  {
+    "id": "geo003",
+    "text": "What is the capital of Scotland?",
+    "options": ["Glasgow", "Aberdeen", "Dundee", "Edinburgh"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "Edinburgh has been the capital of Scotland since at least the 15th century."
+  },
+  {
+    "id": "geo004",
+    "text": "What is the capital of Wales?",
+    "options": ["Swansea", "Cardiff", "Newport", "Bangor"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "Cardiff was officially recognised as the capital of Wales in 1955."
+  },
+  {
+    "id": "geo005",
+    "text": "What is the capital of Northern Ireland?",
+    "options": ["Derry", "Armagh", "Belfast", "Lisburn"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Belfast is the capital and largest city of Northern Ireland."
+  },
+  {
+    "id": "geo006",
+    "text": "Which is the longest river in the United Kingdom?",
+    "options": ["River Thames", "River Severn", "River Trent", "River Clyde"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "The River Severn, at about 354 km, is the longest river in the UK."
+  },
+  {
+    "id": "geo007",
+    "text": "What is the highest mountain in the UK?",
+    "options": ["Scafell Pike", "Snowdon", "Ben Nevis", "Helvellyn"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Ben Nevis in Scotland stands at 1,345 metres, making it the highest peak in the UK."
+  },
+  {
+    "id": "geo008",
+    "text": "Which sea separates Great Britain from Ireland?",
+    "options": ["North Sea", "English Channel", "Irish Sea", "Celtic Sea"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The Irish Sea lies between Great Britain and the island of Ireland."
+  },
+  {
+    "id": "geo009",
+    "text": "How many countries make up the United Kingdom?",
+    "options": ["2", "3", "4", "5"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The UK consists of four countries: England, Scotland, Wales, and Northern Ireland."
+  },
+  {
+    "id": "geo010",
+    "text": "What is the name of the tunnel linking England and France?",
+    "options": ["The Eurostar", "The Channel Tunnel", "The French Connection", "The Dover Link"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "The Channel Tunnel opened in 1994 and runs under the English Channel between Folkestone and Coquelles."
+  },
+  {
+    "id": "geo011",
+    "text": "Which is the largest city in Scotland by population?",
+    "options": ["Edinburgh", "Dundee", "Aberdeen", "Glasgow"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "Glasgow is Scotland's largest city with a population of around 600,000."
+  },
+  {
+    "id": "geo012",
+    "text": "The Isle of Man is a Crown Dependency — who is its head of state?",
+    "options": ["The Prime Minister", "The Lord of Mann (the Monarch)", "The Tynwald", "The Archbishop of Canterbury"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "The Isle of Man is a self-governing Crown Dependency; the British Monarch holds the title Lord of Mann."
+  },
+  {
+    "id": "geo013",
+    "text": "The Channel Islands (Jersey and Guernsey) are Crown Dependencies. Where are they located?",
+    "options": ["Off the coast of Scotland", "In the Irish Sea", "Off the coast of France", "Near the Orkney Islands"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The Channel Islands are located off the coast of Normandy, France. Although Crown Dependencies, they are not part of the UK."
+  },
+  {
+    "id": "geo014",
+    "text": "Which of the following is a British Overseas Territory?",
+    "options": ["Isle of Man", "Jersey", "Gibraltar", "Orkney Islands"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Gibraltar is a British Overseas Territory on the southern tip of the Iberian Peninsula. The Isle of Man and Jersey are Crown Dependencies, not Overseas Territories."
+  },
+  {
+    "id": "geo015",
+    "text": "Through which city does the River Thames flow?",
+    "options": ["Oxford", "Birmingham", "London", "Bristol"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The River Thames flows through London and is the longest river entirely in England, stretching about 346 km."
+  },
+  {
+    "id": "geo016",
+    "text": "What nickname is sometimes given to the Pennines?",
+    "options": ["The spine of Scotland", "The backbone of England", "The ridge of Wales", "The belt of Britain"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "The Pennines are a range of hills and mountains running north to south through central and northern England, often called the backbone of England."
+  },
+  {
+    "id": "geo017",
+    "text": "The Lake District is England's largest national park. In which county is it mainly located?",
+    "options": ["Yorkshire", "Cumbria", "Lancashire", "Northumberland"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "The Lake District National Park is located mainly in Cumbria, in north-west England, and is a UNESCO World Heritage Site."
+  },
+  {
+    "id": "geo018",
+    "text": "Which is the second-largest city in England by population?",
+    "options": ["Manchester", "Leeds", "Birmingham", "Sheffield"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Birmingham is the second-largest city in England and the UK after London, with a population of over one million."
+  },
+  {
+    "id": "geo019",
+    "text": "Which city is sometimes called the 'capital of the North' and is known for its music and football?",
+    "options": ["Liverpool", "Sheffield", "Manchester", "Leeds"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Manchester is often informally called the capital of the North of England and is renowned for its music scene and two Premier League football clubs."
+  },
+  {
+    "id": "geo020",
+    "text": "Approximately what is the population of the United Kingdom?",
+    "options": ["Around 50 million", "Around 55 million", "Around 60 million", "Around 67 million"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "The UK's population is approximately 67 million people, making it one of the most populous countries in Europe."
+  },
+  {
+    "id": "geo021",
+    "text": "Which sea lies to the east of Great Britain?",
+    "options": ["The Irish Sea", "The English Channel", "The North Sea", "The Celtic Sea"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The North Sea lies to the east of Great Britain, separating it from Norway, Denmark, Germany, the Netherlands, Belgium, and France."
+  },
+  {
+    "id": "geo022",
+    "text": "Which country within the United Kingdom has the largest land area?",
+    "options": ["England", "Scotland", "Wales", "Northern Ireland"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "Scotland is the largest country in the UK by land area, covering about 32% of the total UK landmass."
+  },
+  {
+    "id": "geo023",
+    "text": "Maiden Castle is one of the largest and most complex Iron Age hillforts in Europe. In which English county is it located?",
+    "options": ["Cornwall", "Somerset", "Dorset", "Wiltshire"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Maiden Castle is an Iron Age hill fort situated near Dorchester in Dorset. It covers about 47 acres and was occupied from around 600 BC."
+  },
+  {
+    "id": "geo024",
+    "text": "Stonehenge is a prehistoric monument. In which county is it located?",
+    "options": ["Somerset", "Dorset", "Devon", "Wiltshire"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "Stonehenge is a Stone Age monument located on Salisbury Plain in Wiltshire. It is one of the most famous prehistoric sites in the world and a UNESCO World Heritage Site."
+  },
+  {
+    "id": "geo025",
+    "text": "Skara Brae is a well-preserved Stone Age prehistoric village. Where is it located?",
+    "options": ["The Shetland Islands", "Orkney", "The Isle of Skye", "The Outer Hebrides"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "Skara Brae is a Stone Age settlement on Orkney, Scotland. Preserved under sand dunes for thousands of years, it was uncovered by a storm in 1850 and is older than Stonehenge."
+  },
+  {
+    "id": "geo026",
+    "text": "Sutton Hoo is an important Anglo-Saxon archaeological site. In which English county is it found?",
+    "options": ["Norfolk", "Essex", "Suffolk", "Cambridgeshire"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Sutton Hoo in Suffolk is the site of an Anglo-Saxon ship burial from around 625 AD, believed to be the grave of a king. Spectacular treasures including a magnificent helmet were found at the site."
+  },
+  {
+    "id": "geo027",
+    "text": "Vindolanda and Housesteads are famous archaeological sites along which ancient structure?",
+    "options": ["Offa's Dyke", "The Antonine Wall", "The Roman Road (Ermine Street)", "Hadrian's Wall"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "Vindolanda and Housesteads are Roman fort sites located along Hadrian's Wall in northern England. Hadrian's Wall was built by Emperor Hadrian from 122 AD to mark the northern boundary of Roman Britain."
+  },
+  {
+    "id": "geo028",
+    "text": "How many national parks are there in the United Kingdom?",
+    "options": ["10", "12", "15", "18"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "There are 15 national parks in the United Kingdom: 10 in England, 3 in Wales, and 2 in Scotland."
+  },
+  {
+    "id": "geo029",
+    "text": "How many ski resorts are there in Scotland?",
+    "options": ["2", "3", "4", "5"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "Scotland has 5 ski resorts: Cairngorm Mountain, Glencoe Mountain Resort, Glenshee, Lecht 2090, and Nevis Range."
+  },
+  {
+    "id": "geo030",
+    "text": "York Minster is one of the largest Gothic cathedrals in northern Europe. What is it particularly famous for?",
+    "options": ["Its ancient Roman foundations beneath the nave", "Its stained glass windows depicting Bible stories and Christian saints", "The medieval clock mechanism in its north transept", "Being the burial place of several English monarchs"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "York Minster in York is renowned for its magnificent collection of medieval stained glass windows, which depict stories from the Bible and Christian saints. It contains about half of all the medieval stained glass in England."
+  },
+  {
+    "id": "geo031",
+    "text": "Jodrell Bank Observatory in Cheshire houses which type of scientific instrument?",
+    "options": ["An optical telescope for viewing planets", "A particle accelerator for physics experiments", "A radio telescope for observing space", "A seismograph for monitoring earthquakes"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Jodrell Bank Observatory in Cheshire is home to the Lovell radio telescope, built under the direction of Sir Bernard Lovell. At the time of its completion in 1957, it was the world's largest steerable radio telescope."
+  },
+  {
+    "id": "geo032",
+    "text": "Bodnant Garden is a famous garden located in which part of the UK?",
+    "options": ["Cornwall, England", "The Scottish Borders", "Northern Ireland", "Wales"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "Bodnant Garden is a beautiful garden in the Conwy Valley, North Wales, managed by the National Trust. It is particularly famous for its laburnum arch and formal terraced gardens."
+  },
+  {
+    "id": "geo033",
+    "text": "The Principality Stadium (formerly the Millennium Stadium) is a famous sports venue. In which city is it located?",
+    "options": ["Swansea", "Newport", "Cardiff", "Wrexham"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The Principality Stadium (known as the Millennium Stadium when it opened in 1999) is located in the centre of Cardiff, Wales. It is the national stadium of Wales and hosts rugby and football internationals."
+  },
+  {
+    "id": "geo034",
+    "text": "Loch Lomond is the largest expanse of fresh water in mainland Britain. In which country is it located?",
+    "options": ["Northern Ireland", "Wales", "England", "Scotland"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "Loch Lomond is located in Scotland and is the largest loch (lake) in mainland Britain by surface area, covering about 71 km². It forms the centrepiece of Loch Lomond and The Trossachs National Park."
+  },
+  {
+    "id": "geo035",
+    "text": "The Giant's Causeway, a UNESCO World Heritage Site made up of thousands of interlocking basalt columns, is located in which part of the UK?",
+    "options": ["Scotland", "Wales", "Northern Ireland", "Cornwall, England"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The Giant's Causeway is situated on the north coast of County Antrim in Northern Ireland. The approximately 40,000 interlocking basalt columns were formed by ancient volcanic activity about 50–60 million years ago. It is one of the UK's most visited tourist attractions."
+  },
+  {
+    "id": "geo036",
+    "text": "The Eden Project, with its iconic giant biome domes housing plants from around the world, is located in which English county?",
+    "options": ["Devon", "Somerset", "Dorset", "Cornwall"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "The Eden Project is located in a former china clay pit near St Austell in Cornwall, south-west England. It opened in 2001 and its giant geodesic biomes are among the largest in the world. It is both a visitor attraction and an environmental charity."
+  },
+  {
+    "id": "geo037",
+    "text": "The Tower of London is guarded by ceremonial warders who are popularly known by what nickname?",
+    "options": ["The Grenadiers", "Beefeaters", "The Halberdiers", "The Life Guards"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "The Yeoman Warders of the Tower of London are popularly called 'Beefeaters'. They have guarded the Tower since the 15th century and give tours to visitors. The Tower also houses the Crown Jewels, which are on display to the public."
+  },
+  {
+    "id": "geo038",
+    "text": "What is the approximate distance from Land's End in Cornwall to John o'Groats in Scotland — the longest distance on the British mainland?",
+    "options": ["Around 500 miles", "Around 650 miles", "Around 870 miles", "Around 1,100 miles"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The distance from Land's End (the south-westernmost tip of mainland England) to John o'Groats (on the north coast of Scotland) is approximately 870 miles (about 1,400 km) by road. Many people walk, cycle or run this route as a challenge."
+  },
+  {
+    "id": "geo039",
+    "text": "In which Scottish county is St Andrews — the world-renowned home of golf and one of Scotland's oldest universities — located?",
+    "options": ["Perthshire", "Fife", "Angus", "Clackmannanshire"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "St Andrews is located in Fife, on the east coast of Scotland. The University of St Andrews is Scotland's oldest university, founded around 1413. The Royal and Ancient Golf Club of St Andrews is one of the governing bodies of golf worldwide."
+  },
+  {
+    "id": "geo040",
+    "text": "Snowdon (Yr Wyddfa) is the highest mountain in Wales. In which national park is it located?",
+    "options": ["Brecon Beacons", "Pembrokeshire Coast", "Snowdonia (Eryri)", "Clwydian Range and Dee Valley"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Snowdon (1,085m) is the highest mountain in Wales and is located in Snowdonia (Eryri) National Park in north-west Wales. The national park was established in 1951 and covers 2,130 km²."
+  },
+  {
+    "id": "geo041",
+    "text": "Which of the four UK nations has the smallest population?",
+    "options": ["Wales", "Scotland", "Northern Ireland", "England"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Northern Ireland has the smallest population of the four UK nations, with approximately 1.9 million people. By comparison, Wales has around 3.2 million, Scotland about 5.5 million, and England approximately 57 million."
+  },
+  {
+    "id": "geo042",
+    "text": "Royal Ascot is a famous horse racing event held each June. In which English county is Ascot Racecourse located?",
+    "options": ["Surrey", "Berkshire", "Hampshire", "Oxfordshire"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "Ascot Racecourse is located in Ascot, Berkshire, near Windsor. Royal Ascot is a five-day race meeting held each June and traditionally attended by members of the Royal Family. It is one of the most famous horse racing events in the world."
+  },
+  {
+    "id": "geo043",
+    "text": "The Cairngorms National Park is the largest national park in the UK. In which country is it located?",
+    "options": ["England", "Wales", "Northern Ireland", "Scotland"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "The Cairngorms National Park was established in 2003 and covers about 4,528 km² in the Scottish Highlands. It is the largest national park in the UK and contains five of the six highest mountains in the UK. It offers skiing, walking, climbing, and wildlife watching."
+  },
+  {
+    "id": "geo044",
+    "text": "The traditional Scottish dish haggis is associated with which country?",
+    "options": ["England", "Wales", "Northern Ireland", "Scotland"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "Haggis is Scotland's national dish, traditionally made from sheep offal (heart, liver and lungs) mixed with oatmeal, onions, suet and spices, cooked in a sheep's stomach. It is traditionally eaten on Burns Night (25 January)."
+  },
+  {
+    "id": "geo045",
+    "text": "Ulster Fry is a traditional breakfast dish associated with which UK nation?",
+    "options": ["England", "Scotland", "Wales", "Northern Ireland"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "The Ulster Fry is a traditional cooked breakfast from Northern Ireland. It typically includes bacon, eggs, sausages, black pudding, white pudding, tomatoes, mushrooms, and both soda bread and potato bread — items also found in a traditional Irish breakfast."
+  },
+  {
+    "id": "geo046",
+    "text": "The Welsh cake is a traditional snack from Wales. From which staple ingredients is it made?",
+    "options": ["Oatmeal, honey and nuts", "Flour, dried fruits and spices", "Seaweed, cockles and laverbread", "Leeks, cheese and potatoes"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "Welsh cakes (Pice ar y maen) are traditional griddle scones made from flour, dried fruits (usually sultanas or currants), spices (such as mixed spice or cinnamon), and served warm or cold. They are a popular souvenir and snack throughout Wales."
+  },
+  {
+    "id": "geo047",
+    "text": "What body of water separates England from France?",
+    "options": ["The North Sea", "The Irish Sea", "The English Channel", "The Bay of Biscay"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The English Channel (La Manche in French) separates southern England from northern France. At its narrowest point — the Strait of Dover — it is only about 21 miles (34 km) wide. The Channel Tunnel runs beneath it, linking Folkestone in Kent to Coquelles near Calais."
+  },
+  {
+    "id": "geo048",
+    "text": "The National Horseracing Museum is located in which Suffolk town?",
+    "options": ["Bury St Edmunds", "Ipswich", "Newmarket", "Sudbury"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The National Horseracing Museum is located in Newmarket, Suffolk. Newmarket is considered the headquarters of British horse racing, home to two famous racecourses (Rowley Mile and July Course) and many major racing stables and training facilities."
+  },
+  {
+    "id": "geo049",
+    "text": "Loch Lomond and The Trossachs National Park in Scotland covers approximately how many square miles?",
+    "options": ["350 square miles", "520 square miles", "720 square miles", "900 square miles"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Loch Lomond and The Trossachs National Park covers 720 square miles (1,865 km²) in west-central Scotland. Loch Lomond, the largest freshwater loch in mainland Britain, is the most famous part of the park."
+  },
+  {
+    "id": "geo050",
+    "text": "The London Eye is a giant Ferris wheel on the south bank of the River Thames. Approximately how tall is it?",
+    "options": ["250 feet (76 metres)", "350 feet (107 metres)", "443 feet (135 metres)", "550 feet (168 metres)"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The London Eye stands 443 feet (135 metres) tall. It was originally built as part of the UK's Millennium celebrations and continues to be one of London's most popular tourist attractions. It is also used as a centrepiece for London's New Year fireworks display."
+  },
+  {
+    "id": "geo051",
+    "text": "What is the biggest stretch of water in the Lake District, England's largest national park?",
+    "options": ["Lake Ullswater", "Lake Coniston", "Windermere", "Bassenthwaite Lake"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The Lake District is England's largest national park, covering 885 square miles (2,292 sq km). The biggest stretch of water is Windermere. In 2007, television viewers voted Wastwater as Britain's favourite view."
+  },
+  {
+    "id": "geo052",
+    "text": "What does 'Big Ben' technically refer to, and what is the clock tower's official name since 2012?",
+    "options": ["The nickname for the great bell of the clock; the tower is called Elizabeth Tower", "The nickname for the entire clock tower; the tower's official name is the Palace Tower", "The name of the clock face; the tower is named Westminster Tower", "The name of the Parliament building; the tower has no separate official name"],
+    "answerIndex": 0,
+    "category": "Geography",
+    "explanation": "Big Ben is the nickname for the great bell of the clock at the Houses of Parliament. The clock is over 150 years old and is a popular tourist attraction. The clock tower was officially renamed the Elizabeth Tower in 2012 in honour of Queen Elizabeth II's Diamond Jubilee."
+  },
+  {
+    "id": "geo053",
+    "text": "Edinburgh Castle dominates the skyline of Scotland's capital. Which organisation is responsible for looking after it?",
+    "options": ["The National Trust for Scotland", "The Heritage Lottery Fund", "The Scottish Government Culture Directorate", "Historic Scotland"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "Edinburgh Castle has a long history dating back to the early Middle Ages and is the dominant feature of the Edinburgh skyline. It is looked after by Historic Scotland, a Scottish government agency."
+  },
+  {
+    "id": "geo054",
+    "text": "The Bayeux Tapestry commemorates which event, and where can it be seen today?",
+    "options": ["The signing of Magna Carta in 1215; it is in the British Museum, London", "The Battle of Hastings in 1066; it can still be seen in France", "The Norman Conquest of Wales; it is displayed in Cardiff Castle", "The Battle of Bannockburn; it is on display in Stirling, Scotland"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "The Battle of Hastings in 1066 is commemorated in a great piece of embroidery known as the Bayeux Tapestry, which can still be seen in France today. The battle marked the last successful foreign invasion of England."
+  },
+  {
+    "id": "geo055",
+    "text": "Cowes, on the Isle of Wight, is most famous for which sport?",
+    "options": ["Horse racing", "Golf", "Sailing", "Motor racing"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Sailing continues to be popular in the UK, reflecting our maritime heritage. The most famous sailing events in the UK are held at Cowes on the Isle of Wight, which hosts an internationally renowned regatta each summer."
+  },
+  {
+    "id": "geo056",
+    "text": "The annual Oxford–Cambridge Boat Race is rowed on which river?",
+    "options": ["The River Thames", "The River Severn", "The River Cam", "The River Great Ouse"],
+    "answerIndex": 0,
+    "category": "Geography",
+    "explanation": "The Oxford–Cambridge Boat Race is a popular annual race between the two universities, rowed on the River Thames in London. Rowing is popular in the UK both as a leisure activity and as a competitive sport."
+  },
+  {
+    "id": "geo057",
+    "text": "Admiral Nelson's flagship HMS Victory can be visited today. In which city is it preserved?",
+    "options": ["Plymouth", "Southampton", "Dover", "Portsmouth"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "Admiral Nelson commanded the British fleet at the Battle of Trafalgar in 1805 and was killed in the battle. His ship, HMS Victory, can be visited in Portsmouth, where it is preserved at the historic Royal Navy dockyard. Nelson's Column in Trafalgar Square is a monument to him."
+  },
+  {
+    "id": "geo058",
+    "text": "Glastonbury is one of the UK's most famous music festivals. In which English county does it take place?",
+    "options": ["Devon", "Somerset", "Dorset", "Wiltshire"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "Glastonbury is one of the most famous music festivals in the UK and takes place each summer in Somerset. Festival season takes place across the UK every summer, with other famous events including the Isle of Wight Festival and the V Festival."
+  },
+  {
+    "id": "geo059",
+    "text": "The Scottish architect Robert Adam was highly influential in 18th-century architecture. What was he particularly known for?",
+    "options": ["Designing industrial bridges and railway viaducts", "Planning new industrial cities in northern England", "Designing the interior decoration of great country houses such as Dumfries House", "Building public libraries in a neo-classical style"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "In the 18th century, the Scottish architect Robert Adam influenced the development of architecture in the UK, Europe and America. He designed the inside decoration as well as the building itself in great houses such as Dumfries House in Scotland. His ideas influenced architects in cities such as Bath, where the Royal Crescent was built."
+  },
+  {
+    "id": "geo060",
+    "text": "The Tower of London was first built by which monarch after he became king in 1066?",
+    "options": ["William the Conqueror", "Henry VIII", "Edward I", "Richard I"],
+    "answerIndex": 0,
+    "category": "Geography",
+    "explanation": "The Tower of London was first built by William the Conqueror after he became king in 1066. Tours are given by the Yeoman Warders (also known as Beefeaters). People can also see the Crown Jewels there."
+  },
+  {
+    "id": "geo061",
+    "text": "The Royal Botanic Gardens at Kew in London were inscribed as a UNESCO World Heritage Site in which year?",
+    "options": ["1990", "1995", "2003", "2010"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The Royal Botanic Gardens at Kew, in south-west London, were designated a UNESCO World Heritage Site in 2003. They hold one of the world's most important collections of living and dried plants and have played a significant role in botanical science and research since the 18th century."
+  },
+  {
+    "id": "geo062",
+    "text": "What is the name of the oldest surviving part of the Tower of London, built by William the Conqueror?",
+    "options": ["The Bloody Tower", "The Traitors' Gate", "The White Tower", "The Wakefield Tower"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The oldest part of the Tower of London is the White Tower, a Norman keep built by William the Conqueror after he became king in 1066. The Tower has served many purposes over the centuries, including as a royal palace, a prison and a treasury. Visitors can also see the Crown Jewels there."
+  },
+  {
+    "id": "geo063",
+    "text": "Lincoln Cathedral is particularly celebrated for which notable medieval feature?",
+    "options": ["Its Norman round tower, the tallest in England", "Its medieval stained glass, including the renowned Dean's Eye rose window", "Its cloister garden, said to be the oldest in Britain", "Its 12th-century labyrinth floor, one of the largest in Europe"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "Lincoln Cathedral is one of England's finest Gothic cathedrals, begun in the 11th century. It is particularly renowned for its medieval stained glass, including the famous Dean's Eye rose window. For several centuries Lincoln Cathedral was one of the tallest buildings in the world."
+  },
+  {
+    "id": "geo064",
+    "text": "Durham Cathedral is jointly designated a UNESCO World Heritage Site with which other structure?",
+    "options": ["Durham Castle", "Hadrian's Wall", "Lindisfarne Priory", "Bamburgh Castle"],
+    "answerIndex": 0,
+    "category": "Geography",
+    "explanation": "Durham Cathedral, a magnificent Norman building begun in 1093, is jointly designated a UNESCO World Heritage Site with Durham Castle. The cathedral contains the tombs of St Cuthbert and the Venerable Bede. Durham is one of the finest examples of Romanesque cathedral architecture in Europe."
+  },
+  {
+    "id": "geo065",
+    "text": "Conwy and Caernarfon castles in Wales were built on the orders of which English king as part of his strategy to control the Welsh?",
+    "options": ["Henry II", "Richard I", "Henry V", "Edward I"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "Conwy and Caernarfon castles were built by Edward I in the late 13th century as part of his 'ring of iron' to control Wales after his conquest in 1282–1284. Both are among the finest surviving examples of medieval military architecture and are jointly designated UNESCO World Heritage Sites."
+  },
+  {
+    "id": "geo066",
+    "text": "Hardwick Hall in Derbyshire, built in the 1590s, is famous for which distinctive architectural feature?",
+    "options": ["Its medieval moat and drawbridge, still intact today", "Its extensive use of glass, leading to the saying 'more glass than wall'", "Its circular floor plan, unique in Elizabethan architecture", "Its underground tunnels connecting it to nearby Bolsover Castle"],
+    "answerIndex": 1,
+    "category": "Geography",
+    "explanation": "Hardwick Hall in Derbyshire was built in the 1590s for Bess of Hardwick, one of the most powerful women of Elizabethan England. The building is remarkable for its enormous windows — unusual when glass was expensive — giving rise to the saying 'Hardwick Hall, more glass than wall'. It is now owned by the National Trust."
+  },
+  {
+    "id": "geo067",
+    "text": "The Royal Crescent in Bath is a famous example of Georgian architecture. Who designed it, and approximately when was it built?",
+    "options": ["John Wood the Elder; 1740–1748", "Robert Adam; 1770–1782", "John Wood the Younger; 1767–1774", "Christopher Wren; 1680–1690"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The Royal Crescent in Bath was designed by John Wood the Younger and built between 1767 and 1774. It consists of 30 terraced houses arranged in a sweeping crescent and is one of the most iconic examples of Georgian architecture in Britain. Bath itself is a UNESCO World Heritage Site."
+  },
+  {
+    "id": "geo068",
+    "text": "Scotland has several ski resorts in its Highlands. Which of the following is a Scottish ski resort?",
+    "options": ["Snowdon Peaks", "Brecon Beacons", "Cairngorms", "Howgill Fells"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Scotland has a number of ski resorts mainly in the Highlands, including the Cairngorms, Glenshee, Glencoe, Nevis Range and the Lecht. The Cairngorms National Park is the largest national park in the UK and contains the highest peaks in Britain."
+  },
+  {
+    "id": "geo069",
+    "text": "Bodnant Garden in north Wales, one of the most celebrated gardens in the UK, is managed by which organisation?",
+    "options": ["The Royal Horticultural Society", "Historic England", "The National Trust", "Natural Resources Wales"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "Bodnant Garden in Conwy, north Wales, is one of the most beautiful gardens in the UK and is managed by the National Trust. It is particularly well known for its laburnum arch in spring. Gardens are an important part of British culture and many are open to the public."
+  },
+  {
+    "id": "geo070",
+    "text": "St Pancras railway station in London is celebrated for its Victorian Gothic Revival architecture. Who designed the iconic station hotel building?",
+    "options": ["Isambard Kingdom Brunel", "Joseph Paxton", "George Gilbert Scott", "Augustus Pugin"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The Midland Grand Hotel at St Pancras (now the St Pancras Renaissance Hotel) was designed by George Gilbert Scott in the Gothic Revival style and opened in 1873. Scott was one of the foremost Victorian architects, also responsible for the Albert Memorial in Hyde Park."
+  },
+  {
+    "id": "geo071",
+    "text": "The Loch Lomond and The Trossachs National Park was the first national park established in Scotland. In which year was it created?",
+    "options": ["1951", "1989", "2002", "2010"],
+    "answerIndex": 2,
+    "category": "Geography",
+    "explanation": "The Loch Lomond and The Trossachs National Park was created in 2002, becoming Scotland's first national park. Scotland has two national parks: Loch Lomond and The Trossachs, and the Cairngorms (created 2003). Loch Lomond is the largest area of fresh water in mainland Britain."
+  },
+  {
+    "id": "geo072",
+    "text": "Snowdonia National Park is located in which country of the UK?",
+    "options": ["Scotland", "England", "Northern Ireland", "Wales"],
+    "answerIndex": 3,
+    "category": "Geography",
+    "explanation": "Snowdonia (Eryri in Welsh) is a national park in north-west Wales. It contains Snowdon (Yr Wyddfa), the highest mountain in Wales and England. The national park covers around 2,130 square kilometres and was designated in 1951."
+  }
+]

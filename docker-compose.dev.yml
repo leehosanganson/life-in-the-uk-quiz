@@ -1,0 +1,63 @@
+# Development override — use with:
+#   podman compose -f docker-compose.yml -f docker-compose.dev.yml up --build
+#
+# Changes from production:
+#   - backend: uses Dockerfile.dev + source bind-mount (go run, no compiled binary)
+#   - frontend: runs Vite dev server with HMR instead of nginx
+#   - frontend port changes from 3000 → 5173
+#   - db: uses a separate named volume (db_dev_data) to keep dev data isolated from production
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: quiz
+      POSTGRES_PASSWORD: quiz
+      POSTGRES_DB: quiz
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_dev_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U quiz"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./backend:/app:z
+      - ./data:/data:ro
+      - go_pkg_cache:/root/go/pkg
+    environment:
+      DATABASE_URL: postgres://quiz:quiz@db:5432/quiz
+      DATA_DIR: /data/questions
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    # Use fully-qualified name to avoid collision with the locally-built
+    # frontend production image which is also tagged node:22-alpine by compose.
+    image: docker.io/library/node:22-alpine
+    command: sh -c "corepack enable pnpm && pnpm install && pnpm dev --host"
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app:z
+      - /app/node_modules
+    working_dir: /app
+    environment:
+      VITE_BACKEND_HOST: http://backend:8080
+      VITE_CONTACT_EMAIL: "leehosanganson@gmail.com"
+      VITE_OPERATOR_NAME: "Ho Sang Lee"
+      VITE_POLICY_UPDATE_DATE: "5 April 2026"
+    depends_on:
+      - backend
+
+volumes:
+  go_pkg_cache:
+  db_dev_data:

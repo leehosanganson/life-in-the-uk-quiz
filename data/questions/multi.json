@@ -1,0 +1,242 @@
+[
+  {
+    "id": "mul001",
+    "text": "Which of the following are countries that make up the United Kingdom?",
+    "options": ["England", "France", "Scotland", "Wales", "Northern Ireland", "Ireland"],
+    "answerIndices": [0, 2, 3, 4],
+    "category": "Geography",
+    "explanation": "The UK consists of England, Scotland, Wales, and Northern Ireland."
+  },
+  {
+    "id": "mul002",
+    "text": "Which of the following are patron saints of UK nations?",
+    "options": ["St George", "St Patrick", "St Andrew", "St David", "St Nicholas"],
+    "answerIndices": [0, 1, 2, 3],
+    "category": "Culture",
+    "explanation": "St George (England), St Patrick (Northern Ireland), St Andrew (Scotland), and St David (Wales) are the patron saints of the four UK nations."
+  },
+  {
+    "id": "mul003",
+    "text": "In which years did the UK host the Summer Olympic Games?",
+    "options": ["1900", "1908", "1948", "1976", "2012"],
+    "answerIndices": [1, 2, 4],
+    "category": "Culture",
+    "explanation": "The UK hosted the Summer Olympics in 1908 (London), 1948 (London), and 2012 (London)."
+  },
+  {
+    "id": "mul004",
+    "text": "Which of the following are Protestant Christian denominations in the UK?",
+    "options": ["Roman Catholic", "Baptist", "Methodist", "Presbyterian", "Anglican"],
+    "answerIndices": [1, 2, 3, 4],
+    "category": "Culture",
+    "explanation": "Baptist, Methodist, Presbyterian, and Anglican are Protestant denominations. Roman Catholic is not Protestant."
+  },
+  {
+    "id": "mul005",
+    "text": "Which of the following were identified as 'Giant Evils' in the Beveridge Report?",
+    "options": ["Want", "Disease", "Ignorance", "Squalor", "Idleness", "Crime"],
+    "answerIndices": [0, 1, 2, 3, 4],
+    "category": "History",
+    "explanation": "The Beveridge Report (1942) identified five Giant Evils: Want, Disease, Ignorance, Squalor, and Idleness."
+  },
+  {
+    "id": "mul006",
+    "text": "Which of the following are devolved administrations in the UK?",
+    "options": ["The UK Parliament", "The Scottish Parliament", "The Welsh Senedd", "The Northern Ireland Assembly", "The London Assembly"],
+    "answerIndices": [1, 2, 3],
+    "category": "Government",
+    "explanation": "The Scottish Parliament, Welsh Senedd, and Northern Ireland Assembly are devolved administrations. The UK Parliament and London Assembly are not devolved administrations in this sense."
+  },
+  {
+    "id": "mul007",
+    "text": "Which of the following are works written by William Shakespeare?",
+    "options": ["A Tale of Two Cities", "Hamlet", "Macbeth", "Oliver Twist", "A Midsummer Night's Dream"],
+    "answerIndices": [1, 2, 4],
+    "category": "Culture",
+    "explanation": "Hamlet, Macbeth, and A Midsummer Night's Dream are Shakespeare's works. A Tale of Two Cities and Oliver Twist were written by Charles Dickens."
+  },
+  {
+    "id": "mul008",
+    "text": "Which of the following are rights protected under the European Convention on Human Rights?",
+    "options": ["Right to life", "Right to bear arms", "Freedom of expression", "Right to a free house", "Freedom from torture"],
+    "answerIndices": [0, 2, 4],
+    "category": "Government",
+    "explanation": "The ECHR protects the right to life, freedom of expression, and freedom from torture, among other rights."
+  },
+  {
+    "id": "mul009",
+    "text": "Which of the following are Henry VIII's wives?",
+    "options": ["Catherine of Aragon", "Mary Queen of Scots", "Anne Boleyn", "Elizabeth I", "Jane Seymour"],
+    "answerIndices": [0, 2, 4],
+    "category": "History",
+    "explanation": "Henry VIII had six wives. Catherine of Aragon, Anne Boleyn, and Jane Seymour are among them. Mary Queen of Scots and Elizabeth I were not his wives."
+  },
+  {
+    "id": "mul010",
+    "text": "Which of the following are Chartist demands?",
+    "options": ["Votes for all men", "Secret ballot", "Payment for Members of Parliament", "Annual elections", "A minimum wage"],
+    "answerIndices": [0, 1, 2, 3],
+    "category": "History",
+    "explanation": "The Chartists demanded votes for all men, a secret ballot, payment for MPs, and annual elections. A minimum wage was not a Chartist demand."
+  },
+  {
+    "id": "mul011",
+    "text": "Which of the following are characteristics of a constitutional monarchy?",
+    "options": ["The monarch has absolute power", "The monarch is head of state", "The government is elected by the people", "Laws are made by a parliament", "The monarch rules without ministers"],
+    "answerIndices": [1, 2, 3],
+    "category": "Government",
+    "explanation": "In a constitutional monarchy, the monarch is head of state, the government is elected, and laws are made by a parliament. The monarch does not have absolute power and works with ministers."
+  },
+  {
+    "id": "mul012",
+    "text": "Which of the following are public holidays (bank holidays) in the UK?",
+    "options": ["Christmas Day", "Valentine's Day", "New Year's Day", "Bonfire Night", "Good Friday"],
+    "answerIndices": [0, 2, 4],
+    "category": "Culture",
+    "explanation": "Christmas Day, New Year's Day, and Good Friday are UK bank holidays. Valentine's Day and Bonfire Night are not."
+  },
+  {
+    "id": "mul013",
+    "text": "Which of the following British athletes won gold medals at the 2012 London Olympics?",
+    "options": ["Mo Farah", "Jessica Ennis", "Bradley Wiggins", "Paula Radcliffe", "Denise Lewis"],
+    "answerIndices": [0, 1, 2],
+    "category": "Culture",
+    "explanation": "Mo Farah (5,000m and 10,000m), Jessica Ennis (heptathlon) and Bradley Wiggins (cycling time trial) all won gold medals at the 2012 London Olympics. Paula Radcliffe and Denise Lewis did not win gold at these Games."
+  },
+  {
+    "id": "mul014",
+    "text": "Which of the following are Acts of Parliament that extended voting rights in the UK?",
+    "options": ["Representation of the People Act 1918", "Reform Act 1832", "Corn Laws 1815", "Equal Franchise Act 1928", "Habeas Corpus Act 1679"],
+    "answerIndices": [0, 1, 3],
+    "category": "History",
+    "explanation": "The Reform Act 1832 greatly increased the number of men with the right to vote. The Representation of the People Act 1918 gave the vote to all men and to women over 30. The Equal Franchise Act 1928 gave women equal voting rights with men (at 21). The Corn Laws and Habeas Corpus Act did not extend voting rights."
+  },
+  {
+    "id": "mul015",
+    "text": "Which of the following are correct pairings of a UK nation and its national emblem?",
+    "options": ["Thistle — Scotland", "Leek or Daffodil — Wales", "Red rose — England", "Harp — Northern Ireland", "Cross of St George — Scotland"],
+    "answerIndices": [0, 1, 2, 3],
+    "category": "Culture",
+    "explanation": "Scotland's emblem is the thistle; Wales uses both the leek and the daffodil; England's is the red (Tudor) rose; Northern Ireland's is the shamrock or red hand, but the harp is also associated with Ireland. The Cross of St George is England's flag, not Scotland's (which uses the Cross of St Andrew)."
+  },
+  {
+    "id": "mul016",
+    "text": "Which of the following statements about the Good Friday Agreement are correct?",
+    "options": ["It was signed in 1998", "It established a power-sharing Assembly in Northern Ireland", "It immediately ended all paramilitary activity in Northern Ireland", "It is also known as the Belfast Agreement", "It required the Republic of Ireland to formally claim sovereignty over Northern Ireland"],
+    "answerIndices": [0, 1, 3],
+    "category": "History",
+    "explanation": "The Good Friday Agreement was signed on 10 April 1998 and is also known as the Belfast Agreement. It established a power-sharing Northern Ireland Assembly. However, it did not immediately end all paramilitary activity; disarmament was a gradual process. It also did not give the Republic of Ireland sovereignty over the North."
+  },
+  {
+    "id": "mul017",
+    "text": "Which of the following were introduced by Clement Attlee's Labour government between 1945 and 1951?",
+    "options": ["The National Health Service (NHS)", "The privatisation of the railways", "A National Insurance system providing social security", "The nationalisation of key industries including coal and steel", "Britain's withdrawal from NATO"],
+    "answerIndices": [0, 2, 3],
+    "category": "History",
+    "explanation": "Attlee's government (1945–1951) established the NHS (1948), introduced National Insurance to provide social security 'from the cradle to the grave', and nationalised key industries. The government did not privatise the railways (the reverse — it nationalised them) and Britain was a founding member of NATO in 1949."
+  },
+  {
+    "id": "mul018",
+    "text": "Which of the following technologies or discoveries are associated with British inventors or scientists?",
+    "options": ["The World Wide Web (Sir Tim Berners-Lee)", "The structure of DNA (Francis Crick and colleagues)", "The first working television system (John Logie Baird)", "The microprocessor (Jack Kilby, USA)", "Insulin (Frederick Banting, Canada)"],
+    "answerIndices": [0, 1, 2],
+    "category": "Culture",
+    "explanation": "Sir Tim Berners-Lee invented the World Wide Web; Francis Crick (British) co-discovered the double helix structure of DNA with James Watson in 1953; John Logie Baird developed the first working television system. The microprocessor was invented in the USA and insulin was discovered by Canadian Frederick Banting."
+  },
+  {
+    "id": "mul019",
+    "text": "Which of the following are among the six demands of the People's Charter (1838), the foundation of the Chartist movement?",
+    "options": ["A vote for every man regardless of property", "Secret ballot", "Payment for Members of Parliament", "Votes for women", "Annual parliaments (general elections every year)"],
+    "answerIndices": [0, 1, 2, 4],
+    "category": "History",
+    "explanation": "The People's Charter of 1838 contained six demands: votes for all men, secret ballot, equal constituencies, payment for MPs, no property qualification for MPs, and annual parliaments. Women's suffrage was not among the Chartist demands. Most of these reforms were eventually achieved, though not until decades later."
+  },
+  {
+    "id": "mul020",
+    "text": "Which of the following are indigenous languages spoken in parts of the UK today?",
+    "options": ["Welsh", "Scottish Gaelic", "French", "Irish Gaelic", "Cornish"],
+    "answerIndices": [0, 1, 3, 4],
+    "category": "Geography",
+    "explanation": "Welsh, Scottish Gaelic, Irish Gaelic (in Northern Ireland) and Cornish are all indigenous languages of the British Isles. Welsh is the most widely spoken, with around 20% of the Welsh population speaking it. French is not an indigenous language of the UK."
+  },
+  {
+    "id": "mul021",
+    "text": "Which of the following women were wives of Henry VIII?",
+    "options": ["Catherine of Aragon", "Anne Boleyn", "Jane Seymour", "Anne of Cleves", "Catherine Howard", "Catherine Parr"],
+    "answerIndices": [0, 1, 2, 3, 4, 5],
+    "category": "History",
+    "explanation": "Henry VIII married six times, in this order: Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard, and Catherine Parr. All six names listed here are his wives."
+  },
+  {
+    "id": "mul022",
+    "text": "Which of the following are well-known UK music festivals?",
+    "options": ["Glastonbury", "Coachella", "Isle of Wight Festival", "V Festival", "Burning Man"],
+    "answerIndices": [0, 2, 3],
+    "category": "Culture",
+    "explanation": "Famous UK music festivals include Glastonbury, the Isle of Wight Festival and the V Festival. Coachella is held in the USA and Burning Man takes place in Nevada, USA."
+  },
+  {
+    "id": "mul023",
+    "text": "Which of the following statements about Winston Churchill's wartime speeches are correct?",
+    "options": ["'I have nothing to offer but blood, toil, tears and sweat' was his first speech as Prime Minister in 1940", "'We shall fight on the beaches' was his speech to the House of Commons after the Dunkirk evacuation in 1940", "'Never in the field of human conflict was so much owed by so many to so few' was said during the Battle of Britain in 1940", "'Their finest hour' speech celebrated the end of the Blitz in 1941", "All four speeches were broadcast directly to the nation on BBC radio"],
+    "answerIndices": [0, 1, 2],
+    "category": "History",
+    "explanation": "The three correct statements are: 'blood, toil, tears and sweat' from his first PM speech; 'fight on the beaches' after Dunkirk; and 'never in the field of human conflict' referring to the RAF during the Battle of Britain. The 'Their finest hour' speech was a June 1940 speech about France's fall, not the end of the Blitz, and the beaches speech was delivered to the House of Commons."
+  },
+  {
+    "id": "mul024",
+    "text": "The UK is one of five permanent members of the UN Security Council. Which other countries are permanent members?",
+    "options": ["USA", "France", "Russia", "China", "Germany"],
+    "answerIndices": [0, 1, 2, 3],
+    "category": "Government",
+    "explanation": "The five permanent members of the UN Security Council are the UK, USA, France, Russia and China. Germany is not a permanent member of the Security Council."
+  },
+  {
+    "id": "mul025",
+    "text": "Which of the following correctly describes the responsibilities of these Cabinet ministers?",
+    "options": ["Chancellor of the Exchequer — responsible for the economy", "Home Secretary — responsible for crime, policing and immigration", "Foreign Secretary — responsible for managing relationships with foreign countries", "Lord Chancellor — responsible for the armed forces"],
+    "answerIndices": [0, 1, 2],
+    "category": "Government",
+    "explanation": "The Chancellor of the Exchequer is responsible for the economy; the Home Secretary for crime, policing and immigration; and the Foreign Secretary for managing relationships with foreign countries. The Lord Chancellor is responsible for the justice system and courts — defence is the responsibility of the Defence Secretary."
+  },
+  {
+    "id": "mul026",
+    "text": "Which of the following were founding members of the Pre-Raphaelite Brotherhood formed in 1848? (Choose 3)",
+    "options": ["William Holman Hunt", "J.M.W. Turner", "Dante Gabriel Rossetti", "John Everett Millais", "John Constable"],
+    "answerIndices": [0, 2, 3],
+    "category": "Culture",
+    "explanation": "The Pre-Raphaelite Brotherhood was founded in 1848 by William Holman Hunt, Dante Gabriel Rossetti and John Everett Millais, along with a few others. J.M.W. Turner and John Constable were earlier landscape painters and were not Pre-Raphaelites."
+  },
+  {
+    "id": "mul027",
+    "text": "Which of the following figures are directly associated with Britain's 'Swinging Sixties'? (Choose 3)",
+    "options": ["The Beatles", "Mary Quant", "Francis Drake", "The Rolling Stones", "Emmeline Pankhurst"],
+    "answerIndices": [0, 1, 3],
+    "category": "History",
+    "explanation": "The Swinging Sixties saw The Beatles and The Rolling Stones achieve worldwide fame, while fashion designer Mary Quant popularised the miniskirt from her boutique on Carnaby Street. Sir Francis Drake was an Elizabethan explorer and Emmeline Pankhurst was an Edwardian suffragette — neither were part of the 1960s cultural movement."
+  },
+  {
+    "id": "mul028",
+    "text": "Which of the following brought Christianity to parts of the British Isles? (Choose 2)",
+    "options": ["St Columba, who came from Ireland and founded a monastery on Iona in AD 563", "St Augustine, who was sent from Rome in AD 597 to bring Christianity to the Anglo-Saxons", "St Patrick, who was born in Wales and brought Christianity to Scotland", "St Cuthbert, who was sent from Jerusalem in AD 630", "St Alban, who converted Britain from paganism in the 2nd century BC"],
+    "answerIndices": [0, 1],
+    "category": "History",
+    "explanation": "St Columba came from Ireland and founded a monastery on Iona in AD 563, spreading Christianity through Scotland and northern England. St Augustine was sent by Pope Gregory the Great from Rome in AD 597 and became the first Archbishop of Canterbury. The other options contain factual errors about these saints."
+  },
+  {
+    "id": "mul029",
+    "text": "Which devolved institutions were created following referendums held after Tony Blair's 1997 election victory? (Choose 2)",
+    "options": ["The Scottish Parliament", "The Welsh Assembly (Senedd)", "The Northern Ireland Assembly", "The English Regional Parliament", "The Greater London Assembly"],
+    "answerIndices": [0, 1],
+    "category": "Government",
+    "explanation": "Following Tony Blair's 1997 election victory, referendums were held in Scotland and Wales. Both voted in favour of devolution, leading to the creation of the Scottish Parliament and the Welsh Assembly (now the Senedd) in 1999. The Northern Ireland Assembly was established under the Good Friday Agreement. There is no English Regional Parliament."
+  },
+  {
+    "id": "mul030",
+    "text": "Which of the following correctly pairs a national floral emblem with its UK nation? (Choose all 4 correct answers)",
+    "options": ["Tudor rose — England", "Thistle — Scotland", "Daffodil — Wales", "Shamrock — Northern Ireland", "Bluebell — Republic of Ireland"],
+    "answerIndices": [0, 1, 2, 3],
+    "category": "Values",
+    "explanation": "The four UK nations' floral emblems are: the Tudor rose for England, the thistle for Scotland, the daffodil for Wales, and the shamrock for Northern Ireland. The bluebell is not an official national emblem of the Republic of Ireland — the shamrock represents the whole island of Ireland."
+  }
+]

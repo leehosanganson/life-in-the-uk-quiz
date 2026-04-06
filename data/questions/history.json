@@ -1,0 +1,674 @@
+[
+  {
+    "id": "his001",
+    "text": "In what year was Magna Carta signed?",
+    "options": ["1066", "1215", "1348", "1485"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "Magna Carta was signed by King John at Runnymede in 1215, establishing the principle that the king was subject to the rule of law."
+  },
+  {
+    "id": "his002",
+    "text": "In what year did the Second World War end?",
+    "options": ["1943", "1944", "1945", "1946"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "World War II ended in 1945 with Germany's surrender in May (VE Day) and Japan's surrender in August (VJ Day)."
+  },
+  {
+    "id": "his003",
+    "text": "In what year did William the Conqueror invade England?",
+    "options": ["1040", "1066", "1099", "1215"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "William of Normandy defeated King Harold II at the Battle of Hastings in 1066."
+  },
+  {
+    "id": "his004",
+    "text": "Which king was executed during the English Civil War?",
+    "options": ["Charles II", "James II", "Charles I", "Henry VIII"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "King Charles I was tried and executed in 1649 after the Parliamentarian forces defeated the Royalists."
+  },
+  {
+    "id": "his005",
+    "text": "What year did the First World War begin?",
+    "options": ["1912", "1913", "1914", "1915"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "World War I began in 1914 following the assassination of Archduke Franz Ferdinand."
+  },
+  {
+    "id": "his006",
+    "text": "Which monarch was the first to rule over a united England and Scotland?",
+    "options": ["Elizabeth I", "James I", "Henry VIII", "William III"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "James VI of Scotland became James I of England in 1603, uniting the crowns of England and Scotland."
+  },
+  {
+    "id": "his007",
+    "text": "In what year did the Great Fire of London occur?",
+    "options": ["1605", "1625", "1666", "1688"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The Great Fire of London devastated the medieval City of London in September 1666."
+  },
+  {
+    "id": "his008",
+    "text": "Who led the women's suffragette movement in the early 20th century?",
+    "options": ["Emily Davison", "Emmeline Pankhurst", "Millicent Fawcett", "Marie Curie"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "Emmeline Pankhurst founded the Women's Social and Political Union in 1903 and was a leading campaigner for women's right to vote."
+  },
+  {
+    "id": "his009",
+    "text": "In what year was the National Health Service (NHS) founded?",
+    "options": ["1945", "1946", "1948", "1950"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The NHS was established on 5 July 1948 under Health Secretary Aneurin Bevan."
+  },
+  {
+    "id": "his010",
+    "text": "The Domesday Book was commissioned by which king?",
+    "options": ["Henry I", "Alfred the Great", "William I", "Edward the Confessor"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "William I (the Conqueror) ordered the Domesday Book survey in 1085 to assess England's assets."
+  },
+  {
+    "id": "his011",
+    "text": "In which century did the Industrial Revolution primarily take place in Britain?",
+    "options": ["16th", "17th", "18th", "19th"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Britain's Industrial Revolution began in the mid-18th century and continued into the 19th century."
+  },
+  {
+    "id": "his012",
+    "text": "What was the name of the 1215 charter that limited the king's powers?",
+    "options": ["The Bill of Rights", "Magna Carta", "The Act of Union", "The Petition of Right"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "Magna Carta (Great Charter) was the first document to limit the power of the English king."
+  },
+  {
+    "id": "his013",
+    "text": "What group of people settled in Britain during the Iron Age?",
+    "options": ["Anglo-Saxons", "Romans", "Celts", "Vikings"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The Celts were the dominant people in Britain during the Iron Age, arriving from central Europe around 750 BC."
+  },
+  {
+    "id": "his014",
+    "text": "In which year did the Romans begin their conquest of Britain?",
+    "options": ["55 BC", "43 AD", "122 AD", "410 AD"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "The Roman Emperor Claudius ordered the conquest of Britain in 43 AD, establishing Roman rule that lasted nearly 400 years."
+  },
+  {
+    "id": "his015",
+    "text": "Which Anglo-Saxon king is known for resisting the Viking invasions and is often called 'the Great'?",
+    "options": ["Athelstan", "Offa", "Alfred", "Edmund"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Alfred the Great, King of Wessex (871–899), successfully resisted Viking invasions and is the only English monarch to be called 'the Great'."
+  },
+  {
+    "id": "his016",
+    "text": "From which region did the Vikings who raided Britain primarily originate?",
+    "options": ["Germany", "France", "Scandinavia", "Russia"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The Vikings came from Scandinavia (present-day Norway, Denmark, and Sweden) and began raiding Britain from the late 8th century."
+  },
+  {
+    "id": "his017",
+    "text": "Approximately what fraction of England's population died during the Black Death of 1348?",
+    "options": ["One tenth", "One quarter", "One third", "One half"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The Black Death (bubonic plague) of 1348–1350 killed approximately one third of England's population."
+  },
+  {
+    "id": "his018",
+    "text": "The Wars of the Roses were fought between which two royal houses?",
+    "options": ["Tudor and Stuart", "Lancaster and York", "Plantagenet and Tudor", "Windsor and Hanover"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "The Wars of the Roses (1455–1487) were a series of civil wars fought between the House of Lancaster (red rose) and the House of York (white rose) for the English throne."
+  },
+  {
+    "id": "his019",
+    "text": "Why did Henry VIII break away from the Catholic Church?",
+    "options": ["To raise taxes for war", "To divorce Catherine of Aragon", "To create a Protestant state", "To seize church wealth"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "Henry VIII sought an annulment from Catherine of Aragon. When the Pope refused, Henry broke with Rome and established the Church of England in the 1530s."
+  },
+  {
+    "id": "his020",
+    "text": "Which English sea captain was the first to circumnavigate the globe?",
+    "options": ["Walter Raleigh", "John Cabot", "Francis Drake", "Horatio Nelson"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Sir Francis Drake completed the first English circumnavigation of the globe between 1577 and 1580."
+  },
+  {
+    "id": "his021",
+    "text": "In which year was the slave trade abolished in the British Empire?",
+    "options": ["1772", "1807", "1833", "1865"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "The Slave Trade Act 1807 abolished the transatlantic slave trade throughout the British Empire. Slavery itself was abolished in 1833 by the Slavery Abolition Act."
+  },
+  {
+    "id": "his022",
+    "text": "The 1942 Beveridge Report laid the foundations for which major development?",
+    "options": ["The National Health Service", "The welfare state", "Nationalisation of industry", "Universal suffrage"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "The Beveridge Report of 1942, written by Sir William Beveridge, provided the blueprint for the post-war welfare state, recommending a system of social insurance from 'cradle to grave'."
+  },
+  {
+    "id": "his023",
+    "text": "Julius Caesar first attempted to invade Britain in 55 BC. What was the outcome?",
+    "options": ["He successfully conquered Britain and made it a Roman province", "His invasion failed and Britain remained unconquered", "He reached London but was forced back by Celtic tribes", "He conquered the south of England but retreated after a year"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "Julius Caesar made two expeditions to Britain in 55 BC and 54 BC but neither resulted in a lasting conquest. Britain remained unconquered until the Emperor Claudius sent a successful invasion force in 43 AD."
+  },
+  {
+    "id": "his024",
+    "text": "At the Battle of Bannockburn in 1314, who led the Scottish forces to victory?",
+    "options": ["William Wallace", "James IV of Scotland", "Robert the Bruce", "Macbeth"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Robert the Bruce led the Scottish army to defeat the English forces of Edward II at the Battle of Bannockburn in 1314, securing Scottish independence for a generation."
+  },
+  {
+    "id": "his025",
+    "text": "At the Battle of Agincourt in 1415, which English king defeated a much larger French army?",
+    "options": ["Henry IV", "Henry V", "Edward III", "Richard II"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "Henry V led a outnumbered English army to a decisive victory over France at the Battle of Agincourt in 1415 during the Hundred Years' War."
+  },
+  {
+    "id": "his026",
+    "text": "The Battle of Bosworth Field in 1485 ended the Wars of the Roses. Which dynasty came to power as a result?",
+    "options": ["The Stuarts", "The Plantagenets", "The Tudors", "The Hanoverians"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Henry Tudor defeated Richard III at the Battle of Bosworth Field in 1485, becoming Henry VII and founding the Tudor dynasty. This battle is also considered to mark the end of the Middle Ages in England."
+  },
+  {
+    "id": "his027",
+    "text": "Which of the following is true about Mary Queen of Scots?",
+    "options": ["She became queen at the age of 16 and reigned peacefully for 40 years", "She became queen at one week old, was imprisoned in England for about 20 years, and was executed", "She was never actually crowned queen and ruled only as regent", "She abdicated voluntarily and retired to a convent in France"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "Mary became Queen of Scotland when she was just one week old. She later fled to England where Queen Elizabeth I imprisoned her for around 20 years, fearing she was a threat to the English throne, before having her executed in 1587."
+  },
+  {
+    "id": "his028",
+    "text": "What title did Oliver Cromwell hold when he ruled England after the execution of Charles I?",
+    "options": ["King of England", "Lord Protector", "First Consul", "Prime Minister"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "After the execution of Charles I in 1649, England became a republic. Oliver Cromwell ruled as Lord Protector from 1653 until his death in 1658. The monarchy was restored in 1660 when Charles II returned from exile."
+  },
+  {
+    "id": "his029",
+    "text": "What was the 'Glorious Revolution' of 1688–1689?",
+    "options": ["A peasant uprising that led to a new constitution", "The invasion of England by William of Orange, ending with James II fleeing to France", "A series of parliamentary reforms that created democracy", "The war in which England defeated France to become the dominant European power"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "The Glorious Revolution saw William of Orange invade England in 1688 at the invitation of Parliament. James II fled to France without a battle and William became William III. It established that Parliament had more power than the king."
+  },
+  {
+    "id": "his030",
+    "text": "The Act of Union of 1707 united which two countries to form the Kingdom of Great Britain?",
+    "options": ["England and Ireland", "England and Wales", "England and Scotland", "Great Britain and Ireland"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The Acts of Union 1707 united the Kingdom of England and the Kingdom of Scotland into a single Kingdom of Great Britain, with a single Parliament."
+  },
+  {
+    "id": "his031",
+    "text": "What happened to Admiral Nelson at the Battle of Trafalgar in 1805?",
+    "options": ["He was captured by the French and later ransomed", "He survived the battle and was knighted by the king", "He was killed during the battle, though Britain won", "He was wounded but led the victory celebrations in London"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "At the Battle of Trafalgar in 1805, Admiral Lord Nelson led the British fleet to a decisive victory over the combined French and Spanish fleets. Tragically, Nelson was shot by a French sniper during the battle and died before the fighting ended."
+  },
+  {
+    "id": "his032",
+    "text": "Who defeated Napoleon at the Battle of Waterloo in 1815?",
+    "options": ["Admiral Nelson", "The Duke of Wellington", "The Duke of Marlborough", "Lord Kitchener"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "The Duke of Wellington commanded the allied forces that defeated Napoleon Bonaparte at the Battle of Waterloo in 1815, ending the Napoleonic Wars."
+  },
+  {
+    "id": "his033",
+    "text": "The Chartists were a political movement active in the 1830s and 1840s. What did they primarily campaign for?",
+    "options": ["The abolition of slavery throughout the Empire", "The right of women to vote in elections", "Parliamentary reforms including the right for every man to have a vote", "The repeal of the Corn Laws and lower food prices"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The Chartists presented Parliament with a 'People's Charter' containing six demands for political reform, including the right for every man to vote, secret ballots, and equal constituencies. Their campaign of the 1830s and 1840s laid the groundwork for future democratic reforms."
+  },
+  {
+    "id": "his034",
+    "text": "Who were the Huguenots who came to Britain between 1680 and 1720?",
+    "options": ["Catholic refugees fleeing Protestant persecution in Spain", "French Protestant refugees fleeing persecution in France", "Dutch merchants who settled in London for trade", "German craftsmen invited by the Crown to improve industry"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "The Huguenots were French Protestants who fled to Britain between 1680 and 1720 to escape religious persecution following the revocation of the Edict of Nantes. Many were skilled and educated, making significant contributions to British trade and culture."
+  },
+  {
+    "id": "his035",
+    "text": "Approximately how many Allied troops were evacuated from Dunkirk in 1940?",
+    "options": ["Around 50,000", "Around 150,000", "Around 300,000", "Around 500,000"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "In the Dunkirk evacuation of May–June 1940 (Operation Dynamo), around 300,000 British and French troops were rescued from the beaches of northern France as German forces advanced. A fleet of naval vessels and small civilian boats carried out the operation."
+  },
+  {
+    "id": "his036",
+    "text": "On which date did the D-Day Allied landings in Normandy take place?",
+    "options": ["6 June 1944", "1 September 1939", "8 May 1945", "15 August 1944"],
+    "answerIndex": 0,
+    "category": "History",
+    "explanation": "On 6 June 1944 (D-Day), Allied forces launched the largest seaborne invasion in history on the beaches of Normandy, France. It was a turning point in the Second World War and led to the liberation of Western Europe from Nazi Germany."
+  },
+  {
+    "id": "his037",
+    "text": "Who was assassinated in 1914, triggering the chain of events that led to the First World War?",
+    "options": ["Kaiser Wilhelm II", "Archduke Franz Ferdinand of Austria", "Tsar Nicholas II", "Emperor Franz Joseph of Austria-Hungary"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "On 28 June 1914, Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, was assassinated in Sarajevo. This triggered a diplomatic crisis that escalated into the First World War."
+  },
+  {
+    "id": "his038",
+    "text": "The Battle of the Somme, one of the bloodiest battles in British military history, began in which year?",
+    "options": ["1914", "1915", "1916", "1917"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The Battle of the Somme began on 1 July 1916. On the first day alone there were approximately 60,000 British casualties, making it one of the most catastrophic days in British military history."
+  },
+  {
+    "id": "his039",
+    "text": "At what time on 11 November 1918 did the armistice ending the First World War come into effect?",
+    "options": ["6.00 am", "9.00 am", "11.00 am", "3.00 pm"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The armistice ending the First World War came into effect at 11.00 am on 11 November 1918 — the 11th hour of the 11th day of the 11th month. This is why Remembrance Day is marked with silence at 11.00 am on 11 November each year."
+  },
+  {
+    "id": "his040",
+    "text": "In which year was the Battle of Culloden fought, ending the Jacobite rising led by Bonnie Prince Charlie?",
+    "options": ["1715", "1739", "1746", "1759"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The Battle of Culloden in 1746 was the last pitched battle fought on British soil. Charles Edward Stuart (Bonnie Prince Charlie) was decisively defeated by the Duke of Cumberland's army. The defeat effectively ended the Jacobite cause and led to the suppression of Highland clan culture."
+  },
+  {
+    "id": "his041",
+    "text": "Charles II was restored to the throne in 1660 after 11 years of republican rule. What was this period called?",
+    "options": ["The Interregnum", "The Commonwealth of England", "The Protectorate", "All of the above are terms used for this period"],
+    "answerIndex": 3,
+    "category": "History",
+    "explanation": "After the execution of Charles I in 1649, England was governed as a republic — called the Commonwealth — then as a Protectorate under Oliver Cromwell (Lord Protector). The whole period without a monarch is referred to as the Interregnum (Latin for 'between reigns'). Charles II was restored to the throne in May 1660."
+  },
+  {
+    "id": "his042",
+    "text": "In what year did a devastating plague kill thousands in London, immediately before the Great Fire of London?",
+    "options": ["1648", "1656", "1665", "1672"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The Great Plague of London struck in 1665, killing an estimated 100,000 people — about a quarter of London's population. The Great Fire of London followed in 1666. Both events were recorded in the famous diary of Samuel Pepys."
+  },
+  {
+    "id": "his043",
+    "text": "Richard Arkwright is particularly remembered for his role in the Industrial Revolution. What is he best known for?",
+    "options": ["Inventing the steam engine", "Developing efficient cotton spinning mills powered by water and steam", "Building the first railway locomotive", "Discovering how to mass-produce steel"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "Richard Arkwright (1732–1792) developed the water frame for cotton spinning and built highly efficient spinning mills. He is often called the 'Father of the Industrial Revolution' due to the profitable and organised way he ran his factories."
+  },
+  {
+    "id": "his044",
+    "text": "Sake Dean Mahomet is credited with opening the first curry house in Britain. In which city did he open it, and in what year?",
+    "options": ["Edinburgh, 1801", "London, 1810", "Birmingham, 1820", "Bristol, 1795"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "Sake Dean Mahomet (1759–1851) opened the Hindoostane Coffee House in George Street, London in 1810. He and his wife also introduced 'shampooing' — the Indian art of therapeutic head massage — to Britain."
+  },
+  {
+    "id": "his045",
+    "text": "In which year did the Easter Rising against British rule take place in Dublin?",
+    "options": ["1912", "1914", "1916", "1920"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The Easter Rising took place in April 1916 when Irish nationalists staged an armed uprising against British rule. The leaders were subsequently executed under military law. This radicalised many Irish people and contributed to the eventual partition of Ireland."
+  },
+  {
+    "id": "his046",
+    "text": "In which year was Ireland formally partitioned into the Irish Free State and Northern Ireland?",
+    "options": ["1916", "1919", "1921", "1922"],
+    "answerIndex": 3,
+    "category": "History",
+    "explanation": "A peace treaty was signed in 1921 and Ireland became two countries in 1922. The six mainly Protestant counties in the north remained part of the UK as Northern Ireland. The rest became the Irish Free State, which became a republic in 1949."
+  },
+  {
+    "id": "his047",
+    "text": "Who was the Prime Minister who led the Labour government elected in 1945 that created the welfare state?",
+    "options": ["Harold Wilson", "Aneurin Bevan", "Clement Attlee", "Ernest Bevin"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Clement Attlee (1883–1967) became Prime Minister after Labour's landslide victory in 1945. His government established the NHS, introduced a national system of social security, and nationalised key industries including coal, steel, and the railways."
+  },
+  {
+    "id": "his048",
+    "text": "The Education Act 1944 — often called the 'Butler Act' — introduced free secondary education for all children. Who was responsible for overseeing this Act?",
+    "options": ["William Beveridge", "Aneurin Bevan", "R.A. Butler", "Herbert Morrison"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Richard Austen (R.A.) Butler (1902–1982) oversaw the Education Act 1944 while serving as President of the Board of Education. The Act divided schools into primary and secondary and guaranteed free secondary education for all children in England and Wales."
+  },
+  {
+    "id": "his049",
+    "text": "Harold Macmillan's famous 'Wind of Change' speech in 1960 addressed which major historical process?",
+    "options": ["Britain's entry into the European Economic Community", "The nuclear arms race with the Soviet Union", "Decolonisation and African nationalism", "The decline of traditional British industries"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Harold Macmillan, Conservative Prime Minister from 1957 to 1963, delivered his 'Wind of Change' speech in Cape Town, South Africa in 1960. He acknowledged that the tide of African nationalism was unstoppable and that the era of empire was over, signalling the coming independence of British colonies in Africa."
+  },
+  {
+    "id": "his050",
+    "text": "In which year did Concorde, the world's only supersonic passenger aircraft, make its first flight?",
+    "options": ["1963", "1966", "1969", "1973"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Concorde, developed jointly by Britain and France, made its first flight in 1969. It began carrying passengers in 1976 and was retired from service in 2003. It could cross the Atlantic in under three and a half hours."
+  },
+  {
+    "id": "his051",
+    "text": "At the 1972 Munich Olympics, which Northern Irish athlete won a gold medal in the pentathlon?",
+    "options": ["Tanni Grey-Thompson", "Mary Peters", "Kelly Holmes", "Fatima Whitbread"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "Mary Peters (born 1939) won an Olympic gold medal in the pentathlon at the 1972 Munich Games. Born in Manchester and raised in Northern Ireland, she later raised funds for athletics in Northern Ireland and was made a Dame in 2000."
+  },
+  {
+    "id": "his052",
+    "text": "Robert Burns is regarded as the national poet of Scotland. By what title is he affectionately known?",
+    "options": ["The Poet Laureate of Scotland", "The Makar of Scotland", "The Bard of Scotland", "The Prince of Scottish Verse"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Robert Burns (1759–1796) is known as 'The Bard' or the national bard of Scotland. He wrote in Scots dialect, English, and a combination of both. Burns Night is celebrated annually on 25 January."
+  },
+  {
+    "id": "his053",
+    "text": "What were the 'Highland Clearances' that took place in Scotland in the 18th and early 19th centuries?",
+    "options": ["A series of battles between rival Highland clans over territory", "Tax revolts by Highland farmers refusing to pay rents to English landlords", "The forced eviction of tenants by landowners, often to make way for sheep farming", "A government programme to build roads and bridges through the Highlands"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The Highland Clearances involved Scottish landlords forcibly evicting thousands of tenant farming families (crofters) from their land. The landlords often wanted the land for more profitable sheep farming. Many cleared families emigrated to North America, Australia, and New Zealand."
+  },
+  {
+    "id": "his054",
+    "text": "The Good Friday Agreement, which brought a historic peace settlement to Northern Ireland, was signed in which year?",
+    "options": ["1993", "1995", "1997", "1998"],
+    "answerIndex": 3,
+    "category": "History",
+    "explanation": "The Good Friday Agreement (also known as the Belfast Agreement) was signed on 10 April 1998. It established a power-sharing assembly in Northern Ireland and was a key achievement of Tony Blair's government. The Northern Ireland Assembly was elected in 1999."
+  },
+  {
+    "id": "his055",
+    "text": "Who was the UK's first female Prime Minister?",
+    "options": ["Margaret Thatcher", "Theresa May", "Barbara Castle", "Harriet Harman"],
+    "answerIndex": 0,
+    "category": "History",
+    "explanation": "Margaret Thatcher became the first woman Prime Minister following the Conservative victory in the 1979 General Election. She remained in office until 1990, becoming the longest-serving Prime Minister of the 20th century."
+  },
+  {
+    "id": "his056",
+    "text": "Before entering politics, what subjects did Margaret Thatcher train in?",
+    "options": ["Economics and politics", "Law and history", "Chemistry and law", "Biology and philosophy"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Margaret Thatcher trained as a chemist and a lawyer before being elected as a Conservative MP in 1959. She became Leader of the Conservative Party in 1975 and Prime Minister in 1979."
+  },
+  {
+    "id": "his057",
+    "text": "What was the name of the 1940 aerial battle in which the RAF defeated a German air campaign over Britain?",
+    "options": ["The Battle of the Atlantic", "The Battle of Britain", "The Battle of El Alamein", "Operation Overlord"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "The Battle of Britain in the summer of 1940 saw the RAF defeat the German Luftwaffe's campaign to gain control of British airspace. Hitler needed to control the air before he could attempt a land invasion of Britain."
+  },
+  {
+    "id": "his058",
+    "text": "Which two RAF aircraft were most important in winning the Battle of Britain?",
+    "options": ["Lancaster and Mosquito", "Typhoon and Tornado", "Halifax and Stirling", "Spitfire and Hurricane"],
+    "answerIndex": 3,
+    "category": "History",
+    "explanation": "The Spitfire and the Hurricane were the most important RAF fighter planes in the Battle of Britain. Both were designed and built in Britain and proved decisive in defeating the German air campaign."
+  },
+  {
+    "id": "his059",
+    "text": "During the Second World War, which British city was almost totally destroyed by the German Blitz bombing campaign?",
+    "options": ["Coventry", "Bristol", "Plymouth", "Southampton"],
+    "answerIndex": 0,
+    "category": "History",
+    "explanation": "The Blitz was a German night-bombing campaign against London and other British cities. Coventry was almost totally destroyed, and great damage was done in other cities, especially in the East End of London. The phrase 'Blitz spirit' describes Britons pulling together in adversity."
+  },
+  {
+    "id": "his060",
+    "text": "In a 2002 public poll, Winston Churchill was voted what?",
+    "options": ["The greatest wartime leader in history", "The greatest Conservative Prime Minister", "The greatest Briton of all time", "The greatest parliamentarian of the 20th century"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Winston Churchill became Prime Minister in May 1940 and refused to surrender to the Nazis. He was an inspirational leader. He was given a state funeral following his death in 1965 and in 2002 was voted the greatest Briton of all time by the public."
+  },
+  {
+    "id": "his061",
+    "text": "Which of the following is a line from Winston Churchill's first speech to the House of Commons after becoming Prime Minister in 1940?",
+    "options": ["We shall fight on the beaches", "I have nothing to offer but blood, toil, tears and sweat", "Never in the field of human conflict was so much owed by so many to so few", "Their finest hour"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "Churchill's first speech to the House of Commons after he became Prime Minister in 1940 included the famous line: 'I have nothing to offer but blood, toil, tears and sweat.' This speech helped galvanise British resolve against Nazi Germany."
+  },
+  {
+    "id": "his062",
+    "text": "Churchill's speech containing the words 'We shall fight on the beaches, we shall fight on the landing grounds' was delivered on which occasion?",
+    "options": ["His first speech as Prime Minister, May 1940", "His speech on victory in Europe, May 1945", "His speech on the Battle of Britain, August 1940", "His speech to the House of Commons after the Dunkirk evacuation, 1940"],
+    "answerIndex": 3,
+    "category": "History",
+    "explanation": "Churchill delivered his 'We shall fight on the beaches' speech to the House of Commons after the Dunkirk evacuation in 1940. The speech ended with the famous declaration that Britain would 'never surrender'."
+  },
+  {
+    "id": "his063",
+    "text": "In which year did Queen Victoria become queen, and at what age?",
+    "options": ["1837, aged 18", "1840, aged 21", "1830, aged 16", "1835, aged 20"],
+    "answerIndex": 0,
+    "category": "History",
+    "explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18. She reigned until 1901 — almost 64 years — the longest reign of any British monarch at the time the official handbook was written."
+  },
+  {
+    "id": "his064",
+    "text": "The Great Exhibition of 1851 was held in which building in Hyde Park, London?",
+    "options": ["The Royal Pavilion", "The Great Hall", "The Crystal Palace", "The Glass Palace"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "In 1851, the Great Exhibition opened in Hyde Park in the Crystal Palace, a huge building made of steel and glass. Exhibits ranged from huge machines to handmade goods, and most of the objects were made in Britain."
+  },
+  {
+    "id": "his065",
+    "text": "What did the Reform Act of 1832 do to 'pocket boroughs' and 'rotten boroughs'?",
+    "options": ["It gave them additional seats in Parliament", "It abolished them and gave more seats to towns and cities", "It merged them into larger constituencies", "It transferred control of them to the new industrial cities"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "The Reform Act of 1832 greatly increased the number of men with the right to vote and abolished the old pocket and rotten boroughs — constituencies controlled by single wealthy families or with very few voters. More parliamentary seats were given to the towns and cities."
+  },
+  {
+    "id": "his066",
+    "text": "Which Act of Parliament in 1833 abolished slavery throughout the British Empire?",
+    "options": ["The Slave Trade Act", "The Reform Act", "The Union Act", "The Emancipation Act"],
+    "answerIndex": 3,
+    "category": "History",
+    "explanation": "In 1807, it became illegal to trade slaves in British ships or from British ports. In 1833, the Emancipation Act abolished slavery throughout the British Empire. William Wilberforce, an evangelical Christian and MP, played a key role in turning public opinion against the slave trade."
+  },
+  {
+    "id": "his067",
+    "text": "The Boer War of 1899–1902 was fought between Britain and which group of settlers?",
+    "options": ["Dutch settlers (the Boers) in South Africa", "French colonists in West Africa", "German settlers in East Africa", "Portuguese colonists in Mozambique"],
+    "answerIndex": 0,
+    "category": "History",
+    "explanation": "The Boer War of 1899 to 1902 was fought between Britain and the Boers — settlers from the Netherlands in South Africa. The Boers fought fiercely and the war lasted over three years. Many died in the fighting and many more from disease."
+  },
+  {
+    "id": "his068",
+    "text": "Rudyard Kipling was awarded the Nobel Prize in Literature in 1907. Which of the following is one of his famous works?",
+    "options": ["Robinson Crusoe", "The Coral Island", "The Jungle Book", "Treasure Island"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Rudyard Kipling was born in India in 1865 and later lived in India, the UK and the USA. He was awarded the Nobel Prize in Literature in 1907. His books include the Just So Stories and The Jungle Book, which continue to be popular today. His poem 'If' has often been voted among the UK's favourite poems."
+  },
+  {
+    "id": "his069",
+    "text": "Isaac Newton was born in which English county, and which of the following discoveries is credited to him?",
+    "options": ["Kent; the laws of thermodynamics", "Lincolnshire; that white light is made up of the colours of the rainbow", "Cambridge; the wave nature of light", "Suffolk; the existence of atoms"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "Born in Lincolnshire, Isaac Newton first became interested in science while studying at Cambridge University. He discovered that white light is made up of the colours of the rainbow and published his famous work on gravity. He was an early member of the Royal Society."
+  },
+  {
+    "id": "his070",
+    "text": "Why does the Welsh dragon not appear on the Union Flag?",
+    "options": ["Wales chose not to join the Union Flag when it was redesigned in 1801", "The dragon symbol was considered too aggressive for inclusion on a national flag", "Wales was already united with England when the first Union Flag was created in 1606, so Wales had no separate cross to add", "A separate Welsh national flag was created instead, making the Union Flag unnecessary for Wales"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The Union Flag combines the crosses of St George (England), St Andrew (Scotland) and St Patrick (Ireland). The Welsh dragon does not appear because when the first Union Flag was created in 1606 from the flags of Scotland and England, the Principality of Wales was already united with England and had no separate cross to contribute."
+  },
+  {
+    "id": "his071",
+    "text": "Boudicca was the queen of which tribe that led a revolt against the Roman occupation of Britain?",
+    "options": ["The Brigantes", "The Iceni", "The Catuvellauni", "The Trinovantes"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "Boudicca was queen of the Iceni, a tribe in eastern Britain. She led a revolt against Roman rule and her forces destroyed the Roman settlements of Colchester, London and St Albans before being defeated by the Roman army."
+  },
+  {
+    "id": "his072",
+    "text": "Cnut (Canute) became king of England in 1016. From which country did he originate?",
+    "options": ["Norway", "Sweden", "Denmark", "Iceland"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "Cnut was a Danish king who became king of England in 1016. At one point Cnut was king of England, Denmark and Norway, making him one of the most powerful rulers in northern Europe."
+  },
+  {
+    "id": "his073",
+    "text": "St Augustine was sent to Britain in AD 597 to bring Christianity to the Anglo-Saxons. From where was he sent?",
+    "options": ["Constantinople", "Jerusalem", "Alexandria", "Rome"],
+    "answerIndex": 3,
+    "category": "History",
+    "explanation": "In AD 597 Pope Gregory the Great sent Augustine from Rome to re-introduce Christianity to England. Augustine became the first Archbishop of Canterbury and is considered the founder of the English Church."
+  },
+  {
+    "id": "his074",
+    "text": "St Columba came from Ireland to Britain in AD 563. On which island did he found a monastery that became an important centre of Celtic Christianity?",
+    "options": ["Lindisfarne", "Iona", "Arran", "Skye"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "St Columba was an Irish monk who came to Britain in AD 563 and founded a monastery on the island of Iona in Scotland. He and his followers spread the Christian religion throughout Scotland and northern England."
+  },
+  {
+    "id": "his075",
+    "text": "The Hundred Years War was a long conflict between England and France. Approximately when did it take place?",
+    "options": ["1215–1360", "1337–1453", "1300–1420", "1350–1480"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "The Hundred Years War was a long conflict between England and France from 1337 to 1453. England and France fought over who should rule France. The English won many famous battles including Crécy and Agincourt, but eventually lost almost all their French lands."
+  },
+  {
+    "id": "his076",
+    "text": "The Statute of Rhuddlan in 1284 completed the conquest of Wales by which English king?",
+    "options": ["Henry II", "Edward III", "Edward I", "Henry V"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The Statute of Rhuddlan in 1284 brought Wales under English rule following Edward I's military campaign. He established a ring of castles to maintain control, including Conwy and Caernarfon. To appease the Welsh, Edward made his son the first English Prince of Wales in 1301."
+  },
+  {
+    "id": "his077",
+    "text": "In 1611, the King James Bible was completed and published. Which monarch commissioned it?",
+    "options": ["Elizabeth I", "Charles I", "Henry VIII", "James I"],
+    "answerIndex": 3,
+    "category": "History",
+    "explanation": "The King James Bible was commissioned by King James I and published in 1611. It had an enormous influence on the English language and is still used by many churches throughout the world today."
+  },
+  {
+    "id": "his078",
+    "text": "George Stephenson is associated with railway development in Britain. Which railway, opened in 1830, was the world's first public steam-powered passenger railway?",
+    "options": ["The Liverpool and Manchester Railway", "The Stockton and Darlington Railway", "The Great Western Railway", "The London and Birmingham Railway"],
+    "answerIndex": 0,
+    "category": "History",
+    "explanation": "George and his son Robert Stephenson pioneered railways in Britain. In 1830 the Liverpool and Manchester Railway opened — the world's first public steam-powered railway to carry both passengers and goods. George's locomotive 'Rocket' had won a famous competition at Rainhill in 1829."
+  },
+  {
+    "id": "his079",
+    "text": "After the Second World War, the UK developed its own atomic bomb. In which year did Britain successfully test its first atomic weapon?",
+    "options": ["1948", "1950", "1952", "1955"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "After World War II, the British government developed its own atomic bomb, successfully testing it in 1952. Britain also helped establish the North Atlantic Treaty Organisation (NATO) in 1949 to defend Western Europe against possible Soviet aggression."
+  },
+  {
+    "id": "his080",
+    "text": "The Empire Windrush arrived in Britain in June 1948. Where had it sailed from, bringing one of the first large groups of Commonwealth migrants to the UK?",
+    "options": ["India", "The Caribbean", "West Africa", "Hong Kong"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "The Empire Windrush arrived from the Caribbean in June 1948, bringing one of the first large groups of West Indian migrants to the UK. This was followed by further migration from the West Indies and, in the 1950s, from India and Pakistan, as Britain faced a labour shortage after World War II."
+  },
+  {
+    "id": "his081",
+    "text": "Which of the following best describes the cultural phenomenon known as the 'Swinging Sixties' in Britain?",
+    "options": ["A period of post-war austerity and national rebuilding under the Labour government", "A decade of social liberalisation and British influence in music and fashion, exemplified by The Beatles and designer Mary Quant", "A decade of economic decline marked by trade union disputes", "A period of rapid industrial growth driven by North Sea oil"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "The 1960s in Britain saw significant social change known as the Swinging Sixties. British bands such as The Beatles and The Rolling Stones achieved worldwide fame. Designer Mary Quant popularised the miniskirt and Carnaby Street in London became a centre of fashion. New laws in the 1960s also allowed greater individual freedom."
+  },
+  {
+    "id": "his082",
+    "text": "The Falklands War of 1982 was fought between the UK and which country, and which Prime Minister ordered British forces to retake the islands?",
+    "options": ["Chile; James Callaghan", "Uruguay; Edward Heath", "Argentina; Margaret Thatcher", "Brazil; Margaret Thatcher"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "In 1982 Argentina invaded the Falkland Islands, a British overseas territory in the South Atlantic. Prime Minister Margaret Thatcher ordered a naval task force to retake them. After a ten-week conflict the Argentinian forces surrendered, boosting Thatcher's popularity."
+  },
+  {
+    "id": "his083",
+    "text": "Following Tony Blair's 1997 general election landslide victory, referendums were held in Scotland and Wales. Which devolved bodies were created as a result?",
+    "options": ["The Scottish Assembly and the Welsh Parliament", "The Scottish Parliament and the Welsh Assembly (Senedd)", "The Scottish Parliament and the Ulster Assembly", "The Welsh Parliament and the Scottish Regional Council"],
+    "answerIndex": 1,
+    "category": "History",
+    "explanation": "In 1997 Tony Blair led Labour to a large majority. Referendums were held and in 1999 both a Scottish Parliament and a Welsh Assembly (now called the Senedd) were established. These bodies have powers over matters such as health and education within their respective nations."
+  },
+  {
+    "id": "his084",
+    "text": "The National Health Service (NHS) was established in 1948. Which minister was responsible for creating it?",
+    "options": ["Winston Churchill", "Clement Attlee", "Aneurin Bevan", "Ernest Bevin"],
+    "answerIndex": 2,
+    "category": "History",
+    "explanation": "The National Health Service was created in 1948 by Aneurin (Nye) Bevan, the Minister for Health in Clement Attlee's post-war Labour government. It provided free healthcare for all at the point of need, funded by taxation. The NHS is one of the most significant legacies of the post-war welfare state."
+  }
+]
