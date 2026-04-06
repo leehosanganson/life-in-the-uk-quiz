@@ -16,6 +16,7 @@ frontend/.vite/
 # Docker / environment
 .env
 .direnv
+.secrets
 
 # Editors
 .vscode/
