@@ -20,20 +20,31 @@ jobs:
           echo "IMAGE_TAG=$CLEAN_BRANCH" >> $GITHUB_ENV
 
       - name: Login to Harbor
-        uses: docker/login-action@v3
+        uses: redhat-actions/podman-login@v2
         with:
           registry: ${{ vars.HARBOR_REGISTRY }}
           username: ${{ secrets.HARBOR_USERNAME }}
           password: ${{ secrets.HARBOR_PASSWORD }}
 
-      - name: Build Backend
-        run: |
-          cd ./backend
-          docker build ./ -t ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend:${{ env.SHORT_SHA }}
-          docker push ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend:${{ env.SHORT_SHA }}
+      - name: Build & Push Backend
+        uses: redhat-actions/buildah-build@v2
+        id: build-backend
+        with:
+          image: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend
+          tags: ${{ env.SHORT_SHA }}
+          containerfiles: ./backend/Dockerfile
+          push: true
 
-      - name: Build Frontend
+      - name: Build & Push Frontend
+        uses: redhat-actions/buildah-build@v2
+        id: build-frontend
+        with:
+          image: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend
+          tags: ${{ env.SHORT_SHA }}
+          containerfiles: ./frontend/Dockerfile
+          push: true
+
+      - name: Print Image URLs
         run: |
-          cd ./frontend
-          docker build ./ -t ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend:${{ env.SHORT_SHA }}
-          docker push ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend:${{ env.SHORT_SHA }}
+          echo "Backend: ${{ steps.build-backend.outputs.registry-paths }}"
+          echo "Frontend: ${{ steps.build-frontend.outputs.registry-paths }}"

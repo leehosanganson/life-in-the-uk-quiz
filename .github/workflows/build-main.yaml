@@ -70,17 +70,20 @@ jobs:
         run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
 
       - name: Login to Harbor
-        uses: docker/login-action@v3
+        uses: redhat-actions/podman-login@v2
         with:
           registry: ${{ vars.HARBOR_REGISTRY }}
           username: ${{ secrets.HARBOR_USERNAME }}
           password: ${{ secrets.HARBOR_PASSWORD }}
 
-      - name: Build and push backend image
-        run: |
-          cd ./backend
-          docker build ./ -t ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend:${{ env.SHORT_SHA }}
-          docker push ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend:${{ env.SHORT_SHA }}
+      - name: Build & Push Backend
+        uses: redhat-actions/buildah-build@v2
+        id: build-backend
+        with:
+          image: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend
+          tags: ${{ env.SHORT_SHA }}
+          containerfiles: ./backend/Dockerfile
+          push: true
 
   build-and-push-frontend:
     name: Build and Push Frontend
@@ -95,14 +98,17 @@ jobs:
         run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
 
       - name: Login to Harbor
-        uses: docker/login-action@v3
+        uses: redhat-actions/podman-login@v2
         with:
           registry: ${{ vars.HARBOR_REGISTRY }}
           username: ${{ secrets.HARBOR_USERNAME }}
           password: ${{ secrets.HARBOR_PASSWORD }}
 
-      - name: Build and push frontend image
-        run: |
-          cd ./frontend
-          docker build ./ -t ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend:${{ env.SHORT_SHA }}
-          docker push ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend:${{ env.SHORT_SHA }}
+      - name: Build & Push Frontend
+        uses: redhat-actions/buildah-build@v2
+        id: build-frontend
+        with:
+          image: ${{ vars.HARBOR_REGISTRY }}/${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend
+          tags: ${{ env.SHORT_SHA }}
+          containerfiles: ./frontend/Dockerfile
+          push: true
