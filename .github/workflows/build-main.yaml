@@ -14,8 +14,7 @@ jobs:
     name: Detect Changes
     runs-on: ubuntu-latest
     outputs:
-      backend: ${{ steps.filter.outputs.codeChanged }}
-      frontend: ${{ steps.filter.outputs.codeChanged }}
+      codeChanged: ${{ steps.filter.outputs.codeChanged }}
     steps:
       - uses: actions/checkout@v4
       - uses: dorny/paths-filter@v3
