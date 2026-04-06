@@ -37,3 +37,41 @@ jobs:
       source_tag: ${{ needs.prepare.outputs.short_sha }}
       target_tag: ${{ github.ref_name }}
     secrets: inherit
+
+  create-github-release:
+    name: Create GitHub Release
+    needs: [release-backend, release-frontend]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ github.ref_name }}
+          generate_release_notes: true
+
+  promote-backend-to-latest:
+    name: Promote Backend to Latest
+    needs: [create-github-release]
+    uses: ./.github/workflows/_retag-image.yaml
+    with:
+      service: backend
+      project: ${{ vars.HARBOR_PROJECT }}
+      source_tag: ${{ github.ref_name }}
+      target_tag: "latest"
+    secrets: inherit
+
+  promote-frontend-to-latest:
+    name: Promote Frontend to Latest
+    needs: [create-github-release]
+    uses: ./.github/workflows/_retag-image.yaml
+    with:
+      service: frontend
+      project: ${{ vars.HARBOR_PROJECT }}
+      source_tag: ${{ github.ref_name }}
+      target_tag: "latest"
+    secrets: inherit

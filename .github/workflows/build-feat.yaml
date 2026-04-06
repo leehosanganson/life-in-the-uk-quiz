@@ -13,6 +13,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Detect Changes
+        uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            backend:
+              - 'backend/**'
+              - 'data/questions/**'
+            frontend:
+              - 'frontend/**'
+
       - name: Sanitize Branch Name for Docker Tag
         # Replaces slashes with dashes so 'feature/login' becomes 'feature-login'
         run: |
@@ -30,6 +41,7 @@ jobs:
           password: ${{ secrets.HARBOR_PASSWORD }}
 
       - name: Build Backend Image
+        if: steps.changes.outputs.backend == 'true'
         uses: redhat-actions/buildah-build@v2
         id: build-backend
         with:
@@ -39,6 +51,7 @@ jobs:
           containerfiles: ./backend/Dockerfile
 
       - name: Push Backend Image to Harbor
+        if: steps.changes.outputs.backend == 'true'
         uses: redhat-actions/push-to-registry@v2
         with:
           image: ${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend
@@ -46,6 +59,7 @@ jobs:
           registry: ${{ vars.HARBOR_REGISTRY }}
 
       - name: Build & Push Frontend
+        if: steps.changes.outputs.frontend == 'true'
         uses: redhat-actions/buildah-build@v2
         id: build-frontend
         with:
@@ -55,6 +69,7 @@ jobs:
           containerfiles: ./frontend/Dockerfile
 
       - name: Push Frontend Image to Harbor
+        if: steps.changes.outputs.frontend == 'true'
         uses: redhat-actions/push-to-registry@v2
         with:
           image: ${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend
@@ -62,6 +77,7 @@ jobs:
           registry: ${{ vars.HARBOR_REGISTRY }}
 
       - name: Print Image URLs
+        if: always()
         run: |
           echo "Backend: ${{ steps.build-backend.outputs.registry-paths }}"
           echo "Frontend: ${{ steps.build-frontend.outputs.registry-paths }}"
