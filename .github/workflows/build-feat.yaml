@@ -41,8 +41,9 @@ jobs:
       - name: Push Backend Image to Harbor
         uses: redhat-actions/push-to-registry@v2
         with:
-          image: ${{ steps.build-backend.outputs.image }}
+          image: ${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-backend
           tags: ${{ steps.build-backend.outputs.tags }}
+          registry: ${{ vars.HARBOR_REGISTRY }}
 
       - name: Build & Push Frontend
         uses: redhat-actions/buildah-build@v2
@@ -56,8 +57,9 @@ jobs:
       - name: Push Frontend Image to Harbor
         uses: redhat-actions/push-to-registry@v2
         with:
-          image: ${{ steps.build-frontend.outputs.image }}
+          image: ${{ vars.HARBOR_PROJECT }}/life-in-the-uk-quiz-frontend
           tags: ${{ steps.build-frontend.outputs.tags }}
+          registry: ${{ vars.HARBOR_REGISTRY }}
 
       - name: Print Image URLs
         run: |
