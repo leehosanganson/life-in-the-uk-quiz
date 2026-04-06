@@ -90,7 +90,6 @@ jobs:
         with:
           image: ${{ steps.build-backend.outputs.image }}
           tags: ${{ steps.build-backend.outputs.tags }}
-          registry: ${{ vars.HARBOR_REGISTRY }}
 
   build-and-push-frontend:
     name: Build and Push Frontend
@@ -125,4 +124,3 @@ jobs:
         with:
           image: ${{ steps.build-frontend.outputs.image }}
           tags: ${{ steps.build-frontend.outputs.tags }}
-          registry: ${{ vars.HARBOR_REGISTRY }}

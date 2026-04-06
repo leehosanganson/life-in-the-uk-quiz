@@ -43,7 +43,6 @@ jobs:
         with:
           image: ${{ steps.build-backend.outputs.image }}
           tags: ${{ steps.build-backend.outputs.tags }}
-          registry: ${{ vars.HARBOR_REGISTRY }}
 
       - name: Build & Push Frontend
         uses: redhat-actions/buildah-build@v2
@@ -59,7 +58,6 @@ jobs:
         with:
           image: ${{ steps.build-frontend.outputs.image }}
           tags: ${{ steps.build-frontend.outputs.tags }}
-          registry: ${{ vars.HARBOR_REGISTRY }}
 
       - name: Print Image URLs
         run: |
