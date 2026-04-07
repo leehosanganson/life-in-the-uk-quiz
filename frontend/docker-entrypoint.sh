@@ -33,4 +33,17 @@ window.__ENV__ = {
 };
 ENVEOF
 
+# Bust Cloudflare's extension-based cache for env-config.js.
+# Use APP_VERSION if set, otherwise fall back to a Unix timestamp.
+if [ -n "$APP_VERSION" ]; then
+  CACHE_BUSTER="$APP_VERSION"
+else
+  CACHE_BUSTER="$(date +%s)"
+fi
+
+# Patch index.html in-place. Use a pattern that matches both the plain URL
+# (first start) and any previously versioned URL (container restart), so
+# the correct cache-buster is always applied regardless of prior state.
+sed -i "s|src=\"/env-config\.js[^\"]*\"|src=\"/env-config.js?v=${CACHE_BUSTER}\"|" /usr/share/nginx/html/index.html
+
 exec nginx -g 'daemon off;'
