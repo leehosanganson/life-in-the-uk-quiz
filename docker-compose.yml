@@ -45,7 +45,7 @@ services:
       CONTACT_EMAIL: "leehosanganson@gmail.com"
       OPERATOR_NAME: "Ho Sang Lee"
       POLICY_UPDATE_DATE: "5 April 2026"
-      APP_VERSION: dev-1
+      APP_VERSION: local
     depends_on:
       - backend
 
