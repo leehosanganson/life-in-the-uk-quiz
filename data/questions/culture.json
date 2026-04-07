@@ -694,5 +694,129 @@
     "answerIndex": 2,
     "category": "Culture",
     "explanation": "Robert Browning was one of the foremost Victorian poets, particularly celebrated for his dramatic monologues — poems spoken by a character other than the poet. Famous examples include 'My Last Duchess' and 'The Pied Piper of Hamelin'. His wife Elizabeth Barrett Browning was also a distinguished poet, best known for 'Sonnets from the Portuguese'."
+  },
+  {
+    "id": "cul088",
+    "text": "Which British scientists pioneered the development of IVF (in vitro fertilisation) therapy, leading to the birth of the world's first IVF baby in 1978?",
+    "options": [
+      "Sir Alexander Fleming and Howard Florey",
+      "Sir Robert Edwards and Patrick Steptoe",
+      "Ian Wilmut and Keith Campbell",
+      "Francis Crick and James Watson"
+    ],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Sir Robert Edwards and Patrick Steptoe pioneered IVF therapy. Their work led to the birth of Louise Brown — the world's first 'test-tube baby' — on 25 July 1978. Sir Robert Edwards was awarded the Nobel Prize in Physiology or Medicine in 2010."
+  },
+  {
+    "id": "cul089",
+    "text": "Which scientists led the team that successfully cloned Dolly the sheep in 1996, making her the first mammal cloned from an adult somatic cell?",
+    "options": [
+      "Sir Peter Mansfield and Paul Lauterbur",
+      "Sir Robert Edwards and Patrick Steptoe",
+      "Ian Wilmut and Keith Campbell",
+      "John Shepherd-Barron and James Goodfellow"
+    ],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Ian Wilmut and Keith Campbell led the team at the Roslin Institute in Edinburgh that created Dolly the sheep in 1996. She was the first mammal to be cloned from an adult somatic (body) cell using the process of nuclear transfer. Dolly lived until 2003."
+  },
+  {
+    "id": "cul090",
+    "text": "Sir Peter Mansfield was a British physicist who shared the 2003 Nobel Prize in Physiology or Medicine. What technology did he help develop?",
+    "options": [
+      "The CT (computed tomography) scanner",
+      "The MRI (Magnetic Resonance Imaging) scanner",
+      "The first artificial heart valve",
+      "Ultrasound imaging technology"
+    ],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Sir Peter Mansfield of the University of Nottingham co-developed the MRI (Magnetic Resonance Imaging) scanner. He shared the 2003 Nobel Prize in Physiology or Medicine with Paul Lauterbur for their discoveries concerning MRI. MRI scanners are now fundamental to modern medical diagnosis."
+  },
+  {
+    "id": "cul091",
+    "text": "John Shepherd-Barron invented a machine first installed at a Barclays Bank branch in Enfield, London, in 1967. What was it?",
+    "options": [
+      "The electronic point-of-sale (EPOS) terminal",
+      "The ATM (cash machine / cash dispenser)",
+      "The credit card payment system",
+      "The first electronic bank transfer system"
+    ],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "John Shepherd-Barron invented the ATM (Automated Teller Machine), also known as a cash machine or cash dispenser. The first one was installed at Barclays Bank in Enfield, London, on 27 June 1967. Customers used special cheques treated with a mildly radioactive carbon-14 isotope and a PIN."
+  },
+  {
+    "id": "cul092",
+    "text": "Which 1981 British film, about two athletes competing in the 1924 Paris Olympics, won the Academy Award for Best Picture?",
+    "options": ["Gandhi", "Chariots of Fire", "The Killing Fields", "A Passage to India"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Chariots of Fire (1981) is a British historical drama about Harold Abrahams and Eric Liddell, two British athletes who competed in the 1924 Olympics. It won four Academy Awards including Best Picture, and its iconic theme music by Vangelis is instantly recognisable."
+  },
+  {
+    "id": "cul093",
+    "text": "Which 1994 British romantic comedy, written by Richard Curtis and starring Hugh Grant, became a major international hit and is frequently cited in the Life in the UK handbook?",
+    "options": ["Notting Hill", "Bridget Jones's Diary", "Four Weddings and a Funeral", "Love Actually"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "Four Weddings and a Funeral (1994) was written by Richard Curtis and starred Hugh Grant and Andie MacDowell. It was a huge commercial and critical success, earning two Academy Award nominations and becoming one of the most successful British films of the 1990s."
+  },
+  {
+    "id": "cul094",
+    "text": "Ian Fleming created which fictional British secret agent, who has been the subject of a hugely successful film franchise beginning with Dr. No in 1962?",
+    "options": ["George Smiley", "James Bond (Agent 007)", "Jack Bauer", "Harry Palmer"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Ian Fleming created James Bond (Agent 007), the fictional MI6 secret agent. The James Bond film franchise, beginning with Dr. No (1962) starring Sean Connery, is one of the longest-running and most successful in cinema history. Ian Fleming wrote 12 novels and 2 short story collections featuring the character."
+  },
+  {
+    "id": "cul095",
+    "text": "The Carry On film series is a famous British comedy franchise. In which decade did the series begin?",
+    "options": ["1940s", "1950s", "1960s", "1970s"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "The Carry On film series began in 1958 with Carry On Sergeant. The series ran until 1978 (with a later entry in 1992), producing 31 films in total. The films are known for their slapstick humour, innuendo, and ensemble casts featuring stars such as Sid James, Kenneth Williams, and Barbara Windsor."
+  },
+  {
+    "id": "cul096",
+    "text": "True or False: The James Bond film franchise, one of the longest-running in cinema history, is based on novels by the British author Ian Fleming.",
+    "options": ["True", "False"],
+    "answerIndex": 0,
+    "category": "Culture",
+    "explanation": "True. Ian Fleming was a British author who created James Bond. He wrote 12 novels and 2 short story collections featuring the character. The film franchise, produced by EON Productions, began in 1962 with Dr. No and has produced over 25 official films."
+  },
+  {
+    "id": "cul097",
+    "text": "British fashion designer Vivienne Westwood rose to prominence through her close association with which 1970s cultural movement?",
+    "options": ["The Mod movement", "The punk movement", "The Hippie movement", "The New Romantic movement"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "Vivienne Westwood is widely credited with bringing punk fashion into the mainstream in the 1970s. She co-owned the iconic 'SEX' boutique on King's Road, London with Malcolm McLaren, which became the epicentre of punk fashion. She later became one of Britain's most internationally celebrated fashion designers."
+  },
+  {
+    "id": "cul098",
+    "text": "Alexander McQueen was a celebrated British fashion designer. How many times was he awarded the title of British Designer of the Year by the British Fashion Council?",
+    "options": ["Once", "Twice", "Three times", "Four times"],
+    "answerIndex": 3,
+    "category": "Culture",
+    "explanation": "Alexander McQueen was named British Designer of the Year four times (1996, 1997, 2001, and 2003) by the British Fashion Council. He was known for his theatrical runway shows and innovative designs. He was awarded a CBE in 2003 for his services to the fashion industry."
+  },
+  {
+    "id": "cul099",
+    "text": "The building nicknamed 'The Gherkin', a landmark of London's financial district, was designed by which British architect?",
+    "options": ["Richard Rogers", "Zaha Hadid", "Norman Foster", "Renzo Piano"],
+    "answerIndex": 2,
+    "category": "Culture",
+    "explanation": "The Gherkin (formally 30 St Mary Axe) was designed by Sir Norman Foster and Partners and completed in 2003. It is one of the most recognisable skyscrapers in London's skyline. Sir Norman Foster is one of the leading figures in high-tech architecture and has designed many landmark buildings worldwide."
+  },
+  {
+    "id": "cul100",
+    "text": "The Scottish Parliament building in Edinburgh was designed by architect Enric Miralles and completed in 2004. In which city is it located?",
+    "options": ["Glasgow", "Edinburgh", "Stirling", "Dundee"],
+    "answerIndex": 1,
+    "category": "Culture",
+    "explanation": "The Scottish Parliament building is located in Edinburgh, at the foot of the Royal Mile in the Holyrood area. It was designed by Catalan architect Enric Miralles (working with Benedetta Tagliabue of EMBT and the Scottish firm RMJM). The building opened in 2004, though Miralles himself died in 2000 before its completion."
   }
 ]

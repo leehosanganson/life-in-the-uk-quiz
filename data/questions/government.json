@@ -582,5 +582,147 @@
     "answerIndex": 1,
     "category": "Government",
     "explanation": "Members of the public can contact their MP by writing to them at the House of Commons, by email, or by attending their local surgery — regular meetings held in the constituency where people can raise issues in person. MPs represent all their constituents regardless of which party those constituents voted for."
+  },
+  {
+    "id": "gov074",
+    "text": "True or False: The UK has a single, codified written constitution.",
+    "options": ["True", "False"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "False. Unlike many other countries, the UK does not have a single, written constitution. It is 'unwritten' and based on a combination of laws, conventions, and historic documents."
+  },
+  {
+    "id": "gov075",
+    "text": "True or False: The Prime Minister must be an elected member of the House of Commons.",
+    "options": ["True", "False"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "False. By convention the Prime Minister is usually a member of the House of Commons, but the position is not constitutionally restricted to MPs — a peer (member of the House of Lords) could technically hold the office."
+  },
+  {
+    "id": "gov076",
+    "text": "True or False: All UK citizens aged 18 and over have an automatic right to vote without registering.",
+    "options": ["True", "False"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "False. To vote in a UK election you must first register to vote on the electoral register. Simply being a citizen aged 18 or over does not automatically confer the right to vote without registration."
+  },
+  {
+    "id": "gov077",
+    "text": "True or False: A person convicted in the Crown Court can ultimately appeal to the UK Supreme Court.",
+    "options": ["True", "False"],
+    "answerIndex": 0,
+    "category": "Government",
+    "explanation": "True. Appeals from the Crown Court go to the Court of Appeal (Criminal Division) and, on a point of law of general public importance, may proceed to the UK Supreme Court."
+  },
+  {
+    "id": "gov078",
+    "text": "True or False: Magistrates (Justices of the Peace) are usually paid professionals with formal legal qualifications.",
+    "options": ["True", "False"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "False. Magistrates (also called Justices of the Peace) are unpaid volunteers from the local community. They do not need formal legal qualifications but receive training; they are supported in court by a legally qualified clerk."
+  },
+  {
+    "id": "gov079",
+    "text": "Review the following statements:\n1. The Prime Minister is appointed by the Monarch.\n2. The Prime Minister can change the UK constitution without Parliament's approval.",
+    "options": [
+      "Statement 1 is true, Statement 2 is false",
+      "Statement 1 is false, Statement 2 is true",
+      "Both statements are true",
+      "Both statements are false"
+    ],
+    "answerIndex": 0,
+    "category": "Government",
+    "explanation": "The Monarch appoints the Prime Minister — usually the leader of the party with a majority in the House of Commons. However, no Prime Minister can change the constitution or laws without the approval of Parliament."
+  },
+  {
+    "id": "gov080",
+    "text": "Review the following statements:\n1. Magistrates (Justices of the Peace) are unpaid volunteers.\n2. Magistrates sit in Crown Courts to hear all serious criminal cases.",
+    "options": [
+      "Statement 1 is true, Statement 2 is false",
+      "Statement 1 is false, Statement 2 is true",
+      "Both statements are true",
+      "Both statements are false"
+    ],
+    "answerIndex": 0,
+    "category": "Government",
+    "explanation": "Magistrates are unpaid volunteers (Statement 1 is true). However, they sit in Magistrates' Courts, not Crown Courts. Crown Courts hear more serious criminal cases, usually before a judge and jury (Statement 2 is false)."
+  },
+  {
+    "id": "gov081",
+    "text": "Review the following statements:\n1. A solicitor typically handles day-to-day legal work such as drafting contracts and giving legal advice.\n2. A barrister (or advocate in Scotland) typically represents clients in higher courts.",
+    "options": [
+      "Statement 1 is true, Statement 2 is false",
+      "Statement 1 is false, Statement 2 is true",
+      "Both statements are true",
+      "Both statements are false"
+    ],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "Both statements are true. Solicitors handle routine legal matters and client relationships. Barristers (called advocates in Scotland) specialise in advocacy and representing clients in higher courts such as the Crown Court and Court of Appeal."
+  },
+  {
+    "id": "gov082",
+    "text": "A dispute between two neighbours over a broken fence is an example of which type of law?",
+    "options": ["Criminal law", "Civil law", "Constitutional law", "International law"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "Civil law covers disputes between individuals or organisations, such as disputes over contracts, property, or personal injury. Criminal law applies to offences against the state or public."
+  },
+  {
+    "id": "gov083",
+    "text": "Which court do Magistrates (Justices of the Peace) typically sit in, and what kinds of cases do they hear?",
+    "options": [
+      "Crown Court — all criminal cases",
+      "Magistrates' Court — minor criminal cases and some civil matters",
+      "High Court — appeals only",
+      "County Court — civil disputes only"
+    ],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "Magistrates sit in Magistrates' Courts and deal with less serious (summary) criminal offences and some civil matters such as family proceedings. More serious offences are sent to the Crown Court."
+  },
+  {
+    "id": "gov084",
+    "text": "Approximately what proportion of criminal cases in England and Wales are heard by magistrates?",
+    "options": ["About 25%", "About 50%", "About 75%", "About 95%"],
+    "answerIndex": 3,
+    "category": "Government",
+    "explanation": "Magistrates hear approximately 95% of all criminal cases in England and Wales. Only the most serious cases (such as murder, rape, and major fraud) are sent to the Crown Court."
+  },
+  {
+    "id": "gov085",
+    "text": "What is the main difference between a solicitor and a barrister in England and Wales?",
+    "options": [
+      "Solicitors work only in Scotland; barristers work only in England",
+      "Solicitors handle day-to-day legal work and client contact; barristers specialise in court advocacy, especially in higher courts",
+      "Barristers deal with civil matters only; solicitors deal with criminal matters only",
+      "There is no practical difference — the titles are interchangeable"
+    ],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "Solicitors are the first point of contact for most legal matters — they advise clients, draft documents, and handle transactions. Barristers (advocates in Scotland and Northern Ireland) specialise in presenting cases in higher courts. A solicitor may brief a barrister to represent a client in the Crown Court or Court of Appeal."
+  },
+  {
+    "id": "gov086",
+    "text": "What is the equivalent of a barrister called in Scotland?",
+    "options": ["Procurator Fiscal", "Advocate", "Sheriff", "Notary Public"],
+    "answerIndex": 1,
+    "category": "Government",
+    "explanation": "In Scotland, the equivalent of a barrister is called an Advocate. The Procurator Fiscal is a public prosecutor in the Scottish legal system, and a Sheriff is a judge in the Sheriff Court."
+  },
+  {
+    "id": "gov087",
+    "text": "Which court in England and Wales handles small civil claims, typically up to £10,000?",
+    "options": [
+      "The Magistrates' Court",
+      "The Crown Court",
+      "The County Court (small claims track)",
+      "The High Court"
+    ],
+    "answerIndex": 2,
+    "category": "Government",
+    "explanation": "The County Court (small claims track) handles civil disputes involving smaller amounts of money, typically up to £10,000 in England and Wales. It provides a simpler, less formal process for resolving everyday disputes such as faulty goods or unpaid debts."
   }
 ]
