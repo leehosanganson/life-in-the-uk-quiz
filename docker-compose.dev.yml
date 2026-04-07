@@ -52,9 +52,10 @@ services:
     working_dir: /app
     environment:
       VITE_BACKEND_HOST: http://backend:8080
-      VITE_CONTACT_EMAIL: "leehosanganson@gmail.com"
-      VITE_OPERATOR_NAME: "Ho Sang Lee"
-      VITE_POLICY_UPDATE_DATE: "5 April 2026"
+      GITHUB_URL: "http://example.com"
+      CONTACT_EMAIL: "user@example.com"
+      OPERATOR_NAME: "NAME"
+      POLICY_UPDATE_DATE: "1 Jan 1966"
     depends_on:
       - backend
 

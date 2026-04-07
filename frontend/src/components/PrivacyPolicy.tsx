@@ -17,8 +17,16 @@ export function PrivacyPolicy({ onBack }: PrivacyPolicyProps) {
       <h2>1. Who We Are</h2>
       <p>
         This website is operated by {appConfig.operatorName} (&ldquo;we&rdquo;, &ldquo;us&rdquo;,
-        &ldquo;our&rdquo;). For questions about this policy, contact us at{' '}
-        <a href={`mailto:${appConfig.contactEmail}`}>{appConfig.contactEmail}</a>.
+        &ldquo;our&rdquo;). For questions about this policy, contact us
+        {appConfig.contactEmail ? (
+          <>
+            {' '}
+            at <a href={`mailto:${appConfig.contactEmail}`}>{appConfig.contactEmail}</a>
+          </>
+        ) : (
+          ' via the project repository'
+        )}
+        .
       </p>
 
       <h2>2. What Data We Collect</h2>

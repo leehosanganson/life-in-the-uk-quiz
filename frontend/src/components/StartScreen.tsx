@@ -91,13 +91,15 @@ export function StartScreen({
           </a>
           . This project cannot replace official resources.
         </p>
-        <p className="start-screen__notice">
-          Found a mistake? Feel free to{' '}
-          <a href={`${appConfig.githubUrl}/issues/new`} target="_blank" rel="noopener noreferrer">
-            submit an issue
-          </a>{' '}
-          on GitHub.
-        </p>
+        {appConfig.githubUrl && (
+          <p className="start-screen__notice">
+            Found a mistake? Feel free to{' '}
+            <a href={`${appConfig.githubUrl}/issues/new`} target="_blank" rel="noopener noreferrer">
+              submit an issue
+            </a>{' '}
+            on GitHub.
+          </p>
+        )}
       </div>
       {onPrivacy && onTerms && onCookies && onDisclaimer && (
         <Footer

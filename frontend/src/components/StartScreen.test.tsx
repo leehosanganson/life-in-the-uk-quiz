@@ -78,13 +78,8 @@ describe('StartScreen', () => {
     expect(screen.getByText('🎯 … Questions')).toBeInTheDocument()
   })
 
-  it('renders a "submit an issue" link pointing to the GitHub issues page', () => {
+  it('does not render the "submit an issue" notice when githubUrl is undefined', () => {
     render(<StartScreen {...defaultProps} />)
-    const link = screen.getByRole('link', { name: 'submit an issue' })
-    expect(link).toBeInTheDocument()
-    expect(link).toHaveAttribute(
-      'href',
-      'https://github.com/leehosanganson/life-in-the-uk-quiz/issues/new'
-    )
+    expect(screen.queryByRole('link', { name: 'submit an issue' })).not.toBeInTheDocument()
   })
 })
