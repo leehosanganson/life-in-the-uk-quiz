@@ -1690,6 +1690,13 @@ h2 {
   margin: 0;
 }
 
+.footer__version {
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', monospace;
+  color: var(--color-text-subtle);
+  margin: 0;
+  font-size: 0.7rem;
+}
+
 /* ── Legal pages ── */
 .legal-page {
   max-width: 680px;

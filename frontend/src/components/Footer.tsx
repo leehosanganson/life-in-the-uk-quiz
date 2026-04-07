@@ -27,6 +27,7 @@ export function Footer({ onPrivacy, onTerms, onCookies, onDisclaimer }: FooterPr
       <p className="footer__copy">
         &copy; {copyrightYear} {appConfig.operatorName}
       </p>
+      {appConfig.appVersion && <p className="footer__version">{appConfig.appVersion}</p>}
     </footer>
   )
 }

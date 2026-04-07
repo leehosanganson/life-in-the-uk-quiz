@@ -1,6 +1,8 @@
 import { appConfig } from '../config/appConfig'
 
 export function GitHubLink() {
+  if (!appConfig.githubUrl) return null
+
   return (
     <a
       href={appConfig.githubUrl}

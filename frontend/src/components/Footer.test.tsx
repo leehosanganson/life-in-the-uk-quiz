@@ -1,7 +1,8 @@
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { vi, describe, it, expect } from 'vitest'
+import { vi, describe, it, expect, beforeEach, afterEach } from 'vitest'
 import { Footer } from './Footer'
+import { appConfig } from '../config/appConfig'
 
 describe('Footer', () => {
   const defaultProps = {
@@ -49,5 +50,23 @@ describe('Footer', () => {
     render(<Footer {...defaultProps} onDisclaimer={onDisclaimer} />)
     await user.click(screen.getByRole('button', { name: 'Disclaimer' }))
     expect(onDisclaimer).toHaveBeenCalledOnce()
+  })
+
+  it('does not render a version tag when appVersion is undefined', () => {
+    render(<Footer {...defaultProps} />)
+    expect(screen.queryByText(/^v/)).not.toBeInTheDocument()
+  })
+
+  describe('when appVersion is set', () => {
+    beforeEach(() => {
+      appConfig.appVersion = 'v0.0.3'
+    })
+    afterEach(() => {
+      appConfig.appVersion = undefined
+    })
+    it('renders the version tag', () => {
+      render(<Footer {...defaultProps} />)
+      expect(screen.getByText('v0.0.3')).toBeInTheDocument()
+    })
   })
 })

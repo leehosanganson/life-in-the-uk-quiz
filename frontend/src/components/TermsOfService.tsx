@@ -100,8 +100,16 @@ export function TermsOfService(_: TermsOfServiceProps) {
 
       <h2>9. Contact</h2>
       <p>
-        If you have any questions about these Terms, please contact us at{' '}
-        <a href={`mailto:${appConfig.contactEmail}`}>{appConfig.contactEmail}</a>.
+        If you have any questions about these Terms, please contact us
+        {appConfig.contactEmail ? (
+          <>
+            {' '}
+            at <a href={`mailto:${appConfig.contactEmail}`}>{appConfig.contactEmail}</a>
+          </>
+        ) : (
+          ' via the project repository'
+        )}
+        .
       </p>
     </div>
   )
