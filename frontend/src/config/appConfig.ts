@@ -3,6 +3,7 @@ interface AppConfig {
   operatorName: string | undefined
   policyUpdateDate: string | undefined
   githubUrl: string | undefined
+  appVersion: string | undefined
 }
 
 interface WindowEnv {
@@ -10,6 +11,7 @@ interface WindowEnv {
   OPERATOR_NAME?: string
   POLICY_UPDATE_DATE?: string
   GITHUB_URL?: string
+  APP_VERSION?: string
 }
 
 interface WindowWithEnv extends Window {
@@ -23,6 +25,7 @@ export const appConfig: AppConfig = {
   operatorName: env.OPERATOR_NAME || undefined,
   policyUpdateDate: env.POLICY_UPDATE_DATE || undefined,
   githubUrl: env.GITHUB_URL || undefined,
+  appVersion: env.APP_VERSION || undefined,
 }
 
 // Derive copyright year robustly from the last space-separated token of policyUpdateDate
