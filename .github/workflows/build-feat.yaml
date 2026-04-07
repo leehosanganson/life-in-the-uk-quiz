@@ -21,6 +21,7 @@ jobs:
             codeChanged:
               - 'backend/**'
               - 'frontend/**'
+              - '.github/workflows/**'
 
       - name: Sanitize Branch Name for Docker Tag
         # Replaces slashes with dashes so 'feature/login' becomes 'feature-login'

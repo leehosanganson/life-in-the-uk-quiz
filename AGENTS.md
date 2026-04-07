@@ -38,10 +38,10 @@ life-in-the-uk-quiz/
 
 ## Image Tagging
 
-`latest`: latest stable
-`staging`: release candidate
-`x.y.z`: SemVer (MAJOR.MINOR.PATCH)
 `feat-xxxyyyzzz`: per branch build
+`vx.y.z`: SemVer (MAJOR.MINOR.PATCH)
+`staging`: release candidate
+`latest`: latest stable
 
 Pipeline Flow:
 

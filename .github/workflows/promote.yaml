@@ -3,8 +3,8 @@ name: Promote Image
 on:
   workflow_dispatch:
     inputs:
-      sha:
-        description: "Short commit SHA of the image to promote"
+      version:
+        description: "SemVer of the image to promote"
         required: true
         type: string
       target_tag:
@@ -32,7 +32,7 @@ jobs:
     with:
       service: backend
       project: ${{ vars.HARBOR_PROJECT }}
-      source_tag: ${{ inputs.sha }}
+      source_tag: ${{ inputs.version }}
       target_tag: ${{ inputs.target_tag }}
     secrets: inherit
 
@@ -43,6 +43,6 @@ jobs:
     with:
       service: frontend
       project: ${{ vars.HARBOR_PROJECT }}
-      source_tag: ${{ inputs.sha }}
+      source_tag: ${{ inputs.version }}
       target_tag: ${{ inputs.target_tag }}
     secrets: inherit
